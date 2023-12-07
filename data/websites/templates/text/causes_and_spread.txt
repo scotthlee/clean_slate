@@ -1,0 +1,92 @@
+## Template Guidance
+
+**Primary goals:** Provide information about the root causes of a disease,
+condition, injury, or circumstance; provide information about how diseases
+spread.
+
+Can also include information on:
+
+* Important health messages 
+    * Example: Tell your daycare if your child has rubella
+  * When people are contagious
+  * Ways it doesn’t spread
+  * Risk factors
+  * Related biological information
+  * What’s not known
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : How [Disease Name] Spreads
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Causes 
+
+[Use this section to describe what causes the disease, condition, injury, or circumstance.] Additional section header option(s): 
+Primary cause
+What causes it
+[Enter custom header]
+
+## How it spreads 
+
+[Use this section to explain how it can spread from person to person. For example, explain if it spreads between animals and humans and vice versa.] Additional section header option(s): 
+Common ways it spreads
+How it enters the body
+How it spreads person to person
+[Enter custom header]
+
+## Prevention 
+
+[Use this section to explain how a disease or condition can be prevented from occurring or spreading, how an injury can be prevented, or how someone can prevent themselves from being a victim of a circumstance.] Additional section header option(s): 
+Prevention methods
+How to prevent spread
+
+## When you are contagious 
+
+[Use this section to explain when a disease can first be detected and when people are contagious.] Additional section header option(s): 
+When the disease can be spread
+When transmission is possible
+Why it’s not contagious
+
+## Understanding risk 
+
+[Use this section to explain what factors impact risk of getting or developing a disease or condition, receiving an injury, being the victim of a circumstance, etc.] Additional section header option(s): 
+Risk factors
+
+## Why it spreads 
+
+[Use this section to explain why something spreads. Talk about the biological or ecological factors, along with factors or behaviors that cause or spread it.] Additional section header option(s): 
+Biology
+Biological factors
+Ecology
+Ecological factors
+Life cycle facts
+
+## What we’re still learning 
+
+[Use this section to explain what is not known about the causes and spread.]
+
+## Myths and misconceptions
+
+[Use this section to dispel any myths or misconceptions about the topic.] Additional section header option(s): 
+[Enter custom header]
+
+## Resources (required)
+
+[Use this section to provide resources for people to learn more about the topic. You can also include pages that give more detailed information about the data or research. ]
+
+## How to report information 
+
+[Use this section to provide contact information and instructions to relevant authorities.] Additional section header option(s): 
+Who to contact
+[Enter custom header]

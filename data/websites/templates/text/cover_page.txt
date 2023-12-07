@@ -1,0 +1,43 @@
+## Template Guidance
+
+**Primary goal:** Provide basic information about printable files, large
+documents, presentations, and multimedia files.
+
+Can also include:
+
+* Links to additional languages and versions
+  * Supplementary information
+
+**Usage Tips:**
+
+* See the Cover Pages section of the Content Template Usage Guide.
+
+## Page title : [File Name]
+
+## At a glance (required)
+
+[This section provides a high-level description of what the page is about and
+is required for all Cover Pages. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Additional languages 
+
+[Use this section to link to additional files if the file is available in multiple languages.]
+
+## Additional versions 
+
+[Use this section to link to additional versions if the file is available in additional formats, dimensions, resolutions, etc.] Additional section header options(s) 
+Additional formats
+[Custom heading]
+
+## Additional file information 
+
+[Use this section to provide any details that might be helpful for someone using the file, such as recommended print materials or syndication instructions. It can also be used to provide more context behind a podcast episode, publication, etc.] Additional section header options(s) 
+Recommended materials
+Syndication instructions
+Episode information
+[Custom heading]

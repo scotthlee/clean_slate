@@ -1,0 +1,79 @@
+## Template Guidance
+
+**Primary goal:** Provide educational focus around a specific vaccine topic.
+
+Can also include:
+
+* Overview
+  * Facts
+  * What the research shows
+  * Recommendations
+  * Common questions
+  * What CDC is doing
+
+## **Vaccine Information Statement (VIS) **
+
+[Use this section to provide Vaccine Information Statements (VISs) if the page
+is about a specific vaccine. VISs are provided to patients at their
+appointments. Briefly describe the related VIS and link to the PDF. Link to
+VIS reference]
+
+Use callouts for fact statements or other important pieces of information.
+These callouts can be placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Remember
+  * Keep in mind
+
+## Page title : Vaccines and [Topic]
+
+## At a glance (required)
+
+[This section provides a a high-level description of the information on the
+page and is required for all Vaccine Speical Topics pages. Use no more than 2
+sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Overview 
+
+[Use this section to provide a brief introduction to the topic.] Additional section header option(s): 
+Background
+Why it’s important
+[Enter custom header]
+
+## Important facts 
+
+[Use this section to provide a set of facts about the topic.] Additional section header option(s): 
+Get the facts
+What the research shows
+What the data shows
+What researchers have learned
+[Enter custom header]
+
+## Recommendations 
+
+[Use this section to provide actionable takeaways. Break into subsections as needed.] Additional section header option(s): 
+Steps you can take
+What to do next
+[Enter custom header]
+
+## Common questions 
+
+[Use this section to cover a few common questions about the topic. Address things that are truly common and avoid using it as a way to pack complex information into Q&A format. LImit to 5 questions and use H3s for each question.] Additional section header option(s): 
+Frequently asked questions
+
+## What CDC is doing 
+
+[Use this section to provide information on relevant CDC actions, including research, tracking, education/outreach, etc.] Additional section header option(s): 
+CDC’s role
+Programs and initiatives
+
+## Resources 
+
+[Use this section to link to educational resources, files, etc.]

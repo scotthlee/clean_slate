@@ -1,0 +1,74 @@
+## Template Guidance
+
+**Primary goal:** Provide the details of what a bioterrorism attack with an
+agent would entail and how to prepare.
+
+Can also include information on:
+
+* Why this would be used for an attack
+  * How dangerous it is
+  * What an attack would look like
+  * Who would be affected
+  * How to prepare
+  * How CDC prepares
+  * Detection
+  * Response
+
+## Page title : Bioterrorism and [disease]: The Threat
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Why [disease] is used as a weapon 
+
+Bioterrorism and [disease]: Preparedness
+ [Explanation of why this might be used as a weapon] Additional section header option(s): 
+Why is [disease] a concern
+[disease] as a weapon
+[Enter custom header]
+
+## How dangerous is [disease] 
+
+[Explains the risk of being exposed to the agent] Additional section header option(s): 
+About [disease]
+[Enter custom header]
+
+## Possible signs of [disease] attack 
+
+[Explains how an attack could unfold] Additional section header option(s): 
+What would an attack look like
+Identifying an attack
+Possible signs of an attack
+Possible signs of an [disease] attack
+
+## Who could be affected 
+
+[Details about specific populations, including animals, that may or may not be affected] Additional section header option(s): 
+Can animals be affected
+ [Specific population 1] [Specific population 2]
+
+## How you can be prepared 
+
+[Steps people can take to be prepared] Additional section header option(s): 
+What you can do to prepare
+
+## What CDC does to prepare 
+
+[Steps CDC takes to be prepared in case of an attack]
+
+## How an attack would be detected 
+
+[How an attack would likely be detected. Who would detect it. How long would it take. What signs would they look for.] Additional section header option(s): 
+How to detect [disease]
+Detecting [disease]
+[Enter custom header]
+
+## How CDC would respond to [disease] emergency 
+
+[How CDC would respond to a bioterrorism attack with this agent] Additional section header option(s): 
+How CDC would respond
+How CDC would respond to a [disease] emergency
+How CDC would respond to an [disease] emergency

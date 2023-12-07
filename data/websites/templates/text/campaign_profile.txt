@@ -1,0 +1,98 @@
+## Template Guidance
+
+**Primary goal:** Provide an overview of a campaign’s purpose and impact.
+
+Can also include:
+
+* Why it’s needed
+  * Who it’s for
+  * Goals
+  * Funding
+  * How success is measured
+  * How it was formed
+  * Reactions
+  * What’s next
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “”Keep reading”” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : About [Campaign Name(s)]
+
+## At a glance (required)
+
+[Use this section to provide a high-level description of the campaign. Use no
+more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Why it’s needed (required)
+
+[Use this section to describe why the campaign in needed and important.] Additional section header option(s): 
+Why it’s important
+[Enter custom header]
+
+## Audiences 
+
+[Use this section to describe who the campaign is intended for.] Additional section header option(s): 
+Who it’s for
+
+## Goals 
+
+[Use this section to express the goals of the campaign.] Additional section header option(s): 
+Campaign goals
+
+## Key messages 
+
+[Use this section to state the key messages for the campaign. Use subheaders and bullets whenever possible and avoid using a question format.]
+
+## Campaign development 
+
+[Use this section to describe how the campaign was developed.] Additional section header option(s): 
+Our story
+How the campaign formed
+[Enter custom header]
+
+## Partners 
+
+[Use this section to mention partners who made the campaign possible.] Additional section header option(s): 
+Who made this possible
+
+## Campaign funding 
+
+[Use this section to describe how the campaign is or will be funded.] Additional section header option(s): 
+How it’s funded
+
+## Measuring success 
+
+[Use this section to describe what the campaign’s success measures look like.] Additional section header option(s): 
+What success look like
+
+## What people are saying 
+
+[Use this section to talk about what the press or individuals have been saying about the campaign thus far.] Additional section header option(s): 
+Reactions
+[Enter custom header]
+
+## Past campaigns 
+
+[Use this section to talk about past campaigns or related campaigns.] Additional section header option(s): 
+Related campaigns
+
+## What’s next 
+
+[Use this section to talk about what’s planned next and what other work still needs to be done to about the topic the campaign is addressing.] Additional section header option(s): 
+More work to be done
+[Enter custom header]
+
+## Resources 
+
+[Use this section to give the reader resources for engaging with the campaign such as social media accounts to follow.]

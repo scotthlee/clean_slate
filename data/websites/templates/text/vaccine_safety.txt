@@ -1,0 +1,84 @@
+## Template Guidance
+
+**Primary goal:** Address vaccine safety concerns and side effects, and
+provide safety data.
+
+Can also include:
+
+* Special safety considerations
+  * How CDC monitors vaccine safety
+  * How to report adverse events
+  * Resources
+
+## **Reporting adverse events **
+
+[Use callouts for fact statements or other important pieces of information.
+These callouts can be placed in any section.]
+
+Additional section header option(s):
+
+* Vaccine Information Statement (VIS)
+  * Fact
+  * Remember
+  * Keep in mind
+
+## Page title : [Disease/Vaccine Type] Vaccine Safety
+
+## Key points (required)
+
+* [Summarize main message]
+  * [Required for all Vaccine Safety pages]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## What the vaccine protects against 
+
+[Use this section to provide a brief overview of the disease that the vaccine protects against, and what the risks are for not receiving the vaccine.] Additional section header option(s): 
+What the vaccine helps prevent
+What the vaccine prevents
+Disease prevention
+
+## Why the vaccine is safe 
+
+[Use this section to explain why the vaccine is safe. Include brief information about safety testing (this can be expanded upon in a later section).] Additional section header option(s): 
+Why it’s safe and effective
+[Enter custom header]
+
+## Who should and shouldn’t receive it 
+
+[Use this section to provide information like who should avoid it, whether it should be avoided in specific circumstances, etc.] Additional section header option(s): 
+When to avoid it
+[Enter custom header]
+
+## Vaccine side effects 
+
+[Use this section to include common side effects, along with any uncommon side effects that would be important to address for safety reasons.] Additional section header option(s): 
+Common side effects
+
+## How data supports vaccine safety 
+
+[Use this section to provide key information from vaccine safety monitoring systems, scientific studies, etc.] Additional section header option(s): 
+What the data shows about vaccine safety
+A closer look at the safety data
+
+## How vaccines are monitored for safety
+
+[Use this section to describe CDC’s safety monitoring systems, which agencies/orgs CDC partners with, etc.] Additional section header option(s): 
+How it’s monitored for possible safety problems
+CDC’s vaccine monitoring system
+How CDC monitors vaccine safety
+What CDC is doing
+
+## Safety concerns
+
+[Use this section to address common concerns people may have about safety, including myths and misconceptions.] Additional section header option(s): 
+Medical concerns
+
+## Additional vaccine information
+
+[Use this section to provide more information about disease prevention, what types of vaccines are available, etc.] Additional section header option(s): 
+[Enter custom header]
+
+## Resources 
+
+[Use this section to include things like manufacturer’s safety inserts and related scientific articles.]

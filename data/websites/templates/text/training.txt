@@ -1,0 +1,54 @@
+## Template Guidance
+
+**Primary goal:** Provide video links, associated files, and information on
+CDC training modules.
+
+Can also include:
+
+* Training overview
+  * Training objectives
+  * Target audience
+  * Course credit
+  * Training resources
+
+## Page title : [Topic] Training
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page. The key goal is
+to set expectations and let users know if they are on the right page. Use no
+more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Training overview 
+
+[Use this section to provide a description of training content. It can include a list of the topics covered during the training, training objectives, and the target audience. Training objectives and target audience can be their own H2s as well.] Additional section header option(s): 
+[Topic] training overview
+[Enter custom header]
+
+## Training objectives 
+
+[If the information has not already been covered in the overview, use this section to describe the training objectives. This can be in the form of a bulleted list, outline, or in a paragraph.]
+Additional section header option(s): 
+[Enter custom header]
+
+## Target audience 
+
+[If the information has not already been covered in the overview, use this section to list the target audience for this training.] Additional section header option(s): 
+Who this training is for
+
+## Course credit 
+
+[Use this section to share whether this training course is eligible for credit, how many credits it is worth, and how to obtain credits and certificates.] Additional section header option(s): 
+Continuing education units
+[Enter custom header]
+
+## Training resources 
+
+[Use this section to attach documents such as brochures, print versions of trainings, PDFs, slide decks, and supplementary resources.] [Upload supplementary resources] 
+Word Doc
+PowerPoint

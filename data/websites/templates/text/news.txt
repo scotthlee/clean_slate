@@ -1,0 +1,23 @@
+## Template Guidance
+
+**Primary goal:** Cover timely news stories and press releases. It can be used
+for both embargoed content and immediate releases.
+
+**Can also include:**
+
+* Embedded media and transcripts
+
+## Page title : [Title of news article or press release]
+
+## Release (required)
+
+[Use this section to provide a high-level description. Use no more than 2
+sentences.]
+
+Additional section header option(s):
+
+* Advisory
+  * Transcript
+  * Statement
+  * Notice
+

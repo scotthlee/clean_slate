@@ -1,0 +1,51 @@
+## Template Guidance
+
+**Primary goal:** Provides a collection of tools and resources used for
+communications, implementation, training, or administration.
+
+Can also include:
+
+* Introduction
+  * Purpose
+  * Usage guidelines
+  * A description of what’s included
+  * Up to 10 supplementary pages with an introduction and collection of resources
+
+## Page title : [Name] Toolkit
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page and is required
+for all Main Toolkit pages. The key goal is to set expectations and let users
+know if they are on the right page. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Purpose 
+
+[Use this section to describe the overall purpose of the toolkit. You can describe the purpose of additional toolkit pages within those individual pages.] Additional section header option(s): 
+About this toolkit
+[Enter custom header]
+
+## How to use this toolkit 
+
+[Use this section to describe who the toolkit is designed for and how it can be used.] Additional section header option(s): 
+How to use these toolkits
+Who should use this toolkit
+[Enter custom header]
+
+## What’s included 
+
+[Use this section to provide an overview of what’s included in the toolkit. Consider using a bullet point that briefly describes each supplementary page.]
+
+## Resources 
+
+[Use this section to provide individual toolkit components. Use H3s to break the resources into categories. You can either add an existing Collection that’s managed in the CMS or manually create and maintain your list here. For more extensive toolkits, use supplementary pages.] Additional section header option(s): 
+Tools
+Assets
+Templates
+Guidance
+[Enter custom header]

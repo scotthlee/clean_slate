@@ -1,0 +1,52 @@
+## Template Guidance
+
+**Primary goal:** Communicate urgent information about a situation (outbreak,
+epidemic, bioterrorism, disaster, etc.). Often just enabled for emergency
+mode, but in some cases would be updated outside of emergencies.
+
+Can also include:
+
+* What CDC is doing
+  * What you should do
+  * Resources
+
+## **What we've learned **
+
+[Use brief callouts to draw attention to important information.]
+
+Additional section header option(s):
+
+* What we know
+  * Did you know?
+  * Spotlight
+  * Resource
+
+## Page title : [Topic] Situation Summary
+
+## Last Updated  [Banner with the date the page was last updated.] (required)
+
+## Current situation 
+
+[Use this section to provide brief context around what is going on and what the reader needs to know at a high level. Break bulleted facts and/or stats out into subheaders as needed.
+Example subheaders: Spread, Severity, Symptoms, Risk factors] Additional section header option(s) 
+[Enter custom header]
+
+## What CDC is doing 
+
+[Use this section to convey what is being done (by the CDC or others) in regard to the topic. Break bulleted facts and/or stats out into subheaders as needed. Example subheaders: Research, Vaccines, Public education] Additional section header option(s): 
+What’s being done
+CDC response
+Response
+
+## What you should do 
+
+[Use this section to convey what people can and should do based on the current situation. Break bulleted facts and/or stats out into subheaders as needed.
+Example subheaders: Testing, Medication, Personal hygiene, Quarantining] Additional section header option(s): 
+Steps to take
+Recommendations
+Actions to take
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources for people to learn more about the topic.]

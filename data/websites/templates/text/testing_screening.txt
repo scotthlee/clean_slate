@@ -1,0 +1,80 @@
+## Template Guidance
+
+**Primary goals:** Explain available testing and screening approaches and
+provides recommendations on when to get tested and screened
+
+Can also include information on:
+
+* Why get tested or screened
+  * When to get tested
+  * Types of tests
+  * What to expect from a test
+  * What the results mean
+  * What to do next
+  * Resources and support
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : Testing for [Disease or Condition]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Why get tested (required)
+
+[Describes the benefits of getting tested or screened.] Additional section header option(s): 
+Why get screened
+[Enter custom header]
+
+## When to get tested (required)
+
+[Use this section to provide recommendations around testing or screening circumstances, such as seeking a test when certain symptoms are experienced or screening at a phase in life. Also discuss how often to get tested or screened. Use subsections for populations and conditions.
+Example H3: If you’re pregnant] Additional section header option(s): 
+When to get screened
+Who should be tested
+Who should be screened
+[Enter custom header]
+
+## Types of tests 
+
+[Use this section to describe the types of tests or screening methods available. Include information about how each works, along with any potential pros and cons of each.] Additional section header option(s): 
+Testing methods
+Screening methods
+
+## How to get tested 
+
+[Use this section to provide information on where to get tested or screened and what to expect as part of the process.] Additional section header option(s): 
+How to get screened
+How testing works
+How screening works
+What to expect at your appointment
+[Enter custom header]
+
+## Testing results 
+
+[Use this section to describe how long it may take to get results and what the results mean. If appropriate, add H3s for positive results and negative results.] Additional section header option(s): 
+Screening results
+What a positive result means
+What a diagnosis means
+[Enter custom header]
+
+## After you get your results 
+
+[Use this section to direct people on what to do after they receive results.] Additional section header option(s): 
+What to do if you’ve tested positive
+After a diagnosis
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide testing and screening resources, along with links for finding support in the event of a diagnosis.] Additional section header option(s): 
+Finding support

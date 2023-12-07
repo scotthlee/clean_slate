@@ -1,0 +1,184 @@
+## Template Guidance
+
+**Primary goal:** Provide an overview of a particular disease of medical
+condition.
+
+Can also include:
+
+* Types and strains
+  * Signs and symptoms
+  * Risk factors
+  * Causes and spread
+  * Symptom management
+  * Treatment
+  * Myths
+  * Animal impact
+  * Related diseases
+  * Outlook
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Stats 
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* By the numbers
+  * When to call your doctor
+  * When to seek medical care
+
+## Page title : [Disease/Condition Name] Basics
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Overview (required)
+
+[This section provides a brief description of the disease or condition – what it is, indications of it, how widespread, diagnosis, etc. Keep this section extremely brief so that the other sections of the page are the main focus. Consider bulleting a few key facts.] Additional section header option(s): 
+What it is
+[Custom heading]
+
+## Types and strains 
+
+[Use this section to describe types and strains of the disease or condition. Include a brief description of each and address items like symptoms, diagnosis, and treatment.
+Example subheaders: Gestational diabetes, Type 1, Type 2.] Additional section header option(s): 
+Types
+Strains
+
+## Signs and symptoms 
+
+[Use this section to list signs and symptoms of the disease or condition. Summarize the key symptoms and link to the more detailed page. Symptoms must be in a bulleted list.
+Example subheaders: Neurological symptoms, Changes in appearance, Skin changes.] Additional section header option(s): 
+Symptoms
+Effects
+How it affects your body
+How it affects your health
+
+## Timing 
+
+[Use this section to describe how long it takes for a disease to incubate.] Additional section header option(s): 
+How long it takes for signs to show
+When to expect symptoms
+
+## Complications 
+
+[Use this section to explain what complications can arise over time, or what happens when someone does not get treated.] Additional section header option(s): 
+What can happen if you don’t seek care
+What can happen if it’s not treated
+
+## Risk factors 
+
+[Use this section to list the factors that can lead to the disease or condition.
+Example subheaders: Smoking, Air pollution, Genetic predisposition.] Additional section header option(s): 
+Exposure risks
+[Custom heading]
+
+## People at risk 
+
+[Use this section to talk about who is at risk for the disease or condition.
+Example subheaders: United States, People of advanced age, Immunocompromised.] Additional section header option(s): 
+At-risk populations
+Who is as risk
+
+## Causes 
+
+[Use this section to talk about how a contagious disease or condition is spread.
+Example subheaders: Air, Surfaces, Vaginal birth.] Additional section header option(s): 
+How it spreads
+Causes and spread
+
+## Prevention 
+
+[Use this section to provide information about how to prevent the disease or condition. If there are different types of actions or steps to take, consider adding a new subheading for each step and include a brief description of the action, what it is, when it should be used, and who it is recommended for.
+Example subheaders: Lifestyle changes, Hygiene, Regular checkups.] Additional section header option(s): 
+Reducing risk
+
+## Quick facts 
+
+[Important, must-know facts about the disease or condition the reader should pay special attention to.]
+
+## Diagnosis 
+
+[Use this section to explain testing, screening, and diagnosis methods. If there are different types of tests, consider adding a new subhead for each test – include a description, when it should be used, how it is conducted, and who it is recommended for.
+Example subheaders: Annual exams, Bloodwork, Tissue sampling.] Additional section header option(s): 
+Screening and diagnosis
+Testing and diagnosis
+Screening
+Testing
+[Custom heading]
+
+## Symptom management 
+
+[Use this section to describe how symptoms of the disease or condition can be managed.
+Example subheaders: Physical therapy, Over the counter medications, Pain management.] Additional section header option(s): 
+How to manage symptoms
+[Custom heading]
+
+## Treatment and recovery 
+
+[Use this section to explain how to treat and possibly recover from the disease or condition.
+Example subheaders: Physical therapy, At-home treatment, Current drug trials.] Additional section header option(s): 
+[Custom heading]
+
+## Vaccines 
+
+[Use this section to discuss vaccines that are available, with a quick overview of when, where, and how often to get vaccinated.] Additional section header option(s): 
+Vaccination
+Available vaccines
+Getting vaccinated
+
+## Myths and misconceptions 
+
+[Use this section to dispel any myths or misconceptions regarding the disease or condition.] Additional section header option(s): 
+[Custom heading]
+
+## Similar diseases 
+
+[Use this section to provide information about diseases or conditions similar to this one.] Additional section header option(s): 
+Similar conditions
+Related diseases
+Related conditions
+
+## Animal impact 
+
+[Use this section to communicate what impact, if any, the disease or condition has on animals.] Additional section header option(s): 
+Animal transmission
+How animals are effected
+
+## How it progresses 
+
+[Use this section to provide information about the prognosis and/or long-term effects of the disease or condition.] Additional section header option(s): 
+Expected outcomes
+What to expect long-term
+[Custom heading]
+
+## What CDC is doing 
+
+[Use this section to provide information about CDC programs and activities related to the disease or condition.]
+
+## Case studies 
+
+[Use this section to provide any case studies about the disease or condition.] Additional section header option(s): 
+Case study
+Personal stories
+[Custom heading]
+
+## Research 
+
+[Use this section to provide research about the disease or condition.]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools

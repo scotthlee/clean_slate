@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.www.cdc.gov	TRUE	/	FALSE	1999999999	TS0196e5be	015d0abe87df14c4125ea611dadbb205e7b978fa5bdde801921a2c15e231499b11933172bd9117d9adfaa2f9de9e219f0badcdc379
+

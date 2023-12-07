@@ -1,0 +1,18 @@
+user:
+Hi! How's it going?
+
+assistant:
+Hello! I'm just a computer-based assistant, so I don't have feelings, but I'm here and ready to help you with any questions or tasks you have. How can I assist you today?
+
+user:
+I'm interviewing Big Bird from Sesame Street next week. Could you draft two questions for me to ask him?
+
+assistant:
+Certainly! Interviewing Big Bird is a unique opportunity, and you'll want to ask questions that are both engaging and appropriate for his young audience. Here are two questions you might consider:
+
+1. "Hi Big Bird! You've been a part of Sesame Street for so many years, inspiring and teaching children. What's your favorite thing about living on Sesame Street, and what lesson do you hope every child learns from their time with you?"
+
+2. "Big Bird, you've met so many people and made lots of friends over the years. Could you share a memorable story about a friendship you've made on Sesame Street and what it taught you about the importance of being kind and understanding to others?"
+
+These questions aim to reflect the educational and friendly nature of Sesame Street and allow Big Bird to share experiences that can resonate with both children and adults.
+

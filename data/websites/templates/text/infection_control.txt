@@ -1,0 +1,99 @@
+## Template Guidance
+
+**Primary goal:** Provide standardized infection control guidance for
+healthcare settings and other environments.
+
+Can also include:
+
+* Updates
+  * Background
+  * Recommendation details
+  * Evidence and rationale
+  * About the recommendations
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Remember 
+
+[Use callouts for important pieces of information. For Infection Control,
+callouts can draw attention to a reminder or key consideration.]
+
+Additional section header option(s):
+
+* Keep in mind
+  * Tip
+  * Key consideration
+
+## Page title : Infection Control Guidance: [Description]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**October 27, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including:
+
+* A new page title option
+  * More custom heading options to allow for additional flexibility
+
+Note that this template will also have accordion and “See more”
+expand/collapse options in December.
+
+## Important update 
+
+[Use this section to call out important updates about the guidance that need to be surfaced. For less pressing updates, create an “Updates” subheader in the “About the Recommendations” section.] Additional section header option(s): 
+Important updates
+Recent update
+Recent updates
+Summary of recent changes
+
+## Summary of recommendations  Accordion enabled
+
+[This section provides a quick overview of the recommendations.
+Suggested format: Table with recommendation # and category in the left column and summary on the right column.] Additional section header option(s): 
+Summary of guidelines
+[Custom heading]
+
+## Scope 
+
+[Use this section to provide information on the importance of the recommendations and why there’s a need for them. If needed, add clarifying information about the audience and settings, plus additional information that would be important to know before reading the recommendation details.] Additional section header option(s): 
+Purpose
+[Custom heading]
+
+## Recommendation details  Accordion enabled
+
+[Use this section to provide details about each recommendation. Remember to reference the recommendation numbers and categories described in the summaries above.] Additional section header option(s): 
+Guideline details
+[Custom heading]
+
+## Implementation  Accordion enabled
+
+[Use this section to describe how to implement the recommendations in specific settings. Use subsections to break apart by category, such as “Healthcare facilities” and “Community settings”.] Additional section header option(s): 
+Implementing the recommendations
+Implementing the guidelines
+[Custom heading]
+
+## Rationale 
+
+[Use this section to provide information about the rationale and evidence behind the recommendations, and how that evidence is used to shape the guidance. Consider a “Keep reading” link for lengthy evidence.] Additional section header option(s): 
+Evidence
+Rationale and evidence
+[Custom heading]
+
+## About the recommendations 
+
+[Use this section to provide additional context around the recommendations.] Additional section header option(s): 
+About the guidance
+Background
+Additional information
+
+## Resources 
+
+[Use this section to provide resources and tools that support the guidelines.]

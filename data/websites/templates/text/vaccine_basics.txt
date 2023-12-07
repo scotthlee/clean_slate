@@ -1,0 +1,78 @@
+## Template Guidance
+
+**Primary goal:** Provide an overview of why a vaccine is important, who
+should get it, and key considerations.
+
+Can also include information on:
+
+* Why getting vaccinated is important
+  * Who should receive the vaccine
+  * The vaccine is safe and effective
+  * Possible side effects
+  * Types of vaccines
+  * Where to get the vaccine
+
+## **Tip **
+
+[Use callouts for things like fact statements and tips. They can be placed
+under any section.]
+
+Additional section header options:
+
+* Fact
+  * Remember
+  * Keep in mind
+  * Also known as
+
+## Page title : [Disease/Vaccine Type]: Vaccine Basics
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Recommendation 
+
+[Use this section to provide a basic table-based reference, if appropriate, for the vaccine recommendations. (For example, age range in the left column and vaccine frequency in the right column.) This may not be suitable for scenarios where important stipulations are needed for each category. Limited explanatory content can be placed below the table.] Additional section header options: 
+Quick reference
+[Enter custom header]
+
+## Why getting vaccinated is important (required)
+
+[This section explains what the vaccine helps protect against and what the risks are for not getting vaccinated, and is required for all Vaccine Basics pages.] Additional section header options: 
+Why the vaccine is important
+Why your child should be vaccinated
+Vaccination benefits
+Reasons to get vaccinated
+What the vaccine protects against
+
+## Who should receive the vaccine (required)
+
+[This section explains what the vaccine helps protect against and what the risks are for not getting vaccinated, and is required for all Vaccine Basics pages.] Additional section header options: 
+Who should get vaccinated
+Who should get it
+Who should and shouldn’t get the vaccine
+[Enter custom header]
+
+## The vaccine is safe and effective 
+
+[Use this section to describe how effective the vaccine has shown to be, how effectiveness is measured, etc. Reference effectiveness studies and programs as needed.] Additional section header options: 
+Vaccine safety
+How well it works
+[Enter custom header]
+
+## Possible side effects 
+
+[Use this section to list potential side effects and what to do in the case of serious ones. Set expectations around how long the side effects last.] Additional section header options: 
+Side effects to watch out for
+
+## Types of vaccines 
+
+[Use this section to describe the various types of the vaccine (if applicable) and what the key differentiators are.]
+
+## Where to get the vaccine 
+
+[Use this section to describe how to find vaccine providers/facilities, with links as needed. It can also reference how to cover the cost of the vaccine.] Additional section header options: 
+Finding and paying for the vaccine
+[Enter custom header]

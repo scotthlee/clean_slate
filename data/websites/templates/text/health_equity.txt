@@ -1,0 +1,88 @@
+## Template Guidance
+
+**Primary goal:** Describe the importance of health equity (in general or for
+a specific topic), what can be done, and what CDC is doing.
+
+Can also include:
+
+* Who benefits from health equity
+  * Populations impacted
+  * What prevents health equity
+  * Improving access to care
+  * Everyday strategies
+  * Monitoring and research
+  * Resources
+
+## **Fact** 
+
+[Use callouts for tips, facts, or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Tip
+  * Did you know?
+  * Spotlight
+  * Success story
+  * Resource
+
+## Page title : Health Equity in [Description]
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## What is health equity? 
+
+[Use this section to provide a basic understanding of health equity.] Additional section header option(s): 
+Overview
+[Custom heading]
+
+## Why it’s important 
+
+[Use this section to outline the importance of health equity and who benefits from it (if not already described above).] Additional section header option(s): 
+Who benefits from health equity
+[Custom heading]
+
+## Health disparities 
+
+[Use this section to describe health disparities in general, or health disparities related to a specific health topic. Describe the populations that are impacted. If applicable, include stats that summarize the disparities.] Additional section header option(s): 
+Challenges
+Disparities in care
+Populations impacted
+Who’s affected
+
+## What prevents health equity 
+
+[Use this section to explain the factors that prevent health equity, such as costs, lack of facilities, or social attitudes.] Additional section header option(s): 
+What causes inequities
+Barriers to healthcare
+[Custom heading]
+
+## Improving access to care 
+
+[Use this section to describe methods for improving access to care, along with the benefits of thsoe methods.] Additional section header option(s): 
+Improving health equity
+Reducing health disparities
+What you can do to help
+Overcoming barriers
+
+## Quick tips 
+
+[Use this section to provide quick tips for applying the principles of improving health equity. It can be used in combination with or as a replacement to the above section.] Additional section header option(s): 
+Everyday strategies
+Small steps
+
+## What CDC is doing 
+
+[Use this section to highlight what CDC is doing as a whole, or what a particular CIO is doing, to address health inequities.] Additional section header option(s): 
+Health equity strategy
+Monitoring and research
+[Custom heading]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category. ]

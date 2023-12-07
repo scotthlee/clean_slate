@@ -1,0 +1,534 @@
+## Template Guidance
+
+**Primary goal:** Provide focus on a sub-topic that branches from an existing
+health or safety topic.
+
+Can also include:
+
+* Background
+  * Terms
+  * Facts
+  * Risks
+  * Impacts
+  * Recommendations
+  * How research relates to the topic
+  * Actions to take
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## ## Overview 
+
+[Use this section to provide an overview, give background information on the topic, or describe the importance of the topic.] Additional section header option(s): 
+Background
+Why it’s important
+Why it’s an issue
+[Enter custom header]
+ Terms to know   [Use this section to define key terms related to the topic.] Additional section header option(s): 
+Definitions
+ Facts   [Use this section to provide a few key facts about the topic.] Additional section header option(s): 
+Fast facts
+ How it works   [Use this section to describe how it works. Depending on the topic, this may include causes, functionality, processes, etc.] Additional section header option(s): 
+[Enter custom header]
+ Types   [Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+ Impacts   [Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Terms to know 
+
+[Use this section to define key terms related to the topic.] Additional section header option(s): 
+Definitions
+ Facts   [Use this section to provide a few key facts about the topic.] Additional section header option(s): 
+Fast facts
+ How it works   [Use this section to describe how it works. Depending on the topic, this may include causes, functionality, processes, etc.] Additional section header option(s): 
+[Enter custom header]
+ Types   [Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+ Impacts   [Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Facts 
+
+[Use this section to provide a few key facts about the topic.] Additional section header option(s): 
+Fast facts
+ How it works   [Use this section to describe how it works. Depending on the topic, this may include causes, functionality, processes, etc.] Additional section header option(s): 
+[Enter custom header]
+ Types   [Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+ Impacts   [Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## How it works 
+
+[Use this section to describe how it works. Depending on the topic, this may include causes, functionality, processes, etc.] Additional section header option(s): 
+[Enter custom header]
+ Types   [Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+ Impacts   [Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Types 
+
+[Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+ Impacts   [Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Impacts 
+
+[Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+ Risks   [Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Risks 
+
+[Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+ Recommendations   [Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Recommendations 
+
+[Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+ What the research shows   [Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## What the research shows 
+
+[Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+ Common questions   [Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Common questions 
+
+[Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+ What CDC is doing   [Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## What CDC is doing 
+
+[Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+ What you can do   [Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## What you can do 
+
+[Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+ Spotlight   [Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Spotlight 
+
+[Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## References 
+
+[References]
+
+## Page title : [Topic]: An Overview
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Overview 
+
+[Use this section to provide an overview, give background information on the topic, or describe the importance of the topic.] Additional section header option(s): 
+Background
+Why it’s important
+Why it’s an issue
+[Enter custom header]
+
+## Terms to know 
+
+[Use this section to define key terms related to the topic.] Additional section header option(s): 
+Definitions
+
+## Facts 
+
+[Use this section to provide a few key facts about the topic.] Additional section header option(s): 
+Fast facts
+
+## How it works 
+
+[Use this section to describe how it works. Depending on the topic, this may include causes, functionality, processes, etc.] Additional section header option(s): 
+[Enter custom header]
+
+## Types 
+
+[Use this section to distinguish between different types, varieties, or categories of the topic.] Additional section header option(s): 
+Varieties
+Categories
+[Enter custom header]
+
+## Impacts 
+
+[Use this section to describe health impacts, safety impacts, or other ways that the topic has an effect.] Additional section header option(s): 
+Effects
+Health impacts
+Health effects
+Safety impacts
+[Enter custom header]
+
+## Risks 
+
+[Use this section to describe risks related to the topic. Use subsections for different populations or risk categories as needed. ] Additional section header option(s): 
+Health risks
+Safety risks
+[Enter custom header]
+
+## Recommendations 
+
+[Use this section to provide recommendations, guidelines, best practices, or tips.] Additional section header option(s): 
+Guidelines
+Best Practices
+Tips
+
+## What the research shows 
+
+[Use this section to provide information about the research, data, or science associated with the topic. Consider adding a “Keep reading” link if there’s an opportunity for the reader to take a deeper dive.] Additional section header option(s): 
+What the data shows
+[Enter custom header]
+
+## Common questions 
+
+[Use this section to address a few common questions related to the topic. Format using H3s for each question. Avoid adding more than 5 questions, and instead rely on the other sections to convey basic information. (This section should only be used to cover truly common questions rather than as a Q&A format to educate on the topic.)] Additional section header option(s): 
+Frequently asked questions
+
+## What CDC is doing 
+
+[Use this section to describe actions CDC is taking, or CDC’s overall impact.] Additional section header option(s): 
+What’s being done
+
+## What you can do 
+
+[Use this section to provide ways for the reader to take actionable steps. These could involve steps toward planning, prevention, or even helping others.] Additional section header option(s): 
+What can be done
+Next steps
+How you can help
+
+## Spotlight 
+
+[Use this section to spotlight a personal story, success story, or related item to highlight. For longer stories, use a “Keep reading” link that goes to a separate Story page.] Additional section header option(s): 
+Story from the field
+Personal story
+Stories
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+
+## References 
+
+[References]

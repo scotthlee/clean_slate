@@ -1,0 +1,388 @@
+"""Streamlit app for editing web pages with an LLM."""
+import streamlit as st
+import streamlit.components.v1 as components
+import json
+import platform
+import os
+import urllib
+import openai
+
+from bs4 import BeautifulSoup as bs
+from trubrics.integrations.streamlit import FeedbackCollector
+
+
+from tools import html, generic, strml
+from tools.strml import update_settings, save_text, reset_gpt
+
+
+def update_prompt(encoding='utf-8'):
+    template_name = st.session_state._template_choice
+    fpath = TEMP_HTML_DIR + template_name + '.html'
+    page = bs(open(fpath, mode='r', encoding=encoding),
+              features='html.parser')
+    keep_heads = st.session_state._select_sections
+    page = html.keep_sections(page, section_names=keep_heads)
+    st.session_state._template_text = html.generate_prompt(page)
+    keys = ['template_choice', 'template_text', 'sections']
+    kept = [strml.keep(key) for key in keys]
+    return
+
+
+def update_sections(encoding='utf-8'):
+    template_name = st.session_state._template_choice
+    fpath = TEMP_HTML_DIR + template_name + '.html'
+    page = bs(open(fpath, mode='r', encoding=encoding),
+              features='html.parser')
+    temp_headers = html.list_headers(page)
+    st.session_state._sections = []
+    st.session_state.section_options = temp_headers[0]
+    strml.keep('template_choice')
+    return
+
+
+def update_rag():
+    pass
+
+
+def prompt_model():
+    inst_text = st.session_state._user_instructions
+    temp_text = st.session_state._template_text
+    context_text = 'When writing, please base your answer on the following\
+    information:\nContext: (' + st.session_state.context + ')\n'
+    input = inst_text + context_text + '\n\n' + temp_text
+    st.session_state._response = start_generation(input)
+    keys = ['user_instructions', 'template_text', 'response']
+    kept = [strml.keep(key) for key in keys]
+    st.session_state.saved_text = st.session_state.response
+    return
+
+
+def start_generation(s, GPT=True):
+    if LOGGING:
+        st.session_state.logged_prompt = collector.log_prompt(
+            config_model={"model": st.session_state.model_name},
+            prompt=st.session_state._template_text,
+            generation=s,
+        )
+    with st.spinner('Generating Text...'):
+        if GPT:
+            try:
+                message_text = [
+                    {"role": "system",
+                    "content": st.session_state.gpt_persona},
+                    {"role": "user",
+                     "content": s},
+                ]
+                completion = openai.ChatCompletion.create(
+                    engine=st.session_state.engine,
+                    messages=message_text,
+                    temperature=st.session_state.temperature,
+                    max_tokens=st.session_state.max_tokens,
+                    top_p=st.session_state.top_p,
+                    frequency_penalty=0,
+                    presence_penalty=0,
+                    stop=None
+                )
+                res = completion['choices'][0]['message']['content']
+            except:
+                st.error('OpenAI API currently unavailable')
+                res = s
+        else:
+            res = s
+    return res
+
+
+def erase_response():
+    st.session_state.response = 'Click "Go" to prompt the model'
+    return
+
+
+def stop_generation():
+    st.session_state.response = st.session_state.response
+    st.stop()
+    return
+
+
+def add_context_page():
+    header_levels = ['h1', 'h2', 'h3', 'h4', 'p']
+    if st.session_state._context_pages is not None:
+        files = st.session_state._context_pages
+        context = []
+        for f in files:
+            page_name = f.name
+            if page_name not in st.session_state.context_list:
+                st.session_state.context_list += f.name + '\n'
+                page = bs(f, features='html.parser')
+                chunks = [html.fetch_section(page, search_tag=h)[0]
+                          for h in header_levels]
+                context.append(''.join(set(chunks)))
+        st.session_state.context +=  '\n'.join(context)
+    return
+
+
+def clear_context():
+    st.session_state.context = ''
+    st.session_state.context_list = ''
+    st.toast('Context pages cleared!', icon='🧹')
+    return
+
+
+def update_instructions():
+    strml.keep('user_instructions')
+    return
+
+
+def suggest_template():
+    options = '\n'.join(st.session_state.template_options)
+    options = options.replace('_', ' ')
+    temp_descr = st.session_state._temp_suggest_description
+    prompt = "I'm working on a website. "
+    if temp_descr != '':
+        prompt += "Here's a brief description of it: "
+        prompt += temp_descr
+    if st.session_state.suggest_with_context:
+        prompt += "\n If it helps, here's some existing content that I'm going\
+        to base the new page on: " + st.session_state.context
+    prompt += "\n\n Based on their names, which of these page types do you \
+    think would be a good fit for my page? Types: ["
+    prompt += options + ']'
+    message = [{"role": "system", "content": st.session_state.gpt_persona},
+                {"role": "user", "content": prompt}]
+    try:
+        completion = openai.ChatCompletion.create(
+            engine=st.session_state.engine,
+            messages=message,
+            temperature=st.session_state.temperature,
+            max_tokens=st.session_state.max_tokens,
+            top_p=st.session_state.top_p,
+            frequency_penalty=0,
+            presence_penalty=0,
+            stop=None
+        )
+        res = completion['choices'][0]['message']['content']
+    except:
+        res = ''
+        st.error('OpenAI API currently unavailable.')
+    st.session_state.gpt_temp_suggestion = res
+    return
+
+
+# Deciding whether to accept user feedback
+LOGGING = False
+
+# Load the config file
+config = json.load(open('data/app_config.json', 'r'))
+
+# Setting up the OpenAI API
+strml.load_openai_settings()
+
+# Setting a default prompt to use
+def_fname = 'about.html'
+TEMP_HTML_DIR = 'data/websites/templates/html/'
+page_path = TEMP_HTML_DIR + def_fname
+page = bs(open(page_path, mode='r', encoding='utf-8'),
+          features='html.parser')
+default_headers, default_header_idx = html.list_headers(page)
+
+# Set up the page
+st.set_page_config(page_title='Web Content Editor',
+                   layout='wide')
+st.title('Content Generator')
+
+if not st.session_state.authentication_status:
+    st.error('Please log in at the Welcome Page to continue.')
+else:
+    # Adding autosave
+    if st.session_state.autosave:
+        save_text(toast=False)
+
+    # Loading previously-generated content
+    TO_RELOAD = [
+        'response', 'sections', 'template_text',
+        'template_choice', 'user_instructions', 'draft_file_name',
+        'context_pages'
+    ]
+    for key in TO_RELOAD:
+        if key in st.session_state:
+            strml.unkeep(key)
+
+    # Add a few things to session state
+    if 'section_options' not in st.session_state:
+        st.session_state.section_options = default_headers
+
+    # Set up the feedback collector; not currently working
+    if LOGGING:
+        collector = FeedbackCollector(
+            email="yle4@cdc.gov",
+            password=os.environ[TRUBRICS_PASSWORD],
+            project="clean_slate"
+        )
+
+    # Adding the sidebar widgets
+    with st.sidebar:
+        st.write('Settings')
+        as_toggle = st.toggle('Autosave',
+                              disabled=True,
+                              value=st.session_state.autosave,
+                              on_change=update_settings,
+                              kwargs={'keys': ['autosave']},
+                              key='_autosave')
+        rag_toggle = st.toggle('Use RAG',
+                               value=st.session_state.use_rag,
+                               key='_use_rag',
+                               disabled=True,
+                               kwargs={'keys': ['use_rag']},
+                               on_change=update_settings)
+        with st.expander('Content Controls', expanded=True):
+            io_cols = st.columns(2)
+            with io_cols[1]:
+                st.write('')
+                st.write('')
+                save_button = st.button(label='Save Draft',
+                                        type='secondary',
+                                        on_click=save_text)
+            with io_cols[0]:
+                save_name = st.text_input(label='File Name',
+                                          value=st.session_state.draft_file_name,
+                                          placeholder='Enter a filename here.',
+                                          on_change=update_settings,
+                                          key='_create_draft_filename',
+                                          kwargs={'keys': ['draft_file_name']})
+        with st.expander('ChatGPT', expanded=False):
+            curr_model = st.session_state.model_name
+            st.selectbox(label='Engine',
+                          key='_model_name',
+                          on_change=update_settings,
+                          kwargs={'keys': ['model_name']},
+                          index=st.session_state.engine_choices.index(curr_model),
+                          options=st.session_state.engine_choices)
+            st.number_input(label='Max Tokens',
+                          key='_max_tokens',
+                          on_change=update_settings,
+                          kwargs={'keys': ['max_tokens']},
+                          value=st.session_state.max_tokens)
+            st.slider(label='Temperature',
+                      key='_temperature',
+                      on_change=update_settings,
+                      kwargs={'keys': ['temperature']},
+                      value=st.session_state.temperature)
+            st.slider(label='Top P',
+                            key='_top_p',
+                            on_change=update_settings,
+                            kwargs={'keys': ['top_p']},
+                            value=st.session_state.top_p)
+            st.button('Reset',
+                      on_click=reset_gpt)
+
+    # Fill in the elements
+    left_pane, right_pane = st.columns(2)
+    with left_pane:
+        with st.expander('Load'):
+            load_file = st.file_uploader(label='Existing Pages',
+                                         type=['html'],
+                                         accept_multiple_files=True,
+                                         on_change=add_context_page,
+                                         key='_context_pages',
+                                         help='Load an existing page or pages\
+                                         from disk. Pages must be in HTML (.html)\
+                                         format.')
+            context_list = st.text_area(label='Pages in Current Context',
+                                        help='These are the pages the model\
+                                        will use as context when generating\
+                                        new content.',
+                                        value=st.session_state.context_list,
+                                        key='_context_list')
+            st.button('Clear Context Pages',
+                      help='Clears the current set of pages used as context for\
+                      the prompt',
+                      on_click=clear_context)
+
+        control_exp = st.expander(label='Text Generation Controls',
+                                  expanded=True)
+        with control_exp:
+            b1, b2, b3, b4 = st.columns(4)
+            with b1:
+                go_button = st.button(label='Start',
+                                      key='go_button',
+                                      type='primary',
+                                      help='Starts text generation.',
+                                      on_click=prompt_model)
+            with b2:
+                stop_button = st.button(label='Stop',
+                                        help='Stops text generation.',
+                                        key='stop_button',
+                                        type='secondary')
+            with b3:
+                clear_button = st.button(label='Clear',
+                                         key='clear_button',
+                                         type='secondary',
+                                         help='Clears generated content.',
+                                         on_click=erase_response)
+
+        temp_exp = st.expander(label='Template options', expanded=True)
+        with temp_exp:
+            st.write('Choose a Template')
+            template_choice = st.selectbox(label='Template Choices',
+                                           key='_template_choice',
+                                           options=st.session_state.template_options,
+                                           placeholder='Choose a content template',
+                                           help=st.session_state.template_help,
+                                           on_change=update_sections)
+            header_choce = st.multiselect(label='Template Sections',
+                                          key='_select_sections',
+                                          options=st.session_state.section_options,
+                                          placeholder='What sections would you like to keep?',
+                                          help=st.session_state.section_help,
+                                          on_change=update_prompt)
+            st.header('', divider='rainbow')
+            st.write('Suggest a Template')
+            suggest_with_context = st.toggle(label='Use existing pages',
+                                             key='_suggest_with_context',
+                                             value=st.session_state.suggest_with_context,
+                                             on_change=update_settings,
+                                             kwargs={'keys': ['suggest_with_context']},
+                                             help="Use pages you've uploaded to \
+                                             help ChatGPT recommend templates for \
+                                             your project. Load some pages using\
+                                             the 'Load' menu above to get started.")
+            sugg_cols = st.columns(2)
+            with sugg_cols[0]:
+                temp_suggest = st.text_input(label='Web Page Description',
+                                             key='_temp_suggest_description',
+                                             help="Write a brief description of\
+                                             the page you'd like to create.")
+            with sugg_cols[1]:
+                st.write('')
+                st.write('')
+                st.button('Get Suggestion',
+                          on_click=suggest_template,
+                          help='Ask ChatGPT to suggest a few templates.')
+            suggestion_text = st.text_area(label="Suggested Templates",
+                                           key='_gpt_temp_suggestion',
+                                           on_change=update_settings,
+                                           kwargs={'keys': ['gpt_temp_suggestion'],
+                                                   'toast': False},
+                                           value=st.session_state.gpt_temp_suggestion)
+
+        prompt_exp = st.expander(label='Prompt options', expanded=True)
+        with prompt_exp:
+            prompt_box = st.text_area(label='Model Instructions',
+                                      height=200,
+                                      value='',
+                                      placeholder=st.session_state.example_instructions,
+                                      key='_user_instructions',
+                                      on_change=update_instructions,
+                                      help=st.session_state.prompt_help)
+            template_box = st.text_area(label='Template Text',
+                                        height=500,
+                                        placeholder='Please choose a template and headers.',
+                                        help=st.session_state.template_help,
+                                        key='_template_text')
+
+    with right_pane:
+        st.write('Content')
+        response_box = st.text_area(label='Model Response',
+                                    height=700,
+                                    key='_response',
+                                    label_visibility='collapsed',
+                                    value='Click "Start" to prompt the model.')

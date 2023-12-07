@@ -1,0 +1,108 @@
+## Template Guidance
+
+**Primary goal:** Cover core guidance content for healthcare professionals,
+including guiding principles and recommendations.  
+Can also include information on:
+
+* Guiding principles
+  * Recommendations
+  * How to recognize disease/condition
+  * Determining whether to prescribe medicine
+  * Understanding complications
+  * Management of disease/condition
+  * Management of disease/condition in specific populations
+  * Mitigating/Assessing risk
+
+**Usage tips:**
+
+* This Content Type can be used to 1) provide a set of recommendations; 2) provide a summary of how to diagnose, treat, and manage a disease or condition; 3) a combination of these.
+  * Consider breaking more background-focused information into a “Clinical Overview” page and more actionable information into a “Clinical Guidance” page.
+  * Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Recommendation 
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* New recommendations
+  * Recent changes in recommendations
+  * Resource
+  * Consideration
+
+## Page title : Clinical Guidance for [Disease/Condition]
+
+## Key points (required)
+
+* [Highlight important recommendations]
+  * [Summarize main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Guiding principles 
+
+[Use this section to share overarching principles to follow when implementing recommendations.] Additional section header option(s): 
+Guiding principles for Implementing Recommendations
+[Enter custom header]
+
+## Recommendations 
+
+[Use this section to outline recommendations. Break a short list of recommendations into bullets; break recommendations with multiple categories into subsections. This section can also be used to link to more complex guidance documents.] Additional section header option(s): 
+Core recommendations
+[Enter custom header]
+
+## Evaluation 
+
+[Use this section to give insight into clinical diagnosis, including how to evaluate a disease, diagnosis guidelines, and how to confirm a diagnosis.] [1] [2] Additional section header option(s): 
+Diagnosis
+Confirmation of diagnosis
+
+## Preventing transmission 
+
+[Use this section to describe best practices for preventing transmission/infection, particularly in clinical settings. For detailed protocol, use the Content Type “Clinical Safety and Best Practices.” ] Additional section header option(s): 
+Preventing infection
+Preventing transmission in clinical settings
+Preventing transmission in veterinary clinical settings
+[Enter custom header]
+
+## Treatment options 
+
+[Use this section to provide guidance around overall treatment options or informatization specific to prescribing medicine. (Use the “Clinical Treatment” Content Type for more detailed treatment information.)] Additional section header option(s): 
+Treatment and therapy
+Prescribing medicine
+Determining whether to prescribe medicine
+[Enter custom header]
+
+## Complications 
+
+[Use this section to provide information around understanding potential complications.] [3] Additional section header option(s): 
+Understanding complications
+
+## Management 
+
+[Use this section to include best practices for managing the disease/condition in a clinical setting, or just general management of the disease.] Additional section header option(s): 
+Management in clinical settings
+[Enter custom header]
+
+## Management for specific populations 
+
+[Use this section to include best practices for managing the disease/condition in specific populations, including at-risk populations.] Additional section header option(s): 
+At-risk populations
+[Enter custom header]
+
+## Mitigating risk
+
+[Use this section to provide guidance for assessing and mitigating risk.]
+Additional section header option(s): 
+Assessing risk
+How to mitigate risk
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

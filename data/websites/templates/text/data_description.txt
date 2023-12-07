@@ -1,0 +1,89 @@
+## Template Guidance
+
+**Primary goal:** Provide background information about data, including
+methodology and data sources. This Content Type is not intended to be used to
+present complex data, but rather to describe the data.
+
+Can also include information on:
+
+* Types of data
+  * Data systems
+  * How the data is collected
+  * What the data includes
+  * How the data is interpreted
+  * Data use and impact
+  * Data reporting
+  * Data quality
+  * Data definitions
+  * Data management
+  * Resources
+
+## Page title : How Data Is [Description]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Types of data 
+
+[Use this section to describe the different types of data collected. Example subheaders: Case data, Epidemiologic data, Traceback data, Testing data.] Additional section header option(s): 
+How data is categorized
+
+## Data sources 
+
+[Use this section to describe the different sources of data (if different from above). Example subheaders: Laboratories, Healthcare facilities, Public health cases.] Additional section header option(s): 
+Where the data comes from
+[Enter custom header]
+
+## Data systems 
+
+[Use this section to describe the system or various systems used in the data lifecycle.] Additional section header option(s): 
+About the system
+[Enter custom header]
+
+## How data is collected 
+
+[Use this section to outline the data collection process. Consider using numbered steps or breaking the process into subsections. Link to data collection forms if helpful.] Additional section header option(s): 
+Data collection methods
+
+## What the data includes 
+
+[Use this section to briefly outline what the data covers. If appropriate, break into subheaders by category.] Additional section header option(s): 
+[Enter custom header]
+
+## How the data is interpreted 
+
+[Use this section to describe how the data is evaluated or interpreted.[1] Use subsections to break apart different categories or methods.] Additional section header option(s): 
+How the data is evaluated
+
+## How the data is used 
+
+[Use this section to describe the practical application of the data and how it benefits public health.[2] Consider breaking into subsections based on location, audience, or type of benefit.] Additional section header option(s): 
+How the data benefits public health
+Data impact
+
+## Data reporting 
+
+[Use this section to outline methods of data reporting or explain data reporting requirements.] Additional section header option(s): 
+How the data is reported
+
+## Data quality 
+
+[Use this section to explain how high quality data is achieved. Example subsections: Why data quality matters, Ensuring quality data, Improving data quality, What impacts data quality.]
+
+## Data definitions 
+
+[Use this section to describe, if applicable, how the data terms are defined. This is often used to give more context for data labels.] Additional section header option(s): 
+Data terminology
+Data explanations
+
+## Data management 
+
+[Use this section to describe how data is managed (including how it gets updated or archived).[3] Example subsections: Data maintenance methods, Handling sensitive data, How data is updated.] Additional section header option(s): 
+Data records
+
+## Resources 
+
+[Use this section to provide resources and tools.]

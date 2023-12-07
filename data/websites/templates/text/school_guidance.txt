@@ -1,0 +1,91 @@
+## Template Guidance
+
+**Primary goal:** Provide guidelines and strategies to school administrators
+and staff around a disease, condition, or health topic.
+
+Can also include:
+
+* Background
+  * Why it’s important
+  * Guidance or strategies
+  * Guidance and training for specific roles
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Callout 
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* Seek medical care
+  * When to contact a healthcare provider
+  * Important tip
+  * Reminder
+
+## Page title : Guidance for School Administrators: [Topic]
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Background 
+
+[Use this section to provide context and background on the topic.] Additional section header option(s): 
+Context
+[Enter custom header]
+
+## Why it matters 
+
+[Use this section to explain why this topic is important to address.] Additional section header option(s): 
+Why it’s important
+[Enter custom header]
+
+## Guidance 
+
+[Use this section to provide the bulk of the guidance. If the guidance spans multiple paragraphs, consider adding subheadings (H3s).] Additional section header option(s): 
+Recommendations
+Strategies
+[Enter custom header]
+
+## Guidance for teachers 
+
+[Use this section to provide specific guidance for teachers.] Additional section header option(s): 
+[Enter custom header]
+
+## Guidance for support staff 
+
+[Use this section to provide specific guidance for support staff (i.e. bus drivers, cleaning staff, etc.).]
+
+## Guidance for school nurses 
+
+[Use this section to provide guidance to school nurses and other medical professionals.] Additional section header option(s): 
+Guidance for medical professionals
+
+## Trainings for teachers 
+
+[Use this section to share training resources or recommended trainings for teachers.]
+
+## Trainings for students 
+
+[Use this section to share training resources or recommended trainings for students.]
+
+## Facility use 
+
+[Use this section to include important information for people renting or visiting a facility.] Additional section header option(s): 
+Information for visitors
+
+## Resources 
+
+[This section can be used to add internal and external resources related to school guidance.] Additional section header option(s): 
+Tools

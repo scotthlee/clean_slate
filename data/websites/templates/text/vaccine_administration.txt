@@ -1,0 +1,84 @@
+## Template Guidance
+
+**Primary goal:** Provide a reference for healthcare providers with guidelines
+for administering a vaccine, including timing and dosage.
+
+Can also include information on:
+
+* Patient eligibility and prescreening
+  * Preparation and inspection
+  * Administration site and methods
+  * Administration with other vaccines
+  * Addressing administration errors
+  * Package inserts
+  * Resources
+
+## **Vaccine Information Statement (VIS) **
+
+[Use callouts for important pieces of information. These callouts can be
+placed in any section.]
+
+Additional section header option(s)
+
+* Important update
+  * Supply notice
+  * Expiration notice
+  * Talking with your patients
+
+## Page title : [Disease/Vaccine Type] Vaccine Administration
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Required for all “Vaccine Administration” pages]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Patient eligibility 
+
+[Use this section to describe who is eligible to receive the vaccine, along with any prescreening steps or procedures. Break into age-based subsections as needed. This can also link to a prescreening checklist.] [Children and Teens] [Adults] Additional section header option(s): 
+Prescreening checklist
+Prescreening questions
+[Enter custom header]
+
+## Preparing for administration 
+
+Use this section to describe how to examine the vaccine for safety, plus any additional preparation guidelines. Include considerations around expiration dates, discoloration, particulate matter, etc.] Additional section header option(s): 
+Inspection of the vaccine
+What to inspect before administering
+
+## Timing and dosage 
+
+[Use this section to provide timing and dosage instructions. Break into subsections if this page covers multiple types of a vaccine with different guidelines.]
+
+## Administration route and site 
+
+[Use this section to describe where on the body vaccines should be administered and through which route (e.g., “intramuscularly in the deltoid region of the upper arm”).] Additional section header option(s): 
+[Enter custom header]
+
+## Administration with other vaccines 
+
+[Use this section to bring attention to any restrictions or considerations when co-administering with other vaccines.]
+
+## Additional administration guidelines 
+
+[Use this section to describe guidelines not yet covered, such as predraw and reconstitution safety. It may also cover things like needle size. Break into subsections as needed.] Additional section header option(s): 
+Safety guidelines
+[Enter custom header]
+
+## Vaccine storage 
+
+[Use this section to describe storage protocol, including basic temperature guidelines. If detailed information is needed, create a separate “Vaccine Storage and Handling” page.]
+
+## Addressing administration errors 
+
+[Use this section to explain how to handle errors made around when/how the vaccine was given. This might include how to address vaccines that were given too early, people who received the wrong vaccine, or people who shouldn’t have received the vaccine at all.]
+
+## Package inserts 
+
+[Use this section to link to package inserts.]
+
+## Resources 
+
+[If including resources for both healthcare providers and patients, this can be broken into sections like “For you” and “For your patients.”] Additional section header option(s): 
+Resources for your patients

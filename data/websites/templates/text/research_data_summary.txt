@@ -1,0 +1,104 @@
+## Template Guidance
+
+**Primary goal:** Discuss key findings for a research study or data
+collection. This Content Type can be used for research briefs, data briefs, or
+general summaries.
+
+Can also include information on:
+
+* Background
+  * Next steps
+  * What CDC is doing
+  * Explore more
+  * About the research or data
+  * Resources
+  * Suggested citation
+
+## **What we've learned **
+
+[Use brief callouts to draw attention to important information. These
+suggested callouts can be placed in any section.]
+
+Additional section header option(s):
+
+* Stat
+  * What we know
+  * Did you know?
+  * Spotlight
+  * Resource
+
+## Page title : Research Summary: [Topic]
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page and is required
+for all Data/Research Summary pages. The key goal is to set expectations and
+let users know if they are on the right page. Use no more than 2 sentences.]
+
+* Key points
+  * What to know
+
+## Overview 
+
+[Use this section to provide brief context around why the data collection/research was being conducted.] Additional section header option(s): 
+Introduction
+Background
+Why it’s important
+Why data is being collected
+[Enter custom header]
+
+## Key findings 
+
+[Use this section to highlight the results of the collection/research. Break into bullets or subsections for scannable reading.] Additional section header option(s): 
+Findings
+Highlights
+
+## What the research shows 
+
+[Use this section to provide more detailed sections around the findings. Break apart into statements, organized by subsections.] Additional section header option(s): 
+What the research reveals
+What the data shows
+What the data reveals
+The data
+[Enter custom header]
+
+## Next steps 
+
+[Use this section to provide information on what actions individuals, communities, and public health professionals can take to address the importance of the topic.] Additional section header option(s): 
+What can be done
+What you can do
+Action to take
+[Enter custom header]
+
+## What CDC is doing 
+
+[Use this section to provide information on what actions CDC or partners are already taking.] Additional section header option(s): 
+What’s being done
+
+## Explore more 
+
+[Use this section to provide readers with an opportunity to explore the research/data in more depth.] Additional section header option(s): 
+Publications
+Explore the research
+Read the research
+Data files
+Explore the data
+[Enter custom header]
+
+## About the research 
+
+[Use this section to give additional context around the research/data, such as authors, definitions, sources, methodology, or technical notes. If describing more thorough information about data process and methodology, please use the “Data Description” Content Type. You can include an intro here with a “Keep Reading” link.] Keep Reading: [Research or Data] Additional section header option(s): 
+About the data
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources for people to learn more about the topic. You can also include pages that give more detailed information about the data or research.]
+
+## Suggested citation 
+
+[Use this section to let people know how they can cite the information.] Additional section header option(s): 
+Research citation
+Citing this research
+Citing this data
+Data citation

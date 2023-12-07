@@ -1,0 +1,46 @@
+## Template Guidance
+
+**Primary goal:** Provide evidence-based professional or general guidance for
+urgent scenarios, particularly when recommendations may shift based on the
+status of a disease, condition, or event.
+
+Can also include:
+
+* Introduction
+  * About the guidance
+  * Resources and tools
+
+## Page title : Emergency Response Guidance Template
+
+## **Key points (required)**
+
+* Summary statement 1
+  * Summary statement 2
+  * Summary statement 3
+
+## Introduction (required)
+
+Establish the problem to be addressed and clearly describe the scope of the guidance (e.g., types of recommendations included, relevant contexts, target audience). Try to limit to 3 brief paragraphs. If a set of important updates needs to be surfaced before guidance is given, add a Callout component under the heading to address them. (Non-urgent updates should be integrated into the “About this guidance” section). Select a label option based on audience and communication need:  
+Introduction
+Overview
+Scope
+
+## Recommendations (required)
+
+Use the “Recommendations” heading if all recommendations fall within a single category. For pages with 2+ categories, use the repeatable “Recommendations for [description]” heading.
+
+## About this guidance 
+
+[Include information such as methods for developing the recommendations, contributors, and non-urgent updates. Use H3 subheadings as needed to break apart information. Select a label option based on section contents:] 
+About this guidance
+About these recommendations
+Background
+ 
+Recent updates (with links to older versions as appropriate; substantial updates would go in a callout within the introduction or in the “Key points” area)
+
+## Additional resources and tools 
+
+[Provide links to useful resources that were not included with the implementation guidance fields.] Additional section header option(s): 
+Resources
+Resources and tools
+ Note that each DFE template provides a space for references, sources, and footnotes.

@@ -1,0 +1,54 @@
+## Template Guidance
+
+**Primary goal:** House a complete (or single page of) a report, publication,
+or case study, organized into scannable headings.
+
+**Can also include:**
+
+* Up to 15 custom headings
+  * Subheadings
+  * Callouts
+  * Other components
+
+**Usage tips:**
+
+* Keep main headings brief. They’ll appear as links in the “On this page” area so readers can easily navigate between sections.
+  * While this template allows up to 15 sections, higher numbers should only be used in special circumstances. Keep readability best practices in mind.
+  * Use the “Keep reading” component to guide readers to related information.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+  * Use the “Developer Request” component for items like data visualizations, complex tables, and multimedia.
+  * Use the “Publication Summary” template to provide an overview of a report or publication that’s in PDF form.
+  * Use the “Data or Research Summary” template to focus on key findings and next steps.
+
+## Page title : Report, Publication, or Case Study
+
+## At a glance (required)
+
+[Use this section to provide a high-level description of the page. Use no more
+than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## [Your custom header]
+
+[The first main section of your report, publication, or case study will be organized under a custom H2. Add H3s and H4s as needed.]
+
+## [Your custom header]
+
+[The second main section of your report, publication, or case study will be organized under a custom H2. Add H3s and H4s as needed.]
+
+## [Your custom header]
+
+[The third main section of your report, publication, or case study will be organized under a custom H2. Add H3s and H4s as needed.]
+
+## [Your custom header]
+
+[The fourth main section of your report, publication, or case study will be organized under a custom H2. Add H3s and H4s as needed.]
+
+## [Your custom header]
+
+[The fifth main section of your report, publication, or case study will be organized under a custom H2. Add H3s and H4s as needed.
+This template allows you to include up to 10 additional sections.]

@@ -1,0 +1,115 @@
+## Template Guidance
+
+**Primary goal:** Provide basic information about a survey, collection of
+surveys, or surveillance system and how the results impact public health.
+
+Can also include:
+
+* Purpose
+  * Types of surveys or systems used
+  * What’s collected and how it’s collected
+  * How the data is used
+  * Key findings
+  * Links to data
+  * Information around programs and participants
+  * Resources
+
+## **Why it's important now **
+
+[Use callouts for important pieces of information. For Survey Profiles,
+callouts can draw attention to things like updates, facts, and findings. These
+callouts can appear in any section.]
+
+Additional section header option(s):
+
+* Update
+  * Fact
+  * Finding
+
+## Page title : About [Name]
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page. The key goal is
+to set expectations and let users know if they are on the right page. Use no
+more than 2 sentences.]
+
+Additional section header option(s):
+
+* Key points
+  * What to know
+
+## Purpose 
+
+[Use this section to summarize what the survey, collection of surveys, or surveillance aims to accomplish.] Additional section header option(s): 
+Overview
+Background
+[Enter custom header]
+
+## Surveys used 
+
+[Use this section to describe, if applicable, the different types of surveys or systems used. This section can also describe current and past surveys.] Additional section header option(s): 
+Types of surveys
+Current surveys
+Current and past surveys
+[Enter custom header]
+
+## Survey content 
+
+[Use this section to give an overview of what information is collected through the survey/surveillance.] Additional section header option(s): 
+What data we collect
+What’s collected
+
+## How surveys are conducted 
+
+[Use this section to describe how data is collected. Break into subsections as needed, such as “Who collects the data” and “Methods.”] Additional section header option(s): 
+Survey methods
+How information is collected
+How data collection works
+Additional section header option(s):
+[Enter custom header]
+
+## How the information is used 
+
+[Use this section to describe how the results are used by public health professionals or others.] Additional section header option(s): 
+How the data is used
+How the results are used
+How reports are used
+Why the data is important for public health
+[Enter custom header]
+
+## Key findings 
+
+[Use this section to provide a few highlights of important findings.] Additional section header option(s): 
+Quick facts
+By the numbers
+Highlights
+[Enter custom header]
+
+## Reports 
+
+[Use this section to link to ways that the survey results are shared, such as reports, data sets, or publications. If applicable, provide a quick summary of each.] Additional section header option(s): 
+Data sets
+Data releases
+Data
+Latest publications
+[Enter custom header]
+
+## Participants 
+
+[Use this section to provide high-level information for potential or active participants. Create a “Participants and Applicants” page to provide additional detail.] Additional section header option(s): 
+Survey registry
+Survey participation
+Information for participants
+
+## Related programs 
+
+[Use this section to describe and link to surveillance programs, surveillance systems, or other related initiatives.] Additional section header option(s): 
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources such as survey tools, questionnaires, studies, fact sheets, and educational materials. It can also ink to featured topics.] Additional section header option(s): 
+Tutorials
+Educational materials
+Featured topics

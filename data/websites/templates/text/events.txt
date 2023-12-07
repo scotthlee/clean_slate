@@ -1,0 +1,43 @@
+## Template Guidance
+
+**Primary goal:** Provides information on events and awareness dates.
+
+Can also include:
+
+* Time and location
+  * Link to register, if applicable
+  * Description of the event
+  * Facilitators and presenters
+  * Related files
+
+## Page title : Event Name
+
+## At a glance (required)
+
+[Use this section to provide a high-level overview of the event. Use no more
+than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Featuring 
+
+
+
+## Background 
+
+[Use this section to provide additional information about the event’s purpose, importance, or origins.] Additional section header option(s): 
+Why it’s important
+[Custom heading]
+
+## Continuing education information 
+
+[Use this section to provide details pertaining to continuing education (CE), including instructions and credit details.] Additional section header option(s): 
+[Custom heading]
+
+## Resources 
+
+[Use this section to provide materials, links, and other supplemental materials associated with the event.] Additional section header option(s): 
+Event materials

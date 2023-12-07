@@ -1,0 +1,110 @@
+## Template Guidance
+
+**Primary goal:** Provides guidance on clinical testing and screening
+approaches, including interpretation and reporting.
+
+Can also include information on:
+
+* Considerations
+  * Determining an approach
+  * Testing guidelines
+  * Recommended tests
+  * Alternative tests
+  * Interpreting test results
+  * Diagnosis criteria
+  * Reporting
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : Clinical Testing Guidance for [Disease/Condition]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Required for all Clinical Diagnosis and Testing pages]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Considerations 
+
+[Use this section to surface important things that healthcare providers should consider as part of the overall testing and diagnosis approach.] Additional section header option(s): 
+Background
+[Enter custom header]
+
+## Determining an approach 
+
+[Use this section to guide clinicians on how to make decisions around screening or testing patients.] Additional section header option(s): 
+Determining a screening approach
+Determining a testing approach
+How to make decisions on whether to test or screen
+
+## Testing guidelines 
+
+[Use this section to provide guidance around how to properly test or screen patients, including how to gather samples.] Additional section header option(s): 
+How to gather testing samples
+Screening guidelines
+[Enter custom header]
+
+## Recommended tests 
+
+[Use this section to provide information about the recommended tests or screenings to give patients and why.] Additional section header option(s): 
+Recommended screenings
+
+## Alternative tests 
+
+[Use this section to provide information about other/alternative [1] tests and screenings.] Additional section header option(s): 
+Other tests
+Other available tests
+Alternative screenings
+Other screenings
+Other available screenings
+
+## Interpreting test results 
+
+[Use this section to describe what test or screening results mean.] Additional section header option(s): 
+What test results mean
+How to interpret test results
+Interpreting screening results
+What screening results mean
+How to interpret screening results
+
+## Minimizing false results 
+
+[Use this section to describe how to minimize false test and/or screening results and information on testing and/or screening accuracy.] Additional section header option(s): 
+Test accuracy
+Screening accuracy
+
+## Diagnosis 
+
+[Use this section to provide guidance for clinicians on how to diagnose a disease/condition, including diagnosis criteria.] Additional section header option(s): 
+Diagnosis criteria
+[Enter custom header]
+
+## Diagnosis in special populations 
+
+[Use this section to provide specialized guidance for diagnosis in animals [2] or in specific populations such as for children, the elderly, or pregnant people.] Additional section header option(s): 
+Diagnosis in animals
+[Enter custom header]
+
+## What do to with test results 
+
+[Use this section to describe steps to take after a diagnosis or receiving test results.] Additional section header option(s): 
+Next steps
+What to do after diagnosis
+What to do next
+
+## Reporting cases 
+
+[Use this section to describe whether to report test results/diagnosis and where to report cases.] Additional section header option(s): 
+How to report cases
+When to report cases
+
+## Resources 
+
+[Use this section to provide resources and tools.]

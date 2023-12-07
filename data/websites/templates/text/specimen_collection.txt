@@ -1,0 +1,91 @@
+## Template Guidance
+
+**Primary goal:** Provide instructions for lab personnel about collecting
+specimens.
+
+Can also include:
+
+* When specimens should be collected
+  * Materials needed
+  * Safety considerations
+  * Special circumstances
+  * Storage
+  * Next steps
+  * Resources
+
+## **Important consideration **
+
+[Use callouts for important pieces of information, such as guidelines and
+considerations.]
+
+Additional section header option(s)
+
+* Important
+  * Important guideline
+  * Keep in mind
+
+## Page title : Collecting Specimens for [Name] Testing
+
+## **Important **
+
+[Use this callout to surface any crucial top-of-page messages that may be
+needed for laboratory personnel. These might include alerts, updates, or
+procedural information related to emergencies or bioterrorism. Less urgent
+callouts should be placed in other sections.]
+
+## When specimens should be collected 
+
+[Use this section to describe the circumstances around if and when specimens should be collected, if applicable.] Additional section header option(s): 
+When to test
+
+## Before collecting specimens 
+
+[Use this section to describe any actions that are needed before collection, such as required consultations. It can also address pre-collection precautions.] Additional section header option(s): 
+Prepare for specimen collection
+
+## Specimens to collect 
+
+[Use this section to describe the different types of specimens that can be collected, if applicable. Break into subheaders as needed.
+Example subheaders: Upper respiratory specimens, Serum, Stool.] Additional section header option(s): 
+Specimen types
+
+## Materials needed 
+
+[Use this section to list materials needed for specimen collection.] Additional section header option(s): 
+What you’ll need
+Supplies
+
+## Collection instructions 
+
+[Use this section to describe the process for collecting specimens. Break into subheaders as needed.
+Example subheaders: Collecting the blood, separating the serum.] Additional section header option(s): 
+How to collect specimens
+
+## Safety considerations 
+
+[Use this section to describe safety considerations and safety protocol. Break into bullets, numbered lists, or subsections as needed.
+Example subheaders: Wear protective equipment, Use a biological safety cabinet, Disinfect surfaces.] Additional section header option(s): 
+Safety protocol
+Biosafety
+
+## Special circumstances 
+
+[Use this section to describe any special circumstances that may veer from standard protocol (for example, specimens to collect and send for testing in the event of a death). It can also be used to describe different circumstances for different settings (e.g., dialysis settings, home healthcare settings).] Additional section header option(s): 
+Considerations for specific settings
+[Enter custom header]
+
+## Storage 
+
+[Use this section to describe specimen storage requirements.] Additional section header option(s): 
+If short-term storage is needed
+
+## Next steps 
+
+[Use this section to describe what happens after collection. Link to the appropriate Lab Specimen Shipping/Handling page.] Keep reading: Specimen Submission Guidelines Additional section header option(s): 
+Specimen submission
+Shipping
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources, such as safety checklists and printable protocol sheets.] [Link to Checklist 1] [Link to Checklist 2] [Link to printable Protocol Sheet]

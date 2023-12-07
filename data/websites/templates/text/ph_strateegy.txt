@@ -1,0 +1,126 @@
+## Template Guidance
+
+**Primary goal:** Provide guidance for public health professionals around
+addressing issues in communities and beyond.
+
+Can also include information on:
+
+* Why it’s important
+  * Steps to take
+  * Planning and prevention strategies
+  * Implementation strategies
+  * Communication strategies
+  * Strategies for special circumstances
+  * Tips
+  * Offering support
+  * Working together
+  * Resources and tools
+
+**Usage Tips:**
+
+*     * Select the sections that are most relevant to your communication needs.
+    * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+    * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+    * Use bullets whenever possible to organize ideas and make the page easy to read.
+    * Add your own callouts or select from suggested callouts. These can highlight key information in a section
+
+.
+
+## **Did you know? **
+
+[Use callouts for tips, facts, or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Tip
+  * Spotlight
+  * Success story
+  * Resource
+
+## Page title : Public Health Strategies for [Topic]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**November 15, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including:
+
+* New page title options
+  * A new “Evaluation” section
+
+## Overview 
+
+[Use this section to set context about the topic. You can provide some background or describe why it’s important.] Additional section header option(s): 
+Why it’s important
+The problem
+The issue
+The demand
+[Custom heading]
+
+## Steps to take 
+
+[Use this section to provide general recommendations, strategies, or steps. Most Public Strategy pages will use either this section or a combination of the below 3 sections, but not both. Break into subsections as needed. If focusing on investigation guidance, example subsections might be “Investigation” and “Reporting”.] Additional section header option(s): 
+Strategies
+Recommendations
+[Custom heading]
+
+## Planning strategies 
+
+[Use this section to outline planning and prevention strategies, or include an action plan. Break into subsections as needed.] Additional section header option(s): 
+Prevention strategies
+Planning guidance
+Planning
+Action plans
+Creating an action plan
+
+## Implementation strategies 
+
+[Use this section to provide guidance for implementing practices, policies, or programs/initiatives. Break into subsections as needed.] Additional section header option(s): 
+Implementation guidance
+Implementation
+[Custom heading]
+
+## Evaluation 
+
+Additional section header option(s): 
+[Custom heading]
+
+## Communication strategies 
+
+[Use this section to cover information about public health communications and how professionals can convey important messages about the topic. Break into subsections as needed.] Additional section header option(s): 
+Communication planning
+Communication
+Raising awareness
+Getting the message out
+
+## Strategies for special circumstances 
+
+[Use this section to provide public health guidance for specific scenarios or settings, such as outbreaks, emergencies, disasters, public school settings, etc. If covering multiple scenarios or settings, create a subsection for each one.] Additional section header option(s): 
+Strategies for outbreaks
+Strategies for disasters
+Strategies for special settings
+[Custom heading]
+
+## Tips 
+
+[Use this section to provide tips related to the topic. Use bullets for shorter descriptions and subsections for longer descriptions.] Additional section header options(s) 
+[Custom heading]
+
+## How to offer support 
+
+[Use this section to provide guidance on how public health professionals can offer support to communities or individuals (if not covered in above recommendations).] Additional section header option(s): 
+Supporting our community
+
+## Working together 
+
+[Use this section to describe how public health professionals can or have been working with others to address an issue. Examples: working with local pediatricians, partnering with a local organization or national program.] Additional section header option(s): 
+A coordinated approach
+
+## Resources and tools 
+
+[Use this section to include resources and tools such as guides, checklists, links to partner organizations, communication playbooks, or toolkits.] Additional section header option(s): 
+Resources

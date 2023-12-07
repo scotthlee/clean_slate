@@ -1,0 +1,122 @@
+## Template Guidance
+
+**Primary goal:** Provide information on prevention factors/steps around a
+disease, condition, or scenario.
+
+Can also include:
+
+* Information on prevention methods and options
+  * Making a plan
+  * Why it’s important
+  * Treatment
+  * Reporting
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Important tip 
+
+[Use callouts for important pieces of information, like tips and reminders.]
+
+Additional section header option(s):
+
+* Reminder
+  * Getting vaccinated
+
+## Page title : Preventing [Topic]
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Overview 
+
+[Use this section to provide a brief description of the disease, condition, topic, or prevention method – what it is, indications of it, how widespread, diagnosis, etc. It can also include mention of specific prevention methods.] Additional section header option(s): 
+[Enter custom header]
+
+## Exposure 
+
+[Use this section to provide details about how and why exposure to something can lead to a disease, condition, or scenario.] Additional section header option(s): 
+[Enter custom header]
+
+## Risk factors 
+
+[Use this section to explain what factors predispose someone to a disease, condition, or scenario.]
+
+## Populations 
+
+[Use this section to talk about who is at risk, or to describe how a prevention method impacts certain populations.] Additional section header option(s): 
+Who is at risk
+
+## What to look out for 
+
+[Use this section to let readers know what signs or symptoms to look out for related to a disease, condition, or topic/scenario. This can include things like individual symptoms or environmental signs.]
+
+## Prevention steps and strategies 
+
+[Use this section to explain what steps to take to prevent the disease, circumstance, or event.
+Example subheads: Wear a lifejacket, Stop smoking, Wash your hands.] Additional section header option(s): 
+Prevention tips
+[Enter custom header]
+
+## Prevention methods 
+
+[Use this section to explain various methods of prevention, for example, in the case of birth control.]
+Additional section header option(s): 
+[Enter custom header]
+
+## Why prevention is important 
+
+[Use this section to explain why prevention is important. It can also be used to describe why a particular prevention method is important.] Additional section header option(s): 
+Why this method is important
+
+## Making a plan 
+
+[Use this section to explain to providers and/or individuals how they can make a prevention plan.] Additional section header option(s): 
+Creating an action plan
+
+## Traveling 
+
+[Use this section to explain what precautions should be taken when traveling and why.] Additional section header option(s): 
+[Enter custom header]
+
+## Animal impact 
+
+[Use this section to communicate what impact, if any, the disease, condition, or prevention method has on animals.] Additional section header option(s): 
+Prevention in animals
+[Enter custom header]
+
+## Treatment 
+
+[Use this section to explain what can be done to treat a disease or condition once it has occurred.] Additional section header option(s): 
+[Enter custom header]
+
+## Reporting 
+
+[Use this section to explain how individuals can report relevant info to their doctor or the appropriate agency (ex: waterborne illness to state health department, downed power lines to power company, etc.).]
+
+## Myths and misconceptions 
+
+[Use this section to dispel any myths or misconceptions.] Additional section header option(s): 
+[Enter custom header]
+
+## What CDC is doing 
+
+[Use this section to provide information about CDC programs and activities.]
+
+## Case studies 
+
+[Use this section to provide any case studies about the disease, condition, or topic.]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Tools

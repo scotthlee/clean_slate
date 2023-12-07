@@ -1,0 +1,68 @@
+## Template Guidance
+
+**Primary goal:** Share multiple case studies or stories that show the impact
+of or need for an intervention or program. Stories can be video, text, or a
+combination.
+
+**Can also include:**
+
+* Stories
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Stats 
+
+[Use callouts for important pieces of information, such as stats or quotes.]
+
+Additional section header option(s):
+
+* Quote
+  * [Enter Custom header]
+
+## Page title : Real Stories: [Description]
+
+## At a glance (required)
+
+Use this section to provide a high-level description of the story. Use no more
+than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## [Name 1]’s story (required)
+
+[Use this section to highlight the first video or brief story in a series.] Additional section header option(s): 
+[Enter custom header]
+
+## [Name 2]’s story (required)
+
+[Use this section to highlight the second video or brief story in a series.] Additional section header option(s): 
+[Enter custom header]
+
+## [Name 3]’s story 
+
+[Use this section to highlight the third video or brief story in a series.] Additional section header option(s): 
+[Enter custom header]
+
+## [Name 4]’s story 
+
+[Use this section to highlight the fourth video or brief story in a series.] Additional section header option(s): 
+[Enter custom header]
+
+## [Name 5]’s story 
+
+[Use this section to highlight the fifth video or brief story in a series.] Additional section header option(s): 
+[Enter custom header]
+
+## Resources 
+
+[Use this section to add links and resources.]

@@ -1,0 +1,30 @@
+## Template Guidance
+
+**Primary goal:** Provides information on CDC staff.
+
+Can also include:
+
+* Work at CDC
+  * Previous work experience
+  * Achievements
+  * Education
+
+## Page title : [Position]
+
+## ![\[name of position\]](/images/bio-image-placeholder.jpg?_=98467)
+
+## Work at CDC (required)
+
+Pellentesque vehicula ante ut est luctus, lacinia rutrum arcu tempus. Aliquam gravida turpis ac augue consequat, vel laoreet nisi tempus. In dictum sed tortor in laoreet. Donec blandit euismod lectus nec imperdiet. Sed nec posuere lacus. Praesent in ipsum ut risus vehicula rutrum. Nam sed diam consequat, dapibus nulla ut, gravida metus. Aenean porttitor, nibh ac hendrerit volutpat, felis enim congue metus, et feugiat mauris nisl eleifend turpis.
+
+## Previous experience 
+
+Ut sit amet magna vehicula, fermentum odio sed, ultricies odio. Nullam odio odio, porta ac porttitor at, bibendum in eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque elit dui, rutrum ac lorem ut, lobortis semper odio. Suspendisse orci ipsum, hendrerit et sapien molestie, bibendum feugiat risus.
+
+## Achievements 
+
+Nam quis libero non massa molestie rutrum. Etiam ex risus, aliquet id sagittis a, vulputate nec turpis. Nulla sit amet odio vitae metus vehicula convallis eu eget lectus. Nam urna tortor, scelerisque eleifend auctor quis, congue sit amet tortor. Quisque sit amet lorem vitae tortor rhoncus porta id at magna. Suspendisse potenti. Curabitur eget nulla in ligula rutrum hendrerit. Phasellus eu massa vulputate nulla rhoncus gravida at in ex. Sed blandit dui ac erat blandit euismod.
+
+## Education (required)
+
+Mauris ullamcorper rutrum iaculis. Nullam tempus elit ut magna vulputate, at fermentum risus sagittis. Aliquam non ante non felis semper porta ac quis eros. Donec a venenatis ex, sit amet interdum quam. Nullam vel molestie nibh. Quisque et eros turpis. Phasellus suscipit malesuada ultricies.

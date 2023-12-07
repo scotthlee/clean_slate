@@ -1,0 +1,44 @@
+## Template Guidance
+
+**Primary goal:** Provide a list of list of links/resources or import a WMCS
+Collection. List items can contain a thumbnail image, title, brief
+description, and links.
+
+Can also include:
+
+* Overview
+  * Background information
+  * Information about how to use the resources
+
+## Page title : [Description] Resources
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page and is required
+for all Lists and Collections pages. The key goal is to set expectations and
+let users know if they are on the right page. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Overview (required)
+
+[Use this section to briefly describe the types of resources or other materials included in the list or WCMS Collection. The section can also provide brief background information on the topic.] Additional section header option(s): 
+Background
+What’s Included
+About these resources
+How to use these resources
+[Enter custom header]
+
+## Resources (required)
+
+[Use this section to provide a list or WCMS Collection. There are 3 ways to present information: 1) Import an existing Collection that’s managed in the WCMS via the “Developer Request” tool; 2) Manually create and maintain a simple list of links with optional descriptions; 3) Create side-by-side “curated links” with thumbnails and descriptions.  Break apart list categories using H3s.] Additional section header option(s): 
+Links
+Materials
+Tools
+Publications
+Articles
+[Enter custom header]
+ Category 1

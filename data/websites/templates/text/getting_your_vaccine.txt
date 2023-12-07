@@ -1,0 +1,80 @@
+## Template Guidance
+
+**Primary goal:** Provide guidance around vaccine decision-making for a
+specific vaccine/disease, or a type of vaccine/disease.
+
+Can also include information on:
+
+* A quick reference table
+  * Staying up-to-date with your vaccine or your child’s vaccine
+  * When to get vaccinated
+  * Considerations for people who are immunocompromised, have allergies, are taking medications, or are traveling
+  * What to expect during and after vaccination
+  * Keeping track of records
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## **Get personalized recommendations **
+
+[Use callouts for fact statements or other important pieces of information.
+These callouts can be placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Keep in mind
+  * Also known as
+  * Keep track of vaccine records
+
+## Page title : Getting Your [Disease/Vaccine Type] Vaccine
+
+## **Key points (required)**
+
+* [Summarizes the main message]
+  * [Required for all “Getting Your Vaccine” pages]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Quick reference 
+
+[Use this section to provide a basic table-based reference, if appropriate, for the vaccine recommendations. (For example, age range in the left column and vaccine frequency in the right column.) This may not be suitable for scenarios where important stipulations are needed for each category. Limited explanatory content can be placed below the table.] Additional section header option(s): 
+Recommendations
+[Enter custom header]
+
+## Who should and shouldn’t receive the vaccine (required)
+
+[Use this section to address considerations around getting the vaccine. This might include detailed age-based guidance, or guidance around which type of vaccine to get for a disease (e.g., multiple DTaP doses for Whooping Cough for children or which flu vaccine to get. Break categories into subsections. Discuss vaccination factors to consider if someone is immunocompromised, has allergies, is pregnant or breastfeeding, is taking medications, is planning to travel, or is already sick.] Additional section header option(s): 
+How to know if you need the vaccine
+Talk to your doctor about your needs
+[Enter custom header]
+
+## How to stay up to date 
+
+[Use this section to include information on follow-up vaccines/doses, or in general how someone would stay up to date. This can include information on timelines or seasonal considerations (such as the best time of year to get a flu shot, or what trimester of pregnancy is recommended).] Additional section header option(s): 
+Vaccine timing
+Vaccine timing and spacing
+Additional doses
+
+## What to expect at the appointment 
+
+[Use this section to address any expectations that would be helpful to know for the appointment, or general tips for the appointment. Examples: questions a healthcare provider might ask, how to help your child relax.] Additional section header option(s): 
+During your appointment
+What to expect at the vaccine site
+
+## Possible side effects 
+
+[Use this section to discuss any side effects to watch out for afterwards, or any tips that would be helpful for someone caring for a child who has just received the vaccination. Include any safety information that would be helpful for someone making decisions around vaccinations.] Additional section header option(s): 
+Safety and side effects
+After vaccination
+Caring for your child after vaccination
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

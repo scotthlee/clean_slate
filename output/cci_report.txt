@@ -1,0 +1,30 @@
+Using the provided rubric to score the content:
+
+1. Does the material contain one main message statement?
+   - Yes, the main message is about adopting certain behaviors to enhance the immune system's ability to fight off infections and illnesses.
+
+2. Is the main message at the top, beginning, or front of the material?
+   - Yes, the main message is at the beginning of the content under the "Key points" and "Overview" sections.
+
+3. Does the material include one or more calls to action for the primary audience?
+   - Yes, the material includes calls to action such as adopting a balanced diet, engaging in regular exercise, getting adequate sleep, managing stress, and practicing good hygiene.
+
+4. Do both the main message and the call to action use the active voice?
+   - Yes, both the main message and calls to action use the active voice.
+
+5. Does the material always use words the primary audience uses?
+   - Yes, the material uses common language that is likely to be understood by the primary audience.
+
+6. Does the material use bulleted or numbered lists?
+   - Yes, the material uses bulleted lists to organize information, such as the "Quick facts and stats," "What to do," and other sections.
+
+7. Is the material organized in chunks with headings?
+   - Yes, the material is organized with headings such as "Overview," "Quick facts and stats," and "What to do."
+
+8. Is the most important information the primary audience needs summarized in the first paragraph or section?
+   - Yes, the most important information is summarized in the first section under "Key points" and "Overview."
+
+9. Does the material explain what authoritative sources, such as subject matter experts and agency spokespersons, know and don't know about the topic?
+   - The material does not explicitly state what authoritative sources know and don't know about the topic; however, it provides links to resources like the CDC and WHO, which can be considered as referencing authoritative sources.
+
+Based on the rubric, the content would score 8 out of 9 points. The one point not awarded is due to the lack of explicit explanation about what authoritative sources know and don't know, although it does provide links to authoritative sources.

@@ -1,0 +1,103 @@
+## Template Guidance
+
+**Primary goal:** Describe how programs, initiatives, projects, and CIOs are
+funded and highlight funding opportunities.
+
+Can include:
+
+* Overview
+  * Background
+  * Funding by state
+  * Current funding opportunities
+  * Priorities
+  * Activities
+  * Recipients
+  * Data
+  * Policy
+  * Funding over time
+  * Other projects
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : [Description] Funding
+
+## Key points
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Funding overview 
+
+[Use this section to describe the purpose of the funding with any relevant background information.] Additional section header option(s): 
+How funding works
+How funds are used
+Background
+[Enter custom header]
+
+## Funding by category 
+
+[Use this section to break down funding by category, such as topic, state, or recipient. If using the “Funding by category” label, break apart the individual categories into H3s. For complex tables or data visuals, use the Developer Request tool.] Additional section header option(s): 
+Funding by topic
+Funding by state
+Funding by recipient
+State snapshots
+[Enter custom header]
+
+## Current funding opportunities 
+
+[Use this section to describe current or ongoing funding opportunities. Include information on eligibility and important dates.] Additional section header option(s): 
+Ongoing funding opportunities
+[Enter custom header]
+
+## Program priorities 
+
+[Use this section to outline the program’s priorities, goals, or objectives. Break each into a bullet point or subsection as needed.] 
+Priority 1
+Priority 2
+Priority 3
+ Additional section header option(s): 
+Priorities
+Initiative priorities
+Project priorities
+[Enter custom header]
+
+## Activities and progress 
+
+[Use this section to describe the program’s impact and accomplishments. Link to success stories if applicable.] Additional section header option(s): 
+Accomplishments
+[Enter custom header]
+
+## Recipients 
+
+[Use this section to provide information on recipients that have been awarded funds. Can integrate info from Partner Profiles if relevant.]
+
+## Funding data 
+
+[Use this section to display or link to funding data.]
+
+## Policy 
+
+[Use this section to provide policy information related to the funding.] Additional section header option(s): 
+[Enter custom header]
+
+## Funding over time 
+
+[Use this section to provide information on how funding has been used over time.] Additional section header option(s): 
+Historical funding information
+
+## Other projects 
+
+[Use this section to briefly describe and link to other projects that work toward the same outcome.] Additional section header option(s): 
+Related projects
+
+## Resources 
+
+[Use this section to list resources like studies, funding documents, related projects/campaigns, etc.] Additional section header option(s): 
+Additional resources

@@ -1,0 +1,77 @@
+## Template Guidance
+
+**Primary goal:** Share a case study or story that shows the impact of or need
+for an intervention or program. It can be a video or text.
+
+**Can also include:**
+
+* Challenges
+  * Interventions
+  * Results
+  * Lessons learned
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Stats 
+
+[Use callouts for important pieces of information, such as stats or quotes.]
+
+Additional section header option(s):
+
+* Quote
+  * [Enter Custom header]
+
+## Page title : [Name]'s Story: [Description]
+
+## At a glance (required)
+
+Use this section to provide a high-level description of the story. Use no more
+than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## [Name]’s story (required)
+
+[Use this section to either: 1) Introduce a story or 2) To tell a complete story broken apart by subheaders. This section can include a video.] Additional section header option(s): 
+[Enter custom header]
+
+## Challenge 
+
+[Use this section to share challenges that someone or an organization has faced.] Additional section header options: 
+Challenges
+Opportunity
+Opportunities
+[Enter custom header]
+
+## Intervention 
+
+[Use this section to share about the intervention or solution that was used.] Additional section header options: 
+Interventions
+Solution
+Solutions
+Approach
+[Enter custom header]
+
+## Impact 
+
+[Use this section to share the impact of an intervention or program.] Additional section header options: 
+Results
+[Enter custom header]
+
+## Lessons learned 
+
+[Use this section to share about the lessons learned through the intervention or program.] Additional section header options: 
+[Enter custom header]
+
+## Resources 
+
+[Use this section to add links and resources.]

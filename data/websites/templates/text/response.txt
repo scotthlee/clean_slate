@@ -1,0 +1,87 @@
+## Template Guidance
+
+**Primary goal:** Describes how to respond, cope, or provide aid in response
+to a given situation.
+
+Can also include information on:
+
+* What and why
+  * When to call for help
+  * Steps to take
+  * What to avoid and watch out for
+  * What to do afterwards
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Call 911 
+
+[Use callouts for fact statements or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Who to call
+  * Fact
+  * By the numbers
+  * Did you know?
+  * Resource
+  * Who to contact
+  * Important
+  * Urgent
+
+## Page title : Responding to [Topic]
+
+## Key points (required)
+
+* [Highlight important recommendations]
+  * [Summarize main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Overview 
+
+[Use this section to optionally provide any meaningful context that would be helpful for understanding the topic. Explain why a timely response is important.] Additional section header option(s): 
+Why a timely response is important
+[Enter custom header]
+
+## When to call for help 
+
+[This section lets people know when they should call emergency services or seek medical care. It should include a list of information they should provide to first responders or care providers.] Additional section header option(s): 
+When to seek medical care
+
+## Steps to take 
+
+[Use this section to provide steps to take in response to the situation. Use sub-sections if there different steps based on population or situation type.] Steps subhead 1 [Details] Steps subhead 2 [Details] Additional section header option(s): 
+How to help
+First aid
+
+## What to avoid 
+
+[Use this section to provide steps or actions to avoid. Use sub-sections if there are different steps based on population or situation type.] Populations subhead 1 [Details] Situation subhead 2 [Details] Additional section header option(s): 
+Things you shouldn’t do
+[Enter custom header]
+
+## Things to watch for 
+
+[Use this section to list things people should watch for immediately following the situation, such as medical warning signs, potential hazards, or things which make the situation worse.] Additional section header option(s): 
+[Enter custom header]
+
+## What to do afterwards 
+
+[Use this section to explain what to expect or do after the immediate situation resolves.] Additional section header option(s): 
+Next steps
+Following up
+[Enter custom header]
+
+## Resources 
+
+[Use this section to add links and resources.] Additional section header option(s): 
+Finding support

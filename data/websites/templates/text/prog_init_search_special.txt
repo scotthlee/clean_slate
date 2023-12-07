@@ -1,0 +1,424 @@
+## Template Guidance
+
+**Primary goal:** Provide supplementary information about programs,
+initiatives, and research efforts (such as policy information, specific
+program activities and decision-making frameworks, or meeting details).
+
+Can also include:
+
+* An overview or background information
+  * Top things to know
+  * Process/steps
+  * Evaluation and strategy
+  * Meeting information
+  * Q&A
+  * Contacts
+  * Resources and tools
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## ## About 
+
+[Use this section to set context around the information presented in the page. It can be used to provide background, outline objectives, or explain the “why” behind a topic.] Additional section header option(s): 
+Background
+Overview
+Basics
+Objectives
+[Custom heading]
+
+## Important things to know 
+
+[Use this section to provide the reader with important takeaways.] Additional section header option(s): 
+Things you need to know
+Takeaways
+Important points
+Top considerations
+[Custom heading]
+ Process   [Use this section to describe a process, how an effort works, or steps that are taken as part of the program, initiative, or research.] Additional section header option(s): 
+How it works
+Steps we take
+[Custom heading]
+ Policy and legislation  [Use this section to describe specific program-related policies and how those policies are implemented.] Additional section header option(s): 
+Policy implementation
+[Custom heading]
+ Timeline   [Use this section to highlight important milestones or overall historical information.] Additional section header option(s): 
+History
+Milestones
+[Custom heading]
+ Meeting, event, or workshop details   [Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+ By the numbers   [Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Process 
+
+[Use this section to describe a process, how an effort works, or steps that are taken as part of the program, initiative, or research.] Additional section header option(s): 
+How it works
+Steps we take
+[Custom heading]
+ Policy and legislation  [Use this section to describe specific program-related policies and how those policies are implemented.] Additional section header option(s): 
+Policy implementation
+[Custom heading]
+ Timeline   [Use this section to highlight important milestones or overall historical information.] Additional section header option(s): 
+History
+Milestones
+[Custom heading]
+ Meeting, event, or workshop details   [Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+ By the numbers   [Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Policy and legislation
+
+[Use this section to describe specific program-related policies and how those policies are implemented.] Additional section header option(s): 
+Policy implementation
+[Custom heading]
+ Timeline   [Use this section to highlight important milestones or overall historical information.] Additional section header option(s): 
+History
+Milestones
+[Custom heading]
+ Meeting, event, or workshop details   [Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+ By the numbers   [Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Timeline 
+
+[Use this section to highlight important milestones or overall historical information.] Additional section header option(s): 
+History
+Milestones
+[Custom heading]
+ Meeting, event, or workshop details   [Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+ By the numbers   [Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Meeting, event, or workshop details 
+
+[Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+ By the numbers   [Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## By the numbers 
+
+[Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+ Evaluation   [Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Evaluation 
+
+[Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+ State and local strategies   [Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## State and local strategies 
+
+[Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+ Common questions   [Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Common questions 
+
+[Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+ Contacts   [Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Contacts 
+
+[Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+ Resources   [Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+ References   [References]
+
+## References 
+
+[References]
+
+## Page title : [Program/Initiative Name]: [Description]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**October 27, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including:
+
+* New title options
+  * 3 new sections so that you can have dedicated headings for policy, evaluation, or strategy
+
+## About 
+
+[Use this section to set context around the information presented in the page. It can be used to provide background, outline objectives, or explain the “why” behind a topic.] Additional section header option(s): 
+Background
+Overview
+Basics
+Objectives
+[Custom heading]
+
+## Important things to know 
+
+[Use this section to provide the reader with important takeaways.] Additional section header option(s): 
+Things you need to know
+Takeaways
+Important points
+Top considerations
+[Custom heading]
+
+## Process 
+
+[Use this section to describe a process, how an effort works, or steps that are taken as part of the program, initiative, or research.] Additional section header option(s): 
+How it works
+Steps we take
+[Custom heading]
+
+## Policy and legislation
+
+[Use this section to describe specific program-related policies and how those policies are implemented.] Additional section header option(s): 
+Policy implementation
+[Custom heading]
+
+## Timeline 
+
+[Use this section to highlight important milestones or overall historical information.] Additional section header option(s): 
+History
+Milestones
+[Custom heading]
+
+## Meeting, event, or workshop details 
+
+[Use this section to provide meeting, event, or workshop details if your page needs to cover this information. Use subheaders to break apart individual sessions or themes.] Additional section header option(s): 
+Meeting details
+Event details
+Workshop details
+Sessions
+Presentations
+[Custom heading]
+
+## By the numbers 
+
+[Use this section to provide statistics, fast facts, or quick data points (use the Developer Request tool if a table, chart, or graph is needed). This section can also give a brief overview about data with links to more detailed pages.] Additional section header option(s): 
+Data
+Facts
+Fast facts
+Facts and stats
+Statistics
+
+## Evaluation 
+
+[Use this section to describe how the program has practiced a specific evaluation or set of evaluations. For evaluation content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Program evaluation
+Economic evaluation
+[Custom heading]
+
+## State and local strategies 
+
+[Use this section to describe a program strategy, or how the program has implemented a strategy. For strategy content that’s more focused on public health professionals, use the “Public Health Strategy” template.] Additional section header option(s): 
+Priority strategies
+[Custom heading]
+
+## Common questions 
+
+[Use this section to address common questions around the program, initiative, or research. Use H3s for each question and limit to 4 questions. Only use this section to convey actual frequent questions that are asked; avoid using it to simply convey basic information in Q&A format.] Additional section header option(s): 
+Top questions
+Frequently asked questions
+Q&A
+
+## Contacts 
+
+[Use this section to provide contact information as needed. Use subheaders to designate between different contact categories as needed.] Additional section header option(s): 
+Who to contact
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.] Additional section header option(s): 
+Resources and tools
+
+## References 
+
+[References]

@@ -1,0 +1,31 @@
+## Template Guidance
+
+**Primary goal:** Provide basic information about an app or widget, along with
+widget code for people to copy/embed.
+
+**Can also include:**
+
+* Purpose
+  * Widget developer
+  * Additional app/widget details
+
+## Page title : App and Widget Summary
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**October 31, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including a section to provide additional app/widget details.
+
+## Purpose 
+
+[Use this section to provide a description or summary of the widget/app, including its purpose and how to use it.] Additional section header option(s): 
+Description
+Usage guidelines
+Context
+[Custom heading]
+
+## Additional details
+
+[Use this section to provide supplemental information about the app/widget — for example, version info, latest updates, background, or technical support info.]

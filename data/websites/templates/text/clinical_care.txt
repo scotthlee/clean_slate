@@ -1,0 +1,90 @@
+## Template Guidance
+
+**Primary goal:** Describes possible clinical care and treatment options for a
+disease or condition.
+
+Can also include information on:
+
+* Treatment recommendations
+  * Treatment qualification (qualifies or should receive treatment)
+  * Care/treatment specifics
+  * Care timeline
+  * Care precautions
+  * How to help patients improve (action points for HCPs to help patients improve their condition or quality of life during and after treatment)
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## **By the numbers **
+
+[Place to add sources or links for research that backs up treatment
+recommendations]
+
+Additional section header option(s):
+
+* Research study
+  * Research data
+  * Resource
+  * New recommendations
+  * Recent changes in recommendations
+
+## Page title : Clinical Care of [Disease/Condition]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Treatment options 
+
+[Use this section to outline treatment and medication options, including benefits [1] and side effects.] Additional section header option(s): 
+Medication options
+
+## Who qualifies for treatment 
+
+[Use this section to describe who qualifies for [2] or should receive treatment] Additional section header option(s): 
+Treatment eligibility
+Who should receive treatment
+Treatment prioritization
+
+## Treatment recommendations 
+
+[Use this section to outline treatment best practices and recommendations.] Additional section header option(s): 
+Treatment best practices
+Best practices for care
+[Enter custom header]
+
+## Treatment plan 
+
+[Use this section to provide more details around care/treatment plans.] Additional section header option(s): 
+Care plan
+[Enter custom header]
+
+## Care timeline 
+
+[Use this section to provide a timeline for care.] Additional section header option(s): 
+Treatment timeline
+
+## Care precautions 
+
+[Use this section to describe warnings and precautions for healthcare providers to consider through the care/treatment process.] Additional section header option(s): 
+Treatment precautions
+[Enter custom header]
+
+## Promoting lifestyle changes 
+
+[Use this section to include action points for helping patients improve their condition or quality of life [4] during and after treatment.] Additional section header option(s): 
+Promoting long-term wellness after treatment
+Helping patients stay well
+Helping patients manage
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

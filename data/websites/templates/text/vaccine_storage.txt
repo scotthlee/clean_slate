@@ -1,0 +1,83 @@
+## Template Guidance
+
+**Primary goal:** Provide a reference for healthcare providers with vaccine
+storage and handling guidelines, including storage unit and temperature
+standards.
+
+Can also include information on:
+
+* Guidelines for transporting the vaccine
+  * Equipment disposal safety
+  * What to do when emergency removal is needed
+  * A Vaccine Storage and Handling Toolkit overview
+  * Package inserts
+  * Resources
+
+## **Important update **
+
+[Use callouts for important pieces of information. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Supply notice
+  * Expiration notice
+
+## Page title : [Disease/Vaccine Type] Vaccine Storage and Handling
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page and is required
+for all Vaccine Storage and Handling pages. The key goal is to set
+expectations and let users know if they are on the right page. Use bullets for
+each summary point.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Prior to storage 
+
+[Use this section to describe guidelines around receiving the vaccine shipment, including what to inspect and determining expiration date.] Additional section header option(s): 
+Vaccine arrival
+What to inspect before storing the vaccine
+
+## Storage unit and temperature guidelines (required)
+
+[Use this section to describe best practices for storage methods and temperature. Be sure to note whether guidelines vary based on vaccine age. Use subsections and summary tables as needed.] Additional section header option(s): 
+[Enter custom header]
+
+## Disposal guidelines 
+
+[Use this section to describe best practices for the proper disposal of sharps and other equipment. Also include information on identifying unadministered doses as “waste” and the protocol for handling that waste. Use a “Keep Reading” link if linking to a more detailed disposal page.] Keep Reading:  Disposal Information
+
+## When urgent removal is needed 
+
+[Use this section to explain how to identify emergency scenarios when a vaccine would need to be removed from a storage unit immediately, and what type of protocol should be followed. (An example would be out-of-range temperature readings.)] Additional section header option(s): 
+Emergency removal scenarios
+
+## Transporting the vaccine 
+
+[Use this section to describe best practices for transporting the vaccine. Use subsections and summary tables as needed.]
+
+## Other considerations 
+
+[Use this section to provide information on additional guidelines and best practices that aren’t captured in previous sections.] Additional section header option(s): 
+Additional guidelines
+[Enter custom header]
+
+## Using the Vaccine Storage and Handling Toolkit  
+
+
+[Use this section to describe and link to the storage and handling toolkit, which is applicable across vaccine types. If you’d prefer to surface this higher in the page, create a callout instead and place it in one of the above sections.] Additional section header option(s): 
+Use the toolkit as your comprehensive guide
+
+## Package inserts 
+
+[Use this section to link to package inserts.]
+
+## Resources 
+
+[If including resources for both healthcare providers and patients, this can be broken into sections like “For you” and “For your patients.] Additional section header option(s): 
+Resources for your patients

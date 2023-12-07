@@ -1,0 +1,74 @@
+## Template Guidance
+
+**Primary goal:** Describes possible clinical care and treatment options for
+people who are pregnant or breastfeeding.
+
+Can also include information on:
+
+* Effect on pregnancy outcomes
+  * Reducing risk while pregnant
+  * Staying healthy while pregnant
+  * Vaccines while pregnant
+  * Infection control
+  * Effects on breastfeeding
+
+## **By the numbers **
+
+[Share when recommendations are updated, what the updates are, how they differ
+from previous recommendations.]
+
+Additional section header option(s):
+
+* Research study
+  * Research data
+  * Resource
+  * New recommendations
+  * Recent changes in recommendations
+
+## Page title : [Disease/Condition] Treatment for People Who Are Pregnant
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Effect on pregnancy outcomes 
+
+[Use this section to list the treatment/condition effects on pregnancy outcomes.][1] Additional section header option(s): 
+Effect on breastfeeding
+[Enter custom header]
+
+## Helping patients reduce risk 
+
+[Use this section to explain how providers can help patients reduce risk for complications, or side effects while pregnant.] Additional section header option(s): 
+Best practices for reducing risk during treatment
+
+## Helping patients stay healthy 
+
+[Use this section to provide best practices on how to help patients stay healthy during pregnancy.] Additional section header option(s): 
+Helping patients stay well during pregnancy
+
+## Vaccine safety for pregnant patients 
+
+[Use this section to provide recommendations for how to administer vaccines to pregnant people, risks and benefits of vaccines while pregnant, and how to talk about vaccines. [2]] Additional section header option(s): 
+Breastfeeding and vaccines
+Vaccine recommendations for pregnant people
+How to talk to patients who are vaccine hesitant
+[Enter custom header]
+
+## Preventing infections 
+
+[Use this section to list recommendations for infection control.] Additional section header option(s): 
+Infection control
+How to manage infections in pregnant people
+
+## Effects on breastfeeding 
+
+[Use this section to describe how the disease, condition, or treatment might impact breastfeeding.] Additional section header option(s): 
+Potential impacts for breastfeeding
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

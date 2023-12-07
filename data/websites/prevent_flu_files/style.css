@@ -1,0 +1,190 @@
+		#cdc-chat-bot-button:hover {
+			cursor: pointer;
+		}
+
+		#cdc-chat-bot {
+			position: fixed;
+			bottom: 110px;
+			right: 0;
+			width: 185px;
+			height: 45px;
+			border-radius: 5px 0 0 5px;
+			box-shadow: 1px 2px 20px 0px gray;
+			border: 0;
+			background-color: #ffecb3;
+			padding-top: 8px;
+			color: black;
+			z-index: 1;
+		}
+
+		#cdc-chat-bot:hover {
+			opacity: 0.7;
+		}
+
+		#cdc-chat-bot:focus {
+			box-shadow: unset;
+			outline: auto 3px rgba(255, 102, 1, .9);
+		}
+
+		#cdc-chat-bot span.cdc-icon-chat_03 {
+			opacity: 0.7;
+			vertical-align: top;
+			display: inline-block;
+			width: 32px;
+		}
+
+		#cdc-chat-bot span.cdc-chat-bot-name {
+			vertical-align: top;
+			display: inline-block;
+			width: 110px;
+			text-align: center;
+		}
+
+		#cdc-chat-bot #cdc-chat-bot-img {
+			width: 50px;
+			height: 50px;
+			vertical-align: top;
+			margin-left: -10px;
+		}
+
+		.bot-modal {
+			display: none;
+			position: fixed;
+			z-index: 2147483647;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+
+		.bot-modal .card-header div {
+			font-size: 20px;
+			font-weight: 700;
+		}
+
+		.bot-modal .card-header div.row div.col-md-12>span {
+			font-weight: normal;
+		}
+
+		.bot-modal .card-header {
+			-webkit-box-shadow: 0 3px 3px gray;
+			-moz-box-shadow: 0 3px 3px gray;
+			box-shadow: 0 3px 3px gray;
+			max-height: 76px;
+			z-index: 99999;
+		}
+
+		.bot-modal .card-header span.self-checker-name {
+			line-height: 1em;
+		}
+
+		.bot-modal .card-header.pt-2 {
+			padding: 3px!important;
+		}
+
+		.bot-modal svg {
+			width: 100%;
+			max-width: 70px;
+			max-height: 60px;
+		}
+
+		.bot-modal .card-footer {
+			padding: 3px 6px;
+		}
+
+		.bot-modal .attribution span {
+			font-size: small;
+			margin: 0 12px;
+		}
+
+		#webchat .bubble {
+			min-width: auto !important;
+		}
+
+		#webchat form {
+			padding-left: 0 !important;
+		}
+
+		iframe#cdc-covid19-healthbot {
+			width: 100%;
+			height: 100%;
+			z-index: 99999;
+			background-color: white;
+			overflow-y: scroll;
+			border: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.bot-modal .card-header {
+			position: relative;
+		}
+
+		.bot-modal .card-header .c-black {
+			color: #ffffff !important;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+
+		.bot-modal .card .card-header button.restart {
+			border: 1px solid #fff;
+			border-radius: 6px;
+			background-color: #005eaa;
+			color: #fff;
+			height: 34px;
+			margin-right: 9px;
+		}
+
+		.bot-modal .card .card-header button.restart .restart-label {
+			font-size: 0.9rem;
+			margin-left: 3px;
+		}
+
+		.bot-modal .card .card-header button:focus {
+			box-shadow: unset;
+			outline: auto 3px rgba(255, 102, 1, .9);
+		}
+
+		.bot-modal .card-header button.close {
+			color: white;
+			padding: 6px 6px 9px 6px;
+			font-size: 48px;
+			line-height: 0.8rem;
+			opacity: 1;
+			z-index: 999;
+			height: 34px;
+			overflow: hidden;
+		}
+
+		.bot-modal .card .card-body,
+		.bot-modal .card .card-body iframe {
+			border-radius: 0 0 3px 3px;
+		}
+
+		.bot-modal .card-header .bot-logo {
+			width: 15%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.bot-modal .card-header .bot-title {
+			width: 50%;
+			display: inline-block;
+			vertical-align: bottom;
+			padding-bottom: 9px;
+		}
+
+		.bot-modal .card-header .bot-buttons {
+			width: 35%;
+			display: inline-block;
+			position: absolute;
+			top: 0.3rem;
+			right: 1.0rem;
+			text-align: right;
+		}
+
+		@media (min-width: 576px) and (max-width: 767px) {
+			.bot-modal .card-header .bot-title {
+				padding-top: 0;
+			}
+		}

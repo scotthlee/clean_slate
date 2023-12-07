@@ -1,0 +1,85 @@
+## Template Guidance
+
+**Primary goal:** Provide key product information about a vaccine to
+healthcare providers, including composition, effectiveness, and precautions.
+
+Can also include:
+
+* Important vaccine updates
+  * Contraindications
+  * Reporting adverse events
+  * Administration overview
+  * Storage and handling overview
+  * Package inserts
+  * Resources
+
+## **Vaccine Information Statement (VIS) **
+
+[Use callouts for important pieces of information. These callouts can be
+placed in any section.
+
+Additional section header option(s):
+
+* Reporting adverse events
+  * Remember
+  * Keep in mind
+  * Did you know?
+  * Helpful terms
+  * Talking with your patients
+
+## Page title : [Disease/Vaccine Type] Vaccine Product Information
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page and is required
+for all Vaccine Planning pages. The key goal is to set expectations and let
+users know if they are on the right page. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Important update 
+
+[Use this callout if there’s an important update about the vaccine that needs to be surfaced, such as a shortage, discontinuation, or pending expiration. Link to details] Additional section header option(s): 
+[Enter custom header]
+
+## Composition and dosage 
+
+[Use this section to provide information on ingredients and dosage volumes. Use subsections as needed for multiple vaccine types.]
+
+## Vaccine effectiveness 
+
+[Use this section to provide information on the vaccine effectiveness and duration of protection. Include information on clinical studies as needed.] Additional section header option(s): 
+Effectiveness
+Effectiveness and duration of protection
+Efficacy
+[Enter custom header]
+
+## Precautions and contraindications 
+
+[Use this section to provide information around who shouldn’t receive the vaccine, safe circumstances for administering the vaccine, whether there are conditions that contraindicate the vaccine, etc. Also include information about potential reactions/side effects.] Additional section header option(s): 
+Safety and precautions
+Safety and side effects
+
+## Administering the vaccine
+
+[Use this section to provide basic information about administering the vaccine. As a general guideline, if this section is more than 2 paragraphs, give an intro and link to the vaccine’s “Administration” page.]
+
+## Storage and handling overview 
+
+[Use this section to provide basic information about storage and handling. As a general guideline, if this section is more than 2 paragraphs, give an intro and link to the vaccine’s “Storage and Handling” page.] Additional section header option(s): 
+Storage and handling
+
+## Package inserts 
+
+[Use this section to link to package inserts.]
+
+## Resources 
+
+[If including resources for both healthcare providers and patients, this can be broken into sections like “For you” and “For your patients”.] Resources for you [Resource 1]
+[Resource 2]
+[Resource 3] Resources for your patients [Resource 1]
+[Resource 2]
+[Resource 3]

@@ -1,0 +1,48 @@
+## Template Guidance
+
+**Primary goal:** Provide information about publications/reports, links to
+publications, and citations.
+
+Can also include:
+
+* Introduction
+  * Publication details
+  * Supporting files
+  * Additional information
+
+## Page title : [Publication Title]
+
+## At a glance (required)
+
+[This section provides a high-level description of what the publication is
+about. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Background 
+
+[Use this space for an abstract or overview. It can also provide brief background information on the publication or highlight key findings.] Additional section header option(s): 
+Abstract
+Highlights
+[Enter custom header]
+
+## Supporting files 
+
+[Use this section in include alternate languages, supplementary files, etc.] Additional section header option(s): 
+[Enter custom header]
+ Supporting file
+Supporting file
+Supporting file
+
+## Additional information 
+
+[Use this section to briefly reference additional information such as data, technical notes, or acknowledgements.] Additional section header option(s): 
+[Enter custom header]
+
+## Suggested Citation 
+
+[Use this section to let people know how they can cite the information.] Additional section header option(s): 
+Citing this publication

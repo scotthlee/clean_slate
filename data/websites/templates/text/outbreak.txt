@@ -1,0 +1,88 @@
+## Template Guidance & Other Outbreak Content Types
+
+* **Outbreak Main** : Provides an overview of an outbreak, including the date an investigation started, current status, outbreak summary, etc.
+  * Locations: Shows where people got sick from the outbreak
+  * Timeline: Outlines when people got sick from the outbreak
+  * Investigation Update: Provides investigation details for the outbreak
+
+## Page title : [Disease/Condition] Outbreak Linked to [Topic]
+
+## Notice (required)
+
+[This section summarizes the main message of the entire page. The key goal is
+to set expectations and let users know if they are on the right page. Use no
+more than 2 sentences.]
+
+Additional section header option(s):
+
+* Update
+  * Alert
+
+## Fast facts
+
+Status: (required) Active investigation notice
+(first posted on February 15, 2023) Recall: Yes 
+United States
+
+Confirmed cases [#]
+Probable cases [#]
+Hospitalizations [#]
+Deaths [#]
+Locations [#]
+
+
+International
+
+Confirmed cases [#]
+Probable cases [#]
+Hospitalizations [#]
+Deaths [#]
+
+## Fast facts
+
+Status: (required) Active investigation notice
+(first posted on February 15, 2023) Recall: Yes United States 
+Confirmed cases [#]
+Probable cases [#]
+Hospitalizations [#]
+Deaths [#]
+Locations [#]
+ International 
+Confirmed cases [#]
+Probable cases [#]
+Hospitalizations [#]
+Deaths [#]
+
+## Outbreak investigation summary (required)
+
+[Summary of outbreak] Investigation summary (required) [Short description of CDC’s partnership and approach to the situation.] “The Centers for Disease Control and Prevention (CDC), the U.S. Food and Drug Administration (FDA), the Texas Department of State Health Services, and other public health partners, are investigating a multistate outbreak of norovirus illnesses linked to raw oysters from Texas.”
+
+## Situation summary 
+
+[Summary of outbreak]
+
+## Source of the outbreak 
+
+[Describe source of outbreak]
+
+## Recalled items 
+
+
+
+## What you should do 
+
+[What the general public should do in response to this outbreak]
+
+## What [audience/location] should do 
+
+[What specific populations or locations should do in response to the outbreak] Audience [Suggestion 1]
+[Suggestion 2] Locations [Suggestion 1]
+[Suggestion 2]
+
+## About [topic] 
+
+[Information about the disease or condition]
+
+## Symptoms of [topic] 
+
+[Description of symptoms related to the disease or condition]

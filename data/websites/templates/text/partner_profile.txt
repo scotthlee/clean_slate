@@ -1,0 +1,31 @@
+## Template Guidance
+
+**Primary goal:** Provides information on organizations partnering with CDC.
+
+Can also include:
+
+* About the organization
+  * Work with CDC
+  * Points of contact
+
+## Page title : [Partner Name][(Partner Acronym)]
+
+## Partner summary (required)
+
+[Partner summary: Short summary about what they do and how they work with CDC]
+
+## About [partner] 
+
+[Short description of their mission and work]
+
+## Working with CDC 
+
+[Description of their work with CDC]
+
+## About [partner]
+
+[Short description of their mission and work]
+
+## Working with CDC
+
+[Description of their work with CDC]

@@ -1,0 +1,111 @@
+## Template Guidance
+
+**Primary goal:** Provide information for lab personnel about conducting lab
+tests.
+
+Can also include information on:
+
+* How the lab supports public health
+  * Lab services offered
+  * Test methods
+  * Laboratory guidelines
+  * Collecting and sending specimens
+  * Interpreting and reporting results
+  * Partnerships
+
+## **Keep in mind (optional callout for any section)**
+
+[Use callouts to draw attention to pieces of information. For Lab Information
+and Testing Procedures, callouts can highlight a guideline or key
+consideration. You can either choose from “suggested” callouts or create your
+own.]
+
+Additional section header option(s):
+
+* Important guideline
+  * Important consideration
+  * Important
+
+## Page title : Laboratory Testing for [Test Name]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**October 27, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including:
+
+* An updated template name
+  * New page title and section header options
+  * 4 new sections
+
+Note that this template will also have accordion and “See more”
+expand/collapse options in December.
+
+## Overview 
+
+[Use this section to provide an overview of lab testing procedures or provide information about a specific lab or lab testing efforts.] Additional section header option(s): 
+About the lab
+[Custom heading]
+
+## How the lab supports public health 
+
+[Use this section to describe laboratory efforts to serves as a resource and outbreak support for state and local health departments, domestic and international researchers, and other laboratory and hospital personnel.] Additional section header option(s): 
+Lab efforts and initiatives
+[Custom heading]
+
+## Services and outreach 
+
+[Use this section to describe how the lab serves as a resource for state and local health departments, domestic and international researchers, and other laboratory and hospital personnel.] Additional section header option(s): 
+Resource lab
+How to request laboratory testing
+
+## Types of tests 
+
+[Use this section to describe different types of tests or testing techniques, if applicable. Use subsections for each test type.
+Example subheaders: Serologic tests, Molecular tests, Nucleic acid amplification tests] Additional section header option(s): 
+Test approaches
+Test methods
+Testing techniques
+Lab methods
+ [Test type 1] [Test type 2]
+
+## Laboratory guidelines 
+
+[Use this section to describe laboratory guidelines. Break into subsections as needed. Note that separate Content Types exist for Specimen Collection and Specimen Shipment/Handling, so detailed information about those guidelines should live in a separate page with a “Keep reading” link here.
+Example subheaders: General guidelines, Risk assessment, Risk during emergencies] Additional section header option(s): 
+Laboratory safety and risks
+ [Guideline 1] [Guideline 2]
+
+## Specimen collection overview 
+
+[Use this section to briefly describe how specimens are collected, with a “Keep reading” link to the detailed Specimen Collection page.] Additional section header option(s): 
+Specimen collection
+
+## Sending specimens 
+
+[Use this section to briefly describe how specimens are transported, with a “Keep reading” link to the detailed Specimen Submission page. This could also be broken into subsections like “Where to send specimens,” “Specimen rejection criteria,” and “Shipping and handling overview” (with a link).] Additional section header option(s): 
+Submitting specimens
+
+## Interpreting results 
+
+[Use this section to describe considerations for interpreting lab results and detecting viruses, bacteria, etc. Use subsections as needed. Example subheaders: Laboratory confirmation, Laboratory criteria for diagnosis, Virus strain identification] Additional section header option(s): 
+Detection
+Virus detection
+Bacteria detection
+ [Results 1] [Results 2]
+
+## Reporting results 
+
+[Use this section to describe lab reporting protocol. This could include information about what to report, who should report it, and how to report it.] Additional section header option(s): 
+How to report test results
+
+## Lab partnerships 
+
+[Use this section to describe specific labs or programs that CDC partners with for research.] Additional section header option(s): 
+Programs
+Who we work with
+
+## Resources 
+
+[Use this section to provide resources such as courses, guides, and safety checklists.]

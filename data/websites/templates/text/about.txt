@@ -1,0 +1,84 @@
+## Template Guidance
+
+**Primary goal:** Introduce a CIO or division.
+
+Can also include:
+
+* Values
+  * Priorities
+  * Goals
+  * Impact
+  * Overview of work
+  * Leadership summary
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Key activities 
+
+[Use callouts to highlight important pieces of information or show examples.
+They can also be used to link to a story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Spotlight
+  * Story
+  * Strategic plan
+  * Resource
+
+## Page title : About [CIO or Division Name]
+
+## **At a glance (required)**
+
+[Use this section to provide a high-level description of the CIO/Division is
+and what they do. Use no more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## Our mission (required)
+
+[Use this section to provide a detailed mission statement for the CIO/division (goals could either be included here or in the separate “Goals” section).] Additional section header option(s): 
+What we do
+
+## Values 
+
+[Use this section to list the CIO/division’s values.] 
+[List of CIO/division’s values]
+[Value]
+[Value]
+
+## Priorities 
+
+[Use this section to describe the CIO/division’s priorities. Break into bullets or use subheaders as needed.] Additional section header option(s): 
+Focus
+
+## Goals 
+
+[Use this section to describe the CIO/division’s goals. Break into bullets or use subheaders as needed.]
+
+## Why it’s important 
+
+[Use this section to share the impact, statistics, and an explanation of why the work matters.] Additional section header option(s): 
+Why it matters
+Our impact
+[Enter custom header]
+
+## Our work 
+
+[Use this section to share what this CIO/division does and how.] Additional section header option(s): 
+How we do it
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources like programs, budget info, projects, publications, and implementation stories. Break into subheaders if using different categories.]

@@ -1,0 +1,84 @@
+## Template Guidance
+
+**Primary goal:** Provide information about self-care or caring for others
+during sickness, injuries, disasters, chronic conditions, therapy, or
+recovery.
+
+Can also include information on:
+
+* Why it matters
+  * Important conversations to have
+  * What to do right away
+  * Care tips
+  * Facing challenges
+  * What to watch out for
+  * Resources
+
+## **Keep in mind** 
+
+[Use tip and reminder callouts for brief, important pieces of information.
+These callouts can go in any section.]
+
+Additional section header option(s):
+
+* Tip
+  * Remember
+
+## Page title : [Description]: Caring for Yourself and Others
+
+## Key points (required)
+
+* [Highlight important recommendations]
+  * [Summarize main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Why it matters 
+
+[Use this section to describe the importance of self-care or supporting others during sickness, chronic conditions, injuries, after a diagnosis, or during recovery.] Additional section header option(s): 
+Why self-care matters
+Why your support matters
+Overview
+[Enter custom header]
+
+## Important conversations to have 
+
+[Use this section to talk about important conversations someone would have in relation to the topic. Examples: talking to close contacts who may have been exposed to a disease, or emotionally supporting a child. For extended conversation guidance, use the “Talking To” Content Type and include a “Keep reading” link.] Additional section header option(s): 
+Important topics to discuss
+Talking about it
+ Keep Reading: Conversation Tips
+
+## Taking immediate action 
+
+[Use this section to describe, if applicable, what to do if someone has recently been diagnosed, received a positive test result, been injured, etc. Example subsections: Notify close contacts, Find care, Explore treatment options.] Additional section header option(s): 
+Things you can do right away
+First steps
+
+## Providing care 
+
+[Use this section to describe ways to practice self-care or to offer care for someone else. Break into subsections as needed.] Additional section header option(s): 
+Care tips
+Support tips
+Care steps
+Taking care of yourself
+Next steps
+[Enter custom header]
+
+## Facing challenges 
+
+[Use this section to provide tips for overcoming challenges.] Additional section header option(s): 
+Coping with challenges
+Ways to cope
+Offering support through challenges
+Managing side effects
+
+## What to watch out for 
+
+[Use this section to describe anything that should cause alert or possibly require emergency care.] Additional section header option(s): 
+When extra help is needed
+When to call a doctor
+When to seek emergency care
+
+## Resources 
+
+[Use this section to provide resources and tools.]

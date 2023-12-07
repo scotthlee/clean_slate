@@ -1,0 +1,141 @@
+
+	/*Button code per Pete until they add this to the main CSS */
+
+.theme-purple #body a.button{
+background:#3d316a;
+color:#fff;
+text-decoration:none
+}
+.theme-purple #body a.button:hover{
+color:#fff
+}
+.theme-purple #body a.button:visited{
+color:#fff
+}
+
+.theme-purple #body .btn-primary{
+background-image: linear-gradient(rgb(61, 49, 106), rgb(61, 49, 106)) !important;
+
+}
+/*Adds a border underneath the facebook or twitter posts for separation*/
+.post {
+	border-bottom: 1px dashed #CCC;
+}
+.module .ui-tabs .ui-tabs-hide { 
+                  left: -99999px;
+                  position: absolute;
+}
+#datestamp ul li > ul li + li {
+	display: block;
+}
+.size {
+	color: #888888;
+	font-size: .9em;
+	font-weight: normal;
+}
+
+.update {
+	color: #A00000;
+	font-weight: normal;
+}
+.newupdated {
+	color: #8f0000;
+}
+
+/*Makes the links in bullets to be on the same line as the sentence  */
+
+#content .module li a .ainline, #content .rounders li a .ainline {
+ display: inline;
+ margin-right: 6px;
+}
+
+p.subtitle {
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+/*Corrects external links from displaying block*/
+#content .module.cdc-accordion li span.cdc-decorated {
+	display: inline;
+}
+
+#rss-block ul {padding-left:15px;}
+#rss-block .item-pubdate {display:block; font-size:.9em; color:#999;}
+
+#datestamp ul li > ul li + li {display: block;}
+
+/* Whats New Feeds */ 
+div#rss-whatsnew a.item-title{	font-size: 14px !important;}
+div#rss-whatsnew .item-description { line-height: 20px; padding-left:10px;}
+div#rss-whatsnew .item-pubdate {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666;
+	display:block;
+	padding-left:10px;
+}
+div#rss-whatsnew ul  {	list-style-type:none; }
+
+/* Whats New Feeds NEW */ 
+div#rss-block-new a.item-title{	font-size: 14px !important;}
+div#rss-block-new .item-pubdate, .feed-item-date {
+	line-height: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #666666 !important;
+	display:block;
+	padding-left:10px;
+}
+div#rss-block-new .item-description {
+	line-height: 20px;
+	font-size: 0.9em;
+	display:block;
+	padding-left:10px;
+}
+.feed-item-description {
+	line-height: 20px;
+	font-size: 1em;
+	display:block;
+}
+div#rss-block-new ul  {	list-style-type:none; }
+ul.feed-item-list { list-style-type:none; }
+a.feed-item-title-update {
+	font-size: 14px !important;
+}
+.feed-item-date-update {
+	line-height: 20px;
+	font-size: 14px;
+	color: #666666 !important;
+	padding-left:10px;
+	padding-right:20px;
+}
+ul.feed-item-list-update {
+	list-style-type:none;
+}
+ul.feed-item-list-update li {
+	border-bottom:dotted 1px #CCCCCC;
+}
+
+/* from Pete to help with nowrap mainly in tables */
+.no-wrap { white-space: nowrap; }
+
+/* from Pete for PDF link styling in lists */
+ul li a.nonHtml.plugin .tp-label {
+       text-decoration: underline;
+}
+
+ul li a.nonHtml.plugin:hover .tp-label {
+       text-decoration: none;
+}
+
+.half-divide{
+	border-right:1px solid #ccc;
+	width:50%;
+}
+
+.table-top td{
+	vertical-align: top!important;
+}

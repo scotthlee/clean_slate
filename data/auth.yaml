@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    yle4:
+      email: yle4@cdc.gov
+      name: Scott Lee
+      password: $2b$12$Y2ULuj3inUcXarHM6gzJKe6Bmu2Fx4cFAYe9JgZQerwecf.hrYuVy
+    cqh9:
+      email: cqh9@cdc.gov
+      name: Chad Heilig
+      password: $2b$12$4Fnozg.InLnzR0sdfTt8qOT.JkHTrEk6zYKkFcpeqVFY6IuqOXRde
+    wjl9:
+      email: wjl9@cdc.gov
+      name: Laura Murrell
+      password: $2b$12$wUFlxVByHeHoGGrNfytx2.XwIbsJ2v4aPtrjry9ioDJpHQmfhav6O
+cookie:
+  expiry_days: 0
+  key: UYYbQGrYvYqtbSERKAiLbMCeZddLAnGgIHyWEtzF
+  name: wce_login
+preauthorized:
+  emails:
+  - yle4@cdc.gov

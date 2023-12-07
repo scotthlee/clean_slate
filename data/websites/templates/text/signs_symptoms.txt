@@ -1,0 +1,72 @@
+## Template Guidance
+
+**Primary goal:** Provide detailed information about the specific signs and
+symptoms of a disease, illness, or circumstance for a broad audience.
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Page title : Symptoms of [Topic]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**November 15, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including:
+
+* A new page title option for complications
+  * Separate H2 sections for early and late symptoms
+  * More H2 label options for the first section
+
+## Symptoms 
+
+[This section goes in-depth on specific signs and symptoms. Create a subsection for each sign or symptom with its name as the header (ex. Vision changes, Cough, Fatigue). Below each one, address topics related to the sign or symptom in detail. Additional section header option(s): 
+Signs and symptoms
+What to look out for
+How it affects your body
+How it affects your health
+
+## Early signs 
+
+[Use this section to list signs and symptoms that would appear first.] Additional section header option(s): 
+Early symptoms
+Early signs and symptoms
+
+## Later symptoms 
+
+[Use this section to list signs and symptoms that would appear over time.] Additional section header option(s): 
+Late-stage signs
+Late-stage symptoms
+Late-stage signs and symptoms
+
+## Complications and when to seek help 
+
+[Use this section to explain when a person should seek help related to any signs or symptoms.] Additional section header option(s): 
+Complications
+When to talk to your doctor
+When to seek emergency help
+
+## Signs and symptoms in animals 
+
+[Use this section to describe how signs and symptoms of the disease or condition present themselves in animals.
+Example subheaders: Signs and symptoms in dogs, Early symptoms in animals (H4 subheaders can be specific animals), Late-stage signs in animals (H4 subheaders can be specific animals), Early warning signs in primates.] Additional section header option(s): 
+[Custom heading]
+
+## [Disease/Condition Name] and [Comparison Disease/Condition Name] 
+
+[Use this section to compare, contrast, or clarify between signs and symptoms of similar diseases, conditions, or circumstances.] 
+[Consider using a table to show the differences OR]
+[Consider using a heading for each condition with a description below.]
+ Additional section header option(s): 
+[Custom heading]
+
+## Resources 
+
+[Use this section to add additional, relevant resources regarding the disease, condition, or circumstance.] Additional section header option(s): 
+Tools

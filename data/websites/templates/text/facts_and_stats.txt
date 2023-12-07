@@ -1,0 +1,125 @@
+## Template Guidance
+
+**Primary goal:** Provide an organized and structured way to view important
+facts and/or statistics related to a topic.
+
+Can also include information on:
+
+* An introduction
+  * Highlights
+  * Latest trends
+  * Challenges
+  * Populations
+  * Impact
+  * Prevention
+  * What’s being done
+  * Next steps
+  * Common questions
+  * Data sources
+  * Resources
+
+**Usage tips:**
+
+* Be sure to include meaningful captions when presenting infographs.
+  * For data tables or data visualizations, use the “Developer Request” component.
+  * Select the sections that are most relevant to your communication needs. Some “Facts and Stats” pages will only use 2-3 sections, while others may use most of the available sections.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Definition 
+
+[Use callouts for important pieces of information or to surface specific facts
+and stats.]
+
+Additional section header option(s):
+
+* Spotlight
+  * Resource
+  * Fact
+  * Did you know?
+  * Important signs
+
+## Page title : [Topic] Facts
+
+## At a glance (required)
+
+[This section summarizes the main message of the entire page. The key goal is
+to set expectations and let users know if they are on the right page. Use no
+more than 2 sentences.]
+
+Additional section header option(s):
+
+* What to know
+  * Key points
+
+## The basics 
+
+[Use this section to optionally introduce a topic if framing is needed before getting into the facts and stats.] Additional section header option(s): 
+What it is
+[Enter custom header]
+
+## Highlights 
+
+[Use this section to introduce the topic using bullets, paragraph, or a data visual before getting into more facts and/or stats. In some cases, it may be the only section that includes facts/stats, depending on the level of detail needed. Break into subsection as needed.
+Example subheaders: Infection rates, Populations most impacted, Recovery rates] Additional section header option(s): 
+FastStats
+Fast facts
+Quick stats
+[Enter custom header]
+
+## Latest trends 
+
+[Use this section as the primary focus for providing detailed facts and stats. It can be used in combination with the “Highlights” section above; alternatively, “Highlights” can be skipped and this section can be presented first. Infographs and data visuals can be included here. Break categories into subsection as needed.] Additional section header option(s): 
+What the research shows
+What the data shows
+What we’ve learned
+U.S. data
+Recent data
+[Enter custom header]
+
+## Populations 
+
+[Use this section to list facts and/or stats related to who is impacted by the topic. Break bulleted facts and/or stats out into subheaders as needed and avoid using a question format. Example subheaders: North America, Children, Elderly and immunocompromised.] Additional section header option(s): 
+Who is affected
+Affected populations
+
+## Impacts 
+
+[Use this section to include information or list facts/stats related to the impacts and implications of the topic.
+Example subheaders: Long-term disability, Reinfection, Recovery progress] Additional section header option(s): 
+[Enter custom header]
+
+## Prevention 
+
+[Use this section to include information or list facts/stats focused on prevention and actions people can take.
+Example subheaders: Vaccines, Education, Further research, Awareness] Additional section header option(s): 
+How to prevent it
+How it can be prevented
+What you can do
+What to do
+Actions to take
+What’s next
+Next steps
+
+## What’s being done 
+
+[Use this section to include information or list facts/stats related to what is being done (by the CDC or others) in regard to the topic.
+Example subheaders: Cooperation, Education, Further research] Additional section header option(s): 
+What’s being done
+Programs and initiatives
+
+## Common questions 
+
+[Use this section to address up to 5 common questions that someone might have about the topic. Format questions as H3s and answers as normal text.] Additional section header option(s): 
+Frequently asked questions
+
+## Data sources 
+
+[Use this section to describe where the data comes from, with links to programs and initiatives if appropriate.] Additional section header option(s): 
+Where the data comes from
+
+## Resources 
+
+[Use this section to include resources related to the topic.]

@@ -1,0 +1,64 @@
+## Template Guidance
+
+**Primary goal:** Provide instructions for lab personnel about sending
+specimens, including submission guidelines and packaging protocol.
+
+Can also include:
+
+* Specimen acceptance criteria
+  * Before submission
+  * Forms to include
+  * Specimen shipping
+  * Contact information
+  * Resources
+
+## **Keep in mind **
+
+[Use callouts for important pieces of information, such as guidelines and
+considerations.]
+
+Additional section header option(s):
+
+* Important
+  * Important guideline
+  * Important consideration
+
+## Page title : Submitting Specimens for [Name] Testing
+
+## **Important **
+
+[Use this callout to surface any crucial top-of-page messages that may be
+needed for laboratory personnel. These might include alerts, updates, or
+procedural information related to emergencies or bioterrorism. Less urgent
+callouts should be placed in other sections.]
+
+## Specimen acceptance criteria 
+
+[Use this section to describe requirements like approved specimen types, and what sort of characteristics would result in a specimen being rejected.]
+
+## Before submission 
+
+[Use this section to describe any actions that should be taken before a specimen is prepared for shipment. This might include emailing specific details to CDC and waiting for approval.] Additional section header option(s): 
+[Enter custom header]
+
+## Documentation to include 
+
+[Use this section to describe and link to forms or other documentation that would need to be included with the specimen submission.[2]] Additional section header option(s): 
+Forms to include
+
+## Packaging and labeling guidelines 
+
+[Use this section to outline the specimen packaging and labeling protocol. Use subsections and numbered lists as needed. (Subsections could be categorized by packaging type, what storage method was used, the specimen’s risk level, etc.) .] Packaging type 1 [Description of packaging type 1] Packaging type 2 [Description of packaging type 2] Packaging type 3 [Description of packaging type 3] Additional section header option(s): 
+Specimen packaging
+
+## Specimen shipping 
+
+[Use this section to describe information needed to ship the specimen, such as which days packages are accepted, special weekend/holiday instructions, where to send tracking info, and the mailing address.[3]]
+
+## Contact Information 
+
+[Use this section to let people know who they can reach out to with questions.]
+
+## Resources 
+
+[Use this section to provide resources, such as checklists and printable protocol sheets.] [Link to Checklist 1] [Link to Checklist 2] [Link to printable Protocol Sheet]

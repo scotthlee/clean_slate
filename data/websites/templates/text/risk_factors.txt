@@ -1,0 +1,127 @@
+## Template Guidance
+
+**Primary goal:** Describe considerations for people at increased risk of a
+disease, condition, or circumstance.
+
+Can also include information on:
+
+* Specific risk factor categories such as population and condition
+  * Health impacts
+  * Preventive and protective factors
+  * How risk relates to health equity
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Fact
+
+[Use callouts for fact statements or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* By the numbers
+  * Did you know?
+  * Resource
+
+## Page title : Risk Factors for [Topic]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+November 15, 2023 to reflect changes coming for the December DFE release. You
+may notice a few differences between what you see here versus what’s in the
+DFE today, including:
+
+* New page title options
+  * New section header options
+  * A new section for describing health impacts of a disease, condition, behavior, or scenario
+
+## What increases risk 
+
+[Use this section to briefly describe the overall nature of the risk, along with the types/categories of risk factors for a disease, condition, or circumstance. Ex: hereditary, lifestyle, environmental, underlying health conditions.] Additional section header option(s): 
+Types of risk factors
+[Custom heading]
+
+## Who’s at risk 
+
+[Use this section to describe how particular groups of people are at increased risk. Ex: Age, sex, race, ethnicity.] Additional section header option(s): 
+People at increased risk
+Populations at increased risk
+Who it affects
+[Custom heading]
+
+## Conditions that can increase risk 
+
+[Use this section to describe conditions that can increase risk, such as elevated blood pressure or diabetes.] Additional section header option(s): 
+How it affects people with health conditions
+How pregnancy increases risk
+
+## Characteristics that can increase risk 
+
+[Use this section to describe characteristics that can increase risk, such as family history or history of live births.] Additional section header option(s): 
+Things that can increase risk
+How age affects risk
+How family history affects risk
+
+## Behaviors that can increase risk 
+
+[Use this section to describe behaviors or activities that can increase risk, such as alcohol use or an unhealthy diet.] Additional section header option(s): 
+Activities that can increase risk
+What makes the impacts worse
+
+## Times of increased risk 
+
+[Use this section to describe periods of time or events that may increase risk, such a large gatherings.] Additional section header option(s): 
+When you’re more at risk
+When people are more at risk
+
+## Places with increased risk 
+
+[Use this section to describe locations where people are at risk. If there aren’t distinctions between locations, use a bulleted list. If each location has different information, add a subsection per location.] Additional section header option(s): 
+Locations with increased risk
+
+## Other risk factors 
+
+[Use this section to describe additional factors that aren’t captured within the above categories.] Additional section header option(s): 
+Other factors that can increase risk
+[Custom heading]
+
+## Risk factors for victimization 
+
+[Use this section to describe factors (such as individual, family, relationship, and community factors that may increase someone’s risk of being a victim. Ex: a victim of youth violence.] Additional section header option(s): 
+[Custom heading]
+
+## Risk factors for perpetration 
+
+[Use this section to describe factors (such as individual, family, relationship, and community factors) that may increase someone’s risk of being a perpetrator. Ex: a perpetrator of intimate partner violence.] Additional section header option(s): 
+[Custom heading]
+
+## Health impacts 
+
+[Use this section to describe the potential health impacts of a disease, condition, behavior, or scenario. Use H3s to create subsections that describe individual impacts.] Additional section header option(s): 
+How it affects your health
+[Custom heading]
+
+## Prevention 
+
+[Use this section to describe preventive or protective factors that lesson the likelihood of a disease, condition, or outcome. Use a “Keep reading” link if a separate page on prevention exists.] Additional section header option(s): 
+Protective factors
+What protects against risk
+[Custom heading]
+
+## Health equity 
+
+[Use this section to discuss health equity related to the risk factors (for instance, whether certain people are more likely to experience risk and adverse outcomes that stem from societal inequities). Use a “Keep reading” link if a more thorough health equity page exists.] Additional section header option(s): 
+How risk relates to health equity
+
+## Resources 
+
+[Use this section to provide resources and tools. You might also use this section to link to related programs and initiatives. Break into subsections for audience or category as needed.]

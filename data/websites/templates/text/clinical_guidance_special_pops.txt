@@ -1,0 +1,77 @@
+## Template Guidance
+
+**Primary goal:** Describes possible clinical care and treatment options for
+special populations.
+
+Can also include information on:
+
+* Care and treatment considerations
+  * Risks
+  * Signs and Symptoms
+  * Disease/condition management
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Recommendation 
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* New recommendations
+  * Recent changes in recommendations
+  * Resource
+  * Consideration
+
+## Page title : [Disease/Condition] Clinical Considerations for Special Populations
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Required for all Clinical Guidance for Special Populations pages]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Care and treatment considerations 
+
+[Use this section to explain the care or treatment this population needs and any special considerations for care.] [1] Additional section header option(s): 
+Special considerations
+[Enter custom header]
+
+## Additional risks 
+
+[Use this section to explain any risks or additional risks this population may face, along with risk assessment questions or considerations.] Additional section header option(s): 
+Risk
+Risk assessment
+[Enter custom header]
+
+## Symptoms 
+
+[Use this section to describe how signs and symptoms present themselves for this special population. Include any additional symptoms not seen in the general population.][2] Additional section header option(s): 
+Signs
+Additional symptoms
+
+## Treatment 
+
+[Use this section to provide recommended treatments for specific populations.] Additional section header option(s): 
+Recommended treatment
+[Enter custom header]
+
+## Long-term management 
+
+[Use this section to provide recommendations on how to manage the disease or condition for specific populations, including managing ongoing symptoms and infections.][3] Additional section header option(s): 
+Condition management
+Symptoms management
+Infection management
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

@@ -1,0 +1,87 @@
+## Template Guidance
+
+**Primary goal:** List information for healthcare providers about how the
+disease appears in the general public and special populations.
+
+Can also include information on:
+
+* Clinical presentation
+  * Common signs and symptoms
+  * Images
+  * Clinical assessment
+  * Complications
+  * Lab testing guidance
+  * Next steps
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Reminder 
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* By the numbers
+  * Consideration
+  * Update
+  * Resource
+
+## Page title : Clinical Features of [Disease/Condition]
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Required for all Clinical Signs and Symptoms pages]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Clinical presentation 
+
+[Use this section to present information about how the disease appears in the general public and special populations.] Additional section header option(s): 
+Disease presentation
+Clinical features
+Clinical presentation in special populations
+Clinical presentation in animals
+[Enter custom text]
+
+## Common symptoms 
+
+[Use this section to highlight a list of common signs and symptoms.] Additional section header option(s): 
+Common signs
+Common signs and symptoms
+Common signs in animals
+[Enter custom header]
+
+## Clinical assessment 
+
+[Use this section to cover guidance around assessing the disease/condition.] [1] [2]
+
+## Complications 
+
+[Use this section to cover how complications of symptoms can present themselves.] Additional section header option(s): 
+Clinical complications
+
+## Laboratory testing 
+
+[Use this section to provide information on laboratory samples, including how to submit them. For detailed information, create a separate “Lab Testing Procedures” or “Specimen Submission” page.] [3] Additional section header option(s): 
+Laboratory samples
+When and where to send samples
+Guidelines for submitting samples
+[Enter custom header]
+
+## Next steps 
+
+[Use this section to describe what the next steps would be following a confirmation or diagnosis.] Additional section header option(s): 
+Treatment overview
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

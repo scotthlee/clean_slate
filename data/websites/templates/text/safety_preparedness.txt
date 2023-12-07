@@ -1,0 +1,96 @@
+## Template Guidance
+
+**Primary Goal:** Provides safety guidelines and prevention strategies for
+both everyday and unexpected circumstances.
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## **Tip **
+
+[Use callouts for important pieces of information, such as stats or what to do
+in an urgent situation.]
+
+Additional section header option(s):
+
+* Tips
+  * Remember
+  * Keep in mind
+  * Did you know?
+  * Important info
+
+## Page title : [Topic] Safety
+
+## Key points (required)
+
+* [Includes key messages in bulleted list]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## The risks 
+
+[Use this section to explain the risks involved when certain precautions aren’t met or safety measures aren’t taken. Talk about the risks and dangers associated with particular actions or behaviors.] Additional section header option(s): 
+The dangers
+[Enter custom header]
+
+## Possible causes 
+
+[Use this section to explain how and why the situation came about.] Additional section header option(s): 
+How this happened
+How and why this happens
+[Enter custom header]
+
+## Steps to take 
+
+[Use this section to highlight what someone can do to prepare or practice safety measures. This can be a list (numbered or unnumbered), descriptions, or a set of individual subheaders. Be sure to include precautions to take or things to avoid while completing instructions.] Additional section header option(s): 
+Instructions and tips
+Create an action plan
+Create an emergency plan
+Your action plan
+Your emergency plan
+[Enter custom header]
+
+## Inside the home 
+
+[Use this section to provide information about different safety or preparation considerations for scenarios inside the home. Use with “Outside the Home” to help separate these ideas.] Additional section header option(s): 
+Indoors
+
+## Outside the home 
+
+[Use this section to provide information about different safety or preparation considerations for scenarios outside the home. Use with “Inside the Home” to help separate these ideas.] Additional section header option(s): 
+Outdoors
+
+## What to do in an emergency 
+
+[Use this section to give details about what to do in an emergency situation related to the topic.] Additional section header option(s): 
+Emergency situations
+[Enter custom header]
+
+## How to report information 
+
+[Use this section to provide contact information and instructions to relevant authorities.] Additional section header option(s): 
+Who to contact
+How to contact
+[Enter custom header]
+
+## Myths and misconceptions 
+
+[Use this section to dispel any myths or misconceptions regarding safety and protocols.] Additional section header option(s): 
+[Enter custom header]
+
+## What CDC is doing 
+
+[Info about CDC programs and related activities.]
+
+## Resources 
+
+[Use this section to provide resources and tools. You might also use this section to link to related programs and initiatives. Break into subsections for audience or category as needed.]
+
+## References 
+
+[References]

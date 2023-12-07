@@ -1,0 +1,87 @@
+## Template Guidance
+
+**Primary goal:** Outline protocols, best practices, and safety tips for
+clinical environments.
+
+Can also include:
+
+* Topic background
+  * Special considerations
+  * Staff education
+  * Common questions
+  * Assessment tools and checklists
+
+## ![image placeholder](/images/image-placeholder-medium.jpg?_=86770)
+
+**Keep in mind**
+
+[Use callouts for tips, reminders, or resources/tools that are specific to a
+section. These can go under any header.]
+
+Additional section header option(s):
+
+* Tip
+  * Tips
+  * Remember
+  * Resource
+  * Tool
+  * Checklist
+
+## Page title : Clinical Safety: [Safety Topic]
+
+## Key points (required)
+
+* [Summarizes the main message]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Why it matters 
+
+[Use this section to summarize why it’s important to follow guidelines [1] and risks for not doing so.] Additional section header option(s): 
+Why it’s important
+[Enter custom header]
+
+## Background 
+
+[Use this section to provide background info on the topic [2] — things that are helpful to understand before getting to the guidelines.]
+
+## Recommendations (required)
+
+[Use this section to provide recommendations, strategies, or guidelines to follow safe protocols. Include subsections as needed.] [Recommendation 1] [Recommendation 2] Additional section header option(s): 
+Recommendations
+Strategies
+Guidelines
+Methods
+[Enter custom header]
+
+## Special Considerations 
+
+[Use this section to document scenarios where the initial recommendations might not apply, but guidance is still needed. This might be for a specific circumstance or demographic.] Additional section header option(s): 
+Special circumstances
+[Enter custom header]
+
+## Staff education 
+
+[Use this section to provide information and resources [3] on training clinical staff members about the protocols. This might include descriptions, links to modules, and files.] Additional section header option(s): 
+Staff training
+Education and training
+
+## Common questions 
+
+[Use this section to address questions related to the topic in a Q&A format. It can be used for FAQs. Limit to a max of 4 questions and keep answers brief.] [Question 1]
+[Answer 1] [Question 2]
+[Answer 2] [Question 3]
+[Answer 3] [Question 4]
+[Answer 4] Additional section header option(s): 
+Frequently asked questions
+
+## Assessment tools 
+
+[Use this section to provide links to PDF checklists, audit tools, or similar types of resources.] 
+[Tool link 1]
+[Tool link 2]
+[Tool link 3]
+ Additional section header option(s): 
+Audit tools
+Checklists
+Checklists and tools

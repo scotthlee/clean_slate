@@ -1,0 +1,109 @@
+## Template Guidance
+
+**Primary goal:** Outline the strategy and approach of a specific intervention
+or category of interventions.
+
+Can also include:
+
+* Audience
+  * Goals
+  * Core
+  * Elements
+  * Evidence of impact
+  * Implementation guidance and materials
+  * Training
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Tip 
+
+[Use callouts for tips, facts, or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Spotlight
+  * Success story
+  * Resource
+
+## Page title : [Intervention/Strategy Name]
+
+## Available in December
+
+New Content Templates are still being added to the DFE! This page was created
+on **October 27, 2023** to reflect a template that will be available for
+select Site Models as part of the December DFE release.
+
+## About the intervention (required)
+
+[Use this section to provide basic information about the intervention’s purpose. Break information into subsections by using H3s and H4s.] Additional section header option(s): 
+About the strategy
+[Custom heading]
+
+## Intervention audience 
+
+[Use this section to specify the audience of the intervention.] Additional section header option(s): 
+Audience
+Populations
+Who it’s for
+
+## Why it’s important 
+
+[Use this section to discuss why the intervention is needed, including community, personal, or environmental impact.] Additional section header option(s): 
+Community impact
+Personal impact
+Environmental impact
+The public health issue
+[Custom heading]
+
+## Intervention objectives 
+
+[Use this section to outline the intervention’s objectives using action-oriented bullets that address the intended outcomes.] Additional section header option(s): 
+Intervention goals
+Strategy objective
+Strategy goals
+Curriculum objectives
+Outcomes
+
+## Intervention core elements 
+
+[Use this section to discuss the intervention’s core elements. Include scannable bullets and break complex information into subsections by using H3s and H4s.] Additional section header option(s): 
+Intervention essential elements
+Strategy essential elements
+Elements
+
+## Evidence of impact 
+
+[Use this section to describe the supporting evidence around the impact of the intervention.] Additional section header option(s): 
+[Enter custom header]
+
+## Implementation guidance 
+
+[Use this section to provide considerations and tips around implementation. It can also be used to describe a care model in more detail.] Additional section header option(s): 
+Implementation considerations
+Implementation tips
+[Custom heading]
+
+## Training 
+
+[Use this section to provide a training overview, instructions for accessing training, and links to training modules. Be sure to specify who the training is for.] Additional section header option(s): 
+[Enter custom header]
+
+## Implementation and marketing materials 
+
+[Use this section to include materials that support the implementation and/or marketing by health departments, community-based organizations, and health care or other organizations.] Additional section header option(s): 
+Implementation materials
+
+## Additional resources 
+
+[Use this section to provide implementation resources and tools. Provide attachments or link to related CDC and/or external pages that supplement the information on this page.] Additional section header option(s): 
+Resources
+Resources and tools

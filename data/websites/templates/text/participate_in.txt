@@ -1,0 +1,128 @@
+## Template Guidance
+
+**Primary goal:** Provide key information for people who are looking to join a
+survey registry, participate in a research study, apply for program
+membership/fellowship/funding, or apply for a permit.
+
+Can also include:
+
+* About
+  * Why participate
+  * Goals
+  * Eligibility
+  * Before applying
+  * How to apply
+  * What to expect
+  * Common questions
+  * Resources
+  * Support
+
+## Notice 
+
+[Use callouts for important pieces of information, such as notices or facts.
+You can also use a callout to spotlight an impact story.]
+
+Additional section header option(s):
+
+* Fact
+  * Resource
+  * Spotlight
+  * Where to send questions
+
+## Page title : Participate in [Description]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## About 
+
+[Use this section to provide basic information about the opportunity.] Additional section header option(s): 
+How it works
+Overview
+Background
+[Enter custom header]
+
+## Why participate 
+
+[Use this section to explain the benefits of participating, joining, or applying.] Additional section header option(s): 
+Why join
+Why apply
+[Enter custom header]
+
+## Goals 
+
+[Use this section to describe (if applicable) the goals of the opportunity.] Additional section header option(s): 
+Registry goals
+Program goals
+Organization goals
+Research goals
+
+## Eligibility 
+
+[Use this section to state what’s required for someone to participate, join, or apply. It can also include information why someone received a request to participate.] Additional section header option(s): 
+Requirements
+Qualifications
+Who can join
+Who can participate
+Who can apply
+Who receives requests to participate
+Why you were selected
+
+## Before applying 
+
+[Use this section to explain (if applicable) what someone should do before applying — for example, attending a webinar or gathering documents.] Additional section header option(s): 
+How to prepare
+
+## How to apply 
+
+[Use this section to outline the steps needed to participate, join, apply, or respond to a participation request. Break longer explanations into subsections.] Additional section header option(s): 
+How to join
+How to participate
+How to respond to an invitation
+If you were asked to participate
+
+## Your privacy 
+
+[Use this section to communicate how a person’s privacy will be protected. If this information is on a separate page, consider providing a brief overview with a “Read more” link.] Read More:  [Privacy] Additional section header option(s): 
+Protecting your privacy
+How we protect your privacy
+
+## What to expect 
+
+[Use this section to explain what someone should expect to happen next, or what to expect as part of the opportunity.] Additional section header option(s): 
+What happens next
+What happens after joining
+What happens after applying
+What information is collected
+[Enter custom header]
+
+## Where findings are published 
+
+[Use this section to describe where someone can expect to see the findings published, and how socialization of the findings leads to meaningful impact. Link to example publications.] Additional section header option(s): 
+Where results are published
+How findings are used
+[Enter custom header]
+
+## Common questions 
+
+[Use this section to address up to 5 common questions that someone might have about the opportunity. Format questions as subheaders (H3s) and answers as normal text.] Additional section header option(s): 
+Frequently asked questions
+
+## Education and training 
+
+[Use this section to provide training and education tools if appropriate. These can alternatively be integrated into the “Resources” section for minimal links/descriptions.] Additional section header option(s): 
+Training
+
+## Resources 
+
+[Use this section to provide resources and materials.] Additional section header option(s): 
+Member resources
+Participant materials
+
+## Support 
+
+[Use this section to provide information on how someone can receive support, including any relevant contact information.] Additional section header option(s): 
+Contact

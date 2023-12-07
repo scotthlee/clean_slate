@@ -1,0 +1,141 @@
+## Template Guidance
+
+**Primary goal:** Help people learn about a program, initiative, or project’s
+mission and importance.
+
+Can also include:
+
+* Priorities
+  * Milestones
+  * Accomplishments
+  * Future direction
+  * Success stories
+  * How it’s funded / funded partners
+  * How to get involved
+  * Implementation strategies
+  * Contacts
+  * Resources
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Success story 
+
+[Use callouts for fact statements or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Did you know?
+  * Spotlight
+  * Resource
+
+## Page title : [Program/Initiative Name]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**October 27, 2023** to reflect changes coming for the December DFE release.
+You may notice a few differences between what you see here versus what’s in
+the DFE today, including a new section for funded partners.
+
+## Purpose 
+
+[Use this section to summarize what the program, initiative, or project is about and what it aims to accomplish. This could also be the place to include information about its origin.] Additional section header option(s): 
+What it is
+Overview
+Background
+[Custom heading]
+
+## Impact 
+
+[Use this section to describe the type of impact the program has and why it’s important. (Skip this section if this information was covered above.)] Additional section header option(s): 
+How it impacts lives
+Why it matters
+Why it’s important
+[Custom heading]
+
+## Priorities 
+
+[Use this section to describe the program or initiative’s priorities or goals. You can also cover research goals specifically.] Additional section header option(s): 
+Program priorities
+Project priorities
+Research priorities
+Goals
+
+## Milestones 
+
+[Use this section to discuss the program or initiatives milestones or overall timeline.] Additional section header option(s): 
+Timeline
+
+## What we’ve accomplished 
+
+[Use this section to highlight what the program has accomplished, or what the research results have been.] Additional section header option(s): 
+Accomplishments
+Outcomes
+Results
+Research results
+[Custom heading]
+
+## Future direction 
+
+[Use this section to describe what the program has planned for the future.] Additional section header option(s): 
+What’s ahead
+
+## Spotlight 
+
+[Use this section to spotlight one of the program or initiative’s successes, such as a personal story.] Additional section header option(s): 
+Success story
+Story from the field
+[Custom heading]
+
+## Policy 
+
+[Use this section to describe program/initiative policies. Lengthy policy information should use a separate dedicated page. You might use this space to give a brief policy overview and then connect the reader to policy details using a “Read more” link.] Additional section header option(s): 
+Policies
+[Custom heading]
+
+## How it’s funded 
+
+[Use this section to provide an overview of how the program or initiative is funded. More complex funding information should go in the “Program and Initiative Funding” Content Type.] Additional section header option(s): 
+Funding sources
+
+## Funded partners 
+
+[Use this section to include information on partners who received program funding. Where appropriate, link to the full partner profile or to the complete funding page.] Additional section header option(s): 
+Funded partners and programs
+Funding areas
+Funding recipients
+Who has received funding
+
+## Get involved 
+
+[Use this section to explain how people can contribute or get involved. This can also be used to call out funding opportunities.] Additional section header option(s): 
+Opportunities
+Funding opportunities
+
+## Strategies 
+
+[Use this section to discuss how someone might implement strategies from this program/initiative, such as in a school setting. Detailed guidance pages should use the “Public Health Strategy” Content Type.] Additional section header option(s): 
+Implementation strategies
+Techniques
+[Custom heading]
+
+## Contacts 
+
+[Use this section to let people know who they can contact for questions, support, etc.]
+[Contact 1]
+[Contact 2]
+[Contact 3]
+
+## Resources 
+
+[Use this section to provide resources such as studies, publications, and tools for recipients. You might also use this section to link to related programs and initiatives. Break into subsections for audience or category as needed.] Additional section header option(s): 
+Recipient resources

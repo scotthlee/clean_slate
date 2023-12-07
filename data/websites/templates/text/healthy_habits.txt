@@ -1,0 +1,123 @@
+## Template Guidance
+
+**Primary goal:** Provide strategies for establishing healthy habits or
+overall healthy lifestyle changes.
+
+Can also include information on:
+
+* Why it’s important
+  * Facts
+  * Setting goals
+  * Making it a habit
+  * Tips
+  * Getting support
+  * Offering support
+  * Facing challenges
+  * Success story
+  * Projects
+  * Partnerships
+  * Resources
+
+## **Spotlight** 
+
+[Use callouts for tips, facts, or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Tip
+  * Did you know?
+  * Success story
+  * Resource
+
+## Page title : Healthy Habits: [Description]
+
+## Template update
+
+We’re making improvements based on your feedback! This page was updated on
+**November 8, 2023** to reflect changes coming for the December DFE release.
+This template now has two additional page title options.
+
+## Why it’s important 
+
+[Use this section to describe the importance of the healthy habit or to provide an overview.] Additional section header option(s): 
+Overview
+Background
+About
+[Custom heading]
+
+## Facts 
+
+[Use this section to provide some quick facts about the topic.] Additional section header option(s): 
+Quick facts
+[Custom heading]
+
+## Setting goals 
+
+[Use this section to describe how someone would set a goal, or a series or goals, in order to achieve a desired healthy outcome. The focus can also be on finding motivation or generally how to get started.] Additional section header option(s): 
+Setting a goal
+Getting motivated
+Getting started
+
+## Making it a habit 
+
+[Use this section to outline the steps involved in creating a long-term behavior change.] Additional section header option(s): 
+Developing healthy habits
+Getting in the routine
+Steps to take
+[Custom heading]
+
+## Tips 
+
+[Use this section to provide tips or strategies for healthy habit development. (You can either use this as a distinct section or use “Tip” callouts in other sections.)] Additional section header option(s): 
+Everyday tips
+Strategies
+[Custom heading]
+
+## Getting support 
+
+[Use this section to describe ways to get support through friends, family, professional guidance, or organizations.] Additional section header option(s): 
+Finding support
+ Keep Reading: [Link to organization]
+
+## Offering support 
+
+[Use this section to provide guidance for supporting others. If speaking to multiple audiences, you can use the “Offering support” header.]
+Additional section header option(s): 
+Tips for caregivers
+Tips for schools
+[Custom heading]
+
+## Facing challenges 
+
+[Use this section to describe factors that might prevent someone from achieving their goals and how to overcome those challenges.] Additional section header option(s): 
+When things get rough
+Things to avoid
+[Custom heading]
+
+## Success story 
+
+[Use this section to highlight a personal story, field story, or a group of small stories/anecdotes. (You can either use this as a distinct section or use “Spotlight” or “Success Story” callouts in other sections.)] Additional section header option(s): 
+Success stories
+Spotlight
+Stories from the field
+[Custom heading]
+
+## Projects 
+
+[Use this section to call attention to projects, programs, initiatives, or campaigns that support the healthy behavior.] Additional section header option(s): 
+Programs
+Initiatives
+Campaigns
+What CDC is doing
+[Custom heading]
+
+## Partnerships 
+
+[Use this section to describe any partner organizations working with CDC to drive change.]
+
+## Resources 
+
+[Use this section to provide resources and tools. If applicable, break apart resources by audience type or category.]

@@ -1,0 +1,94 @@
+## Template Guidance
+
+**Primary goal:** Provide information about which vaccines are needed for
+specific populations and scenarios.
+
+Can also include information on:
+
+* A quick reference table
+  * Vaccines you or your child need
+  * Other vaccines that may be needed
+  * Safety and side effects
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## **Get personalized recommendations **
+
+[Use callouts for fact statements or other important pieces of information.
+These callouts can be placed in any section.]
+
+Additional section header option(s):
+
+* Fact
+  * Keep in mind
+  * Also known as
+  * Keep track of vaccine records
+
+## Page title : Recommended Vaccines for [Description]
+
+## **Key points (required)**
+
+* [Summarizes the main message]
+  * [Required for all “Recommended Vaccine” pages]
+  * [Key goal is to set expectations]
+  * [Let users know if they are on the right page]
+
+## Recommended vaccines 
+
+[Use this section to provide a basic table-based reference, if appropriate, for the vaccine recommendations. (For example, age range in the left column and vaccine frequency in the right column.) This may not be suitable for scenarios where important stipulations are needed for each category. Limited explanatory content can be placed below the table.] Additional section header option(s): 
+[Enter custom header]
+
+## Vaccines you may need 
+
+[Use this section to list which vaccines are needed for a specific population (such as 2-year-olds) or scenario (such as traveling).] Additional section header option(s): 
+Vaccines your baby may need
+Vaccines your child may need
+Vaccines your teen may need
+Vaccines your family may need
+
+## Additional protection 
+
+[Use this section to discuss other/related vaccines to consider, or vaccines that a child may have missed at previous appointments. You can also use this space to discuss vaccines that aren’t routine but that may be needed for scenarios like travel or college. Break categories into subsections.] Additional section header option(s): 
+Other vaccines you may need
+You may need other vaccines, too
+Vaccines your child may have missed
+Family and caregivers need vaccines, too
+[Enter custom header]
+
+## Why these vaccines are important 
+
+[Use this section to explain why the vaccines are important for this population, the benefit to the person, etc.] Additional section header option(s): 
+How the vaccines protect you
+How the vaccines protect your child
+Protect yourself
+Protect your child
+[Enter custom header]
+
+## Who should or shouldn’t get vaccinated 
+
+[Use this section to discuss vaccination factors to consider if someone is immunocompromised, has allergies, is pregnant or breastfeeding, is taking medications, is planning to travel, or is already sick.]
+
+## What to expect at the appointment 
+
+[Use this section to address any expectations that would be helpful to know for the appointment, or general tips for the appointment. Examples: questions a healthcare provider might ask, how to help your child relax.] Additional section header option(s): 
+During your appointment
+What to expect at the vaccine site
+[Enter custom header]
+
+## Possible side effects 
+
+[Use this section to discuss any side effects to watch out for afterwards, or any tips that would be helpful for someone caring for a child who has just received vaccinations. Include any safety information that would be helpful for someone making decisions around vaccinations.] Additional section header option(s): 
+Safety and side effects
+After vaccination
+Caring for your child after vaccinations
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools.]

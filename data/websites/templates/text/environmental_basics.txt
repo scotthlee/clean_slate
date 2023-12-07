@@ -1,0 +1,96 @@
+## Template Guidance
+
+**Primary goal:** Covers core environmental content
+
+Can also include information on:
+
+* What it is
+  * Types
+  * Where it’s found
+  * Causes
+  * Health impacts
+  * Risks
+  * How to stay safe
+  * What to do afterwards
+  * What CDC is doing
+
+## Page title : [Topic name]: Before, During, and After
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## What it is 
+
+[Use this section to provide a brief description of the topic.] Additional section header option(s): 
+Overview
+[Enter custom header]
+
+## Types 
+
+[Use this section to describe different types or categories, if appropriate. Examples: Types of earthquakes, types of asbestos, hurricane categories.] Additional section header option(s): 
+Common types
+Categories
+
+## Where it’s found 
+
+[Use this section to provide information about where something such as a gas, substance, chemical, or environmental feature is found. This could be a geolocation for something like volcanoes, or environmental contributors for something like radon.] Additional section header options: 
+Where they’re found
+
+## Causes 
+
+[Describes causes or situations which can lead to exposure or health impacts] Additional section header option(s): 
+What causes it
+What causes them
+Sources
+
+## Health impacts 
+
+[Use this section to describe the potential health impacts.
+Ex: Frost bite and hypothermia from winter weather
+Ex: Ash and toxic gases from volcanoes] Additional section header options: 
+Possible health impacts
+Health effects
+Possible health effects
+
+## Risks 
+
+[Use this section to provide an overview of risk factors and who is at risk.] Additional section header options: 
+Risk factors
+What increases risk
+Who is at increased risk
+Risk of exposure
+
+## How to prepare 
+
+[Use this section to list preparation steps for an event, or ways to prevent harmful exposure. If necessary, include subsections for location-specific details or specific concerns.] Additional section header options: 
+Steps to take
+Reducing your risk
+Prevention
+Preventing exposure
+Developing an action plan
+[Enter custom header]
+
+## How to stay safe 
+
+[Use this section to describe steps to take during an event or exposure. If necessary, include subsections for location-specific details or specific concerns.] Additional section header options: 
+If you’ve been exposed
+[Enter custom header]
+
+## What to do afterwards 
+
+[Use this section to describe steps to take after an event or exposure. If necessary, include subsections for specific concerns.] Additional section header options: 
+After exposure
+[Enter custom header]
+
+## What CDC is doing 
+
+[Use this section to provide information about CDC activities or general initiatives.] Additional section header option(s): 
+What’s being done
+Programs and initiatives
+
+## Resources 
+
+[Use this section to provide resources and tools.]

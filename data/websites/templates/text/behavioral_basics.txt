@@ -1,0 +1,116 @@
+## Template Guidance
+
+**Primary goal:** Provide information about how to prevent, manage, and
+respond to a disease, condition, or circumstance.
+
+Can also include information on:
+
+* Basic definition of the behavior
+  * Types of health impacts caused by it
+  * Potential causes
+  * Risk factors
+  * Warning signs to watch for
+  * Consequences and outcomes
+  * Treating and managing impacts of the behavior
+  * What CDC is doing
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Fact 
+
+[Use callouts for fact statements or important pieces of information. They can
+also be used to link to a success story or resource. These callouts can be
+placed in any section.]
+
+Additional section header option(s):
+
+* By the numbers
+  * Did you know?
+  * Resource
+
+## Page title : About [Topic]
+
+## Key points (required)
+
+* [Summarizes main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## Overview 
+
+[Use this section to provide a brief description of the topic and provide an overview of the issue and it’s breadth and depth.] Additional section header options: 
+Why it’s important
+[Enter custom header]
+
+## Quick facts and stats 
+
+[Use this section to provide facts or stats related to the topic.] Additional section header option(s): 
+The facts
+Statistics
+[Enter custom header]
+
+## Causes 
+
+[Use this section to describe the causes or situations which can lead to exposure or health impacts.] Additional section header option(s): 
+Potential causes
+Potential sources
+
+## Warning signs 
+
+[Use this section to describe warning signs to look for.] Additional section header options: 
+Signs and symptoms to watch for
+[Enter custom header]
+
+## Steps to take 
+
+[Use this section to provide steps to take in response to the situation. Use sub-sections if there different steps for population or situation type.] Additional section header options: 
+How to help
+What to do
+
+## Health effects 
+
+[Use this section to describe health impacts caused by this topic. Use a subsection for each health impact related to this topic. Use a keep reading to link to a page about the health impact (ex: link to Type II Diabetes).] Additional section header option(s): 
+Health impacts
+Possible health effects
+Possible impacts
+[Enter custom header]
+
+## Possible outcomes 
+
+[Use this section to describe potential consequences and outcomes from the topic.] Additional section header option(s): 
+Long-term effects
+[Enter custom header]
+
+## Risk factors 
+
+[Use this section to describe risk factors or populations at increased risk. Provide details about who is at risk or how to reduce risk.] Additional section header options: 
+People at increased risk
+
+## Prevention 
+
+[Use this section to discuss protective factors. Use subheadings for what audiences can do and control or what they cannot control.] [Audience subhead 1] [Audience subhead 2] Additional section header option(s): 
+Prevention methods
+What you can do to prevent it
+[Enter custom header]
+
+## Treatment 
+
+[Use this section to provide information about how to treat and manage the topic or conditions related to the topic.] Additional section header options: 
+Management
+[Enter custom header]
+
+## What CDC is doing 
+
+[Use this section to provide information about CDC programs and related activities.] Additional section header option(s): 
+What’s being done
+Programs and initiatives
+
+## Resources
+
+[Use this section to add links and resources.]

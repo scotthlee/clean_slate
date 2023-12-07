@@ -1,0 +1,87 @@
+## Template Guidance
+
+**Primary goal:** Provide information about living with and managing a disease
+or condition
+
+**Usage tips:**
+
+* Select the sections that are most relevant to your communication needs.
+  * Use the “Keep reading” component for longer sections so the page stays scannable, while allowing readers to see more information if they choose to.
+  * Within each section, you can add custom H3s and H4s to break information apart by category or idea.
+  * Use bullets whenever possible to organize ideas and make the page easy to read.
+  * Add your own callouts or select from suggested callouts. These can highlight key information in a section.
+
+## Facts 
+
+[Use callouts for important pieces of information, such as tips and
+considerations. ]
+
+Additional section header option(s):
+
+* Tip
+  * Did you know?
+  * Keep in mind
+  * Resource
+  * Story
+  * Spotlight
+
+## Page title : Living with [Disease/Condition]
+
+## Key points (required)
+
+* [Highlight important recommendations]
+  * [Summarize main message]
+  * [Key goal is to set expectations]
+  * [Lets users know if they are on right page]
+
+## How it impacts everyday life (required)
+
+[This section discusses what it’s like to live with a disease, condition, or circumstances and is required for all Living with / Management pages.] Additional section header option(s): 
+Everyday life
+[Enter custom header]
+
+## Everyday strategies (required)
+
+[This section provides everyday management strategies and is required for all Living with / Management pages.] Additional section header option(s): 
+[Enter custom header]
+
+## Healthy living 
+
+[Use this section to provide recommendations on how to make lifestyle changes or practice healthy habits.] Additional section header option(s): 
+Healthy habits
+Lifestyle changes
+Exercise and diet recommendations
+[Enter custom header]
+
+## Talking to your doctor 
+
+[Use this section to give advice on how to talk to a healthcare provider.] Additional section header option(s): 
+Discussing your treatment plan with your health care team
+Questions to ask your health care team
+Creating a care plan with your health care team
+
+## Benefits and side effects of medicine 
+
+[Use this section to provide information about available medicine.] Additional section header option(s): 
+Taking medicine
+Why take medicine
+Medicine alternatives
+[Enter custom header]
+
+## What not to do 
+
+[Use this section to explain what actions and behaviors to avoid.] Additional section header option(s): 
+Things to avoid
+
+## Management during a crisis 
+
+[Use this section to provide guidance on how to manage a disease or condition in a specific location or during an emergency. Focus on how to prepare and cope in special circumstances.] Additional section header option(s): 
+Management during an emergency
+Coping with stress after an emergency
+Management at school
+[Enter custom header]
+
+## Resources 
+
+[Use this section to provide resources and tools, along with ways someone can find support.] Additional section header option(s): 
+Resources and support
