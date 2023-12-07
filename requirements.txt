@@ -6,4 +6,5 @@ pandas
 numpy
 streamlit
 streamlit-authenticator
+streamlit-feedback
 trubrics
