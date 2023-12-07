@@ -1,0 +1,2319 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-streamlit",
+    "entrypoint": "Welcome.py"
+  },
+  "python": {
+    "version": "3.10.12",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.0.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "094d987a35a098fed616ebd0cfd79208"
+    },
+    "Welcome.py": {
+      "checksum": "cf3af831577f8f773b0bcd175822075e"
+    },
+    "data/app_config.json": {
+      "checksum": "893cb7e03414beb990e136f30d7d6671"
+    },
+    "data/auth.yaml": {
+      "checksum": "f4d30ce74ce615896b6bf6efcf5dbd5d"
+    },
+    "data/cci/cci.json": {
+      "checksum": "3c0ee2a133b9ea9386a74205cbd25e5e"
+    },
+    "data/cci/cci.pdf": {
+      "checksum": "c0f03998dc5047fdcd6c762958eeda41"
+    },
+    "data/cci/cci.txt": {
+      "checksum": "bf30a63d526ea0c4a80acd65d3044f7b"
+    },
+    "data/template_urls.txt": {
+      "checksum": "aa3b561a0e702ecd3dd9da49f5171d6d"
+    },
+    "data/websites/bsp.html": {
+      "checksum": "490dc435c1251fa0e5d7701e6ff82505"
+    },
+    "data/websites/flu.txt": {
+      "checksum": "60d35d137d0e5468fd3d88eed386f483"
+    },
+    "data/websites/flu_text.txt": {
+      "checksum": "5cbcc514e6e50cde44fd984f1800667d"
+    },
+    "data/websites/flut.txt": {
+      "checksum": "ae1ceae14bc828e2aeb9709c33745cc3"
+    },
+    "data/websites/index.txt": {
+      "checksum": "66f10332b7ef2301cf9b9833b6f1474c"
+    },
+    "data/websites/ncezid/backblue.gif": {
+      "checksum": "4f7f4833de227ed0e6b58eafd7393503"
+    },
+    "data/websites/ncezid/fade.gif": {
+      "checksum": "4bc48ce355acd4732f33a79e29728e96"
+    },
+    "data/websites/ncezid/index.html": {
+      "checksum": "77ec44f2f7872ac0e49cbbc29aa06a85"
+    },
+    "data/websites/ncezid/ncezid.whtt": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/backblue.gif": {
+      "checksum": "4f7f4833de227ed0e6b58eafd7393503"
+    },
+    "data/websites/ncezid/ncezid/cookies.txt": {
+      "checksum": "70a6d8f2699e58d3e766affcd789a954"
+    },
+    "data/websites/ncezid/ncezid/fade.gif": {
+      "checksum": "4bc48ce355acd4732f33a79e29728e96"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/doit.log": {
+      "checksum": "51c9a21da803bcb88230b8997d4efbe9"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/new.lst": {
+      "checksum": "b8c4864729e0e80ba351fa427888ddbb"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/new.txt": {
+      "checksum": "4038f64185d0dc86a22488c221c54b58"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/new.zip": {
+      "checksum": "4522341ab5010fa257ce1129465675d7"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/readme.txt": {
+      "checksum": "ca3c27c2c75dd9bfbad38487eb885180"
+    },
+    "data/websites/ncezid/ncezid/hts-cache/winprofile.ini": {
+      "checksum": "117449077e587601ab408293b7783d5d"
+    },
+    "data/websites/ncezid/ncezid/hts-log.txt": {
+      "checksum": "bdc55e636004f9e2f582d9762003e429"
+    },
+    "data/websites/ncezid/ncezid/index.html": {
+      "checksum": "327850ef5184b847b990b2b8e718b996"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/about-ncezid.html": {
+      "checksum": "d7924b168a379ec5b50b769c935347e7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/BEAM-FAQ.html": {
+      "checksum": "a238e749fc5da2377245a85f58b1aaed"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/BEAM-FAQ01b2.html": {
+      "checksum": "d00f8b20a3a52b735c374a011f758502"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/BEAM-dashboard.html": {
+      "checksum": "ae1a65175bd879d1b886ee00c93b08e7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/BEAM-dashboard01b2.html": {
+      "checksum": "76657ae48bb0aa5ea960a9f696082db5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/a-z.html": {
+      "checksum": "f629bdbf43d5297126883516b59baf2c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/about.html": {
+      "checksum": "ca13ac295e397901611c8debd6debc99"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/dfwed-leadership.html": {
+      "checksum": "addde9640ff89b5d893ec774ff93bbb9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/diseases/brainerd-diarrhea/index-2.html": {
+      "checksum": "94dbf60ad240825dd4435a61249430cb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/diseases/brainerd-diarrhea/index.html": {
+      "checksum": "686a6dd384e520792fc29d6b54525bc7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/edeb/index.html": {
+      "checksum": "bc8fb733e15b0bbbbeba6717d27cd712"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/edlb/edlb-lab-submission.html": {
+      "checksum": "e0fdf3cd1c1716ce7567bddc7e90f1e7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/edlb/index.html": {
+      "checksum": "d8db8c08a5715aaad89bda2c5c92789a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/food-safety-office/cifor.html": {
+      "checksum": "7a575b5c286d23edda70ebcb8f236bdd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/food-safety-office/index.html": {
+      "checksum": "b953848f00df7479b5646582816d3a97"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/index.html": {
+      "checksum": "05d8d0ea5911238f967f960ca057ddf3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/international/enteric-diseases-toolkit.html": {
+      "checksum": "38a2821f57652a71e5cb69f04eb06d05"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/international/gfin.html": {
+      "checksum": "6302b4b0ab7159ccc55a455d6e81bd6b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/international/global-diarrhea-health-gadd.html": {
+      "checksum": "fef31df382832961aee86dbd9db6d9a5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/international/global-networks-make-food-safer.html": {
+      "checksum": "e2cc8c4de69883975dbacc8e84a7df43"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/international/globalwork.html": {
+      "checksum": "073b4e0816379a34ae40d6f4616bd9e8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/antibiotic-and-antifungal-resistance.html": {
+      "checksum": "333928ebb943c82884ce3f64b265b821"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/antimicrobial-resistance.html": {
+      "checksum": "501c19fd48e343add177a58f387f17ee"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/index.html": {
+      "checksum": "59ea59b276e2107bcceb99753afb251f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/outbreak-response.html": {
+      "checksum": "b42aad7e54597b166ff51ef08bf686e3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/public-health.html": {
+      "checksum": "315c5f9595f64d8a32a2acec14991560"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/pulsenet-salmonella-isolates-quarterly-report.html": {
+      "checksum": "8db4e733965a63fe17b43952766c85f3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/surveillance.html": {
+      "checksum": "f5006088002f06cdab344ee63ef31ed3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/keyprograms/tracking-foodborne-illness-wgs.html": {
+      "checksum": "0193c448116b5d4176e157e71172258b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/multimedia.html": {
+      "checksum": "0dba5ddcebc2eafdeed16994fa2aa79b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/mycotics/index.html": {
+      "checksum": "1d42b6fed24e55994bfe11c51e40d8af"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/orpb/index.html": {
+      "checksum": "4367f0ed122fb9895ccdd36b3fffd5eb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/orpb/ort.html": {
+      "checksum": "784bcbb4a6c815d9d8139d69678b7785"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJFX01-human.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJFX01-narms-data.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJFX01-nonhuman.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJFX01-where-sick-people-live.csv": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJJP01-narms-data.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJJP01-when-people-got-sick.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPJJP01-where-sick-people-live.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPTDK01-narms-data.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPTDK01-when-people-got-sick.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/REPTDK01-where-sick-people-live.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/narms-data.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/when-people-got-sick.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/files/where-sick-people-live.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/index.html": {
+      "checksum": "0b8270831946270ab83a012ec26e0055"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains.html": {
+      "checksum": "6df4bcff745b04862e2467356fc19d71"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains/repexh01.html": {
+      "checksum": "388e30484cdab3bbbb7d792066b4ed61"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains/repjfx01.html": {
+      "checksum": "60812f56e7332d0e6942cd9e215e58a2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains/repjjp01.html": {
+      "checksum": "a03a64f9828c97615e2e12f956c9575d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains/reptdk01.html": {
+      "checksum": "72cb26505e5089106fbfef9f5960db28"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/outbreak-response/rep-strains01b2.html": {
+      "checksum": "ae104220e5f594e504a6c07f5dae446d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/aspergillosis-and-triazoles.html": {
+      "checksum": "bb80f2cdf80f776fb4058ae864b4a804"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/cholera.html": {
+      "checksum": "be29ab513928b9d0ee62f3e975241cc7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/correctional-facilities.html": {
+      "checksum": "e420e2d2dd57a4aa19e7775385aa23f6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/ecoli-and-leafy-greens.html": {
+      "checksum": "a4d8c7673c7e2f3b7225848bfe1b3337"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/index.html": {
+      "checksum": "df96f2c3dd93845f77775562d2b7778f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/mahc.html": {
+      "checksum": "b3b5266d4ff04466e34cd6fce201ffd5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/salmonella-and-chicken.html": {
+      "checksum": "4c1545f81c87ba219659fde5d24fe4ba"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/salmonella-and-ground-beef.html": {
+      "checksum": "bbb7dde3838a9331d0450d07b6067f0c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/prevention-priorities/vibriosis-and-shellfish.html": {
+      "checksum": "8e19e7a25e061174a62fb72419158082"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/stories/fighting-cholera-cameroon.html": {
+      "checksum": "282711bcb67b79ff985ca9c24bc38468"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/stories/ohio-botulism.html": {
+      "checksum": "1c35c8e6577cad9b87475de302cc6846"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/stories/protecting-children-ecoli.html": {
+      "checksum": "215ec254202a343b060b843cd413be4d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/stories/utah-ecoli-epi-aid.html": {
+      "checksum": "b8304500b967fdce264eef430560f130"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/communication.html": {
+      "checksum": "45e3632c551d88bf12c695235aaf5d1b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/domestic.html": {
+      "checksum": "689cf53728e418eac955b7d14954820a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/global.html": {
+      "checksum": "bd79496e449ec767f865838ea4fe64bb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/index.html": {
+      "checksum": "1a5a6259da33af3a039c3ba3764414bb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/investigations.html": {
+      "checksum": "c21015c8d7436827df14241f79570abf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dfwed/waterborne/lab/index.html": {
+      "checksum": "e4f805fe1b7e4ee5699f562e92b78266"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/afp-fact-sheet.html": {
+      "checksum": "cd7a0aa5943082b253dda3636a462a91"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/emergency-response.html": {
+      "checksum": "4f25f8d3fb802dd397d792a31402f5b9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/esp/unidad-estados-unidos-mexico.html": {
+      "checksum": "596fc0dfb59b087e1709be013af2fc26"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/africa-amid-pandemic.html": {
+      "checksum": "8524135bfeefe162cf43d05eb1b42ed5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/bhs-colombia.html": {
+      "checksum": "5310a3b5ff31cd580f869687a9b7cf3b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/dadaab.html": {
+      "checksum": "bf8c3c91f7046bceda342363685149a1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/esp/operation-dog-catcher.html": {
+      "checksum": "25d1255abf5d077987c30710d7feecfa"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/long-road-to-america.html": {
+      "checksum": "78cf329b44b4f467900f147f1257f614"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/operation-dog-catcher.html": {
+      "checksum": "20d2358251d9c6fe106703b26e37c62f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/quarantine-stations-arrivals.html": {
+      "checksum": "74a7c2c264072ac2d9c7a7291405e830"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/feature-stories/refugee-health.html": {
+      "checksum": "b263c0c2c9d1b79a21a6840c4319a91a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/focus-areas/imrh.html": {
+      "checksum": "e62cf9e5fd24df17c36614ae6216da11"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/focus-areas/irmh.html": {
+      "checksum": "c97c0d7b91839ca18018a99821c98cf1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/focus-areas/quarantine.html": {
+      "checksum": "d78e8065af2d3796628df01d926462b6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/focus-areas/travelers-health.html": {
+      "checksum": "3c76b5af9a7426471c010d44927a52c9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/focus-areas/usmh.html": {
+      "checksum": "2aae2a21f32bcb1bdcc8a7c77b614b1e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/how-we-serve.html": {
+      "checksum": "cde272d4dac1994d27afaad0f71b972b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/index-2.html": {
+      "checksum": "f9379c304a11454ae6aabf5ed033d40e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/index.html": {
+      "checksum": "1a8ca45498b31dfe1b186ebd708d5d00"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/irmh-fact-sheet.html": {
+      "checksum": "336eaa675869f1ffdfb9a9a3ed12820e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/laws-and-regulations.html": {
+      "checksum": "9beb7f75bb5c696d26a764c2ea631f65"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/office-of-director.html": {
+      "checksum": "92f775d491caad1ef3191416af706488"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/stories.html": {
+      "checksum": "ad7ee74ca64e753a3951e5ef93393ea2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/video/dgmq-critical-areas-sd.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/wcms-inc/localgovdelivery_tp4864e.html": {
+      "checksum": "f78424e01205adadc989eafc9666ac57"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/who-we-are.html": {
+      "checksum": "4b26d6ef9c05e5972154e80562282925"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/who-we-serve.html": {
+      "checksum": "dc58262d9bcf98e8adb1e42bc745c75c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dgmq/why-the-work-matters.html": {
+      "checksum": "46d820bb7c710518c6d39f11d06917e8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/about.html": {
+      "checksum": "56346880dbb0d9ba829b9e1e83dcc475"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/bacterial_special/index.html": {
+      "checksum": "7132bb0dc212de058fca40ed58f1af89"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/bacterial_special/labsubmission.html": {
+      "checksum": "af4d8bd3af25f1058c7143987ad2ce04"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/bacterial_special/special_lab.html": {
+      "checksum": "78db41b915cece09bee0439e67146d3b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/bacterial_special/zoonoses_lab.html": {
+      "checksum": "aae80ca93995ffbd239c1ac6329255e4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/branches-and-offices.html": {
+      "checksum": "b3b7e3100b37273adaec908b698ec160"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/chronic_viral/index.html": {
+      "checksum": "bee397adfbf8c63af63d3e9e789460c5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/diseases-specialty-areas.html": {
+      "checksum": "a69073e8eed3ffa87cf0f6b9b8204bf7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/featured_stories/cowpox.html": {
+      "checksum": "88d2f8319697a0988e4c916b04e1c99a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/hcl-50/high-containment-laboratories.html": {
+      "checksum": "8082b9b970888606cbff57fe25769755"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/anthrax.html": {
+      "checksum": "80415c0cdd578ed38d006865a3c7723e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/contributions.html": {
+      "checksum": "2066dd5c6bb4c2b18c5d9884c6d6e20a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/enterovirus71.html": {
+      "checksum": "7ff68e58e16fe8886b350c7d08ff9723"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/h1n1.html": {
+      "checksum": "37988acd149e8929a7436da485f57cbf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/hps.html": {
+      "checksum": "392e5b4de00fa733fa39b794d0ddba37"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/index.html": {
+      "checksum": "d21f4034f0d8d74a4b120aab361edb50"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/rabies.html": {
+      "checksum": "a1d04ea5b5f64d04b1a02a3b38f9be0b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/at-work/sars.html": {
+      "checksum": "63a4ea5b98c6403ed474afd58d18cf4f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/diagnostic-techniques/index.html": {
+      "checksum": "10234d22bc63d80522068f92d35d12d3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/epathology/index.html": {
+      "checksum": "a62900faeaead83a1ad082adff2826ee"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/index.html": {
+      "checksum": "9a3936e04c94cc60234b66974390b149"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/publications/index.html": {
+      "checksum": "aacf01cee799133e617bd2f7ade3094c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/cns.html": {
+      "checksum": "9906ef69b349236008c5b8bfab5d67df"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/general-unexplained.html": {
+      "checksum": "43b3062d0401322957cc3d1bf65c437a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/hepatitis.html": {
+      "checksum": "cab8774fdc4e0d387e5360d7fbe847e1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/index.html": {
+      "checksum": "99e6978e5838c8c6432af76f22c4c5e5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/influenza.html": {
+      "checksum": "3214a206e96259bf12ff88ba02a0019c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/international-unexplained.html": {
+      "checksum": "8536dd343568f271f23fa351c1590066"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/mycobacterium.html": {
+      "checksum": "e0083317567afe462925de7bc2e45127"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/myocarditis.html": {
+      "checksum": "eddabb7854e9f6dde3934bda6a10b8b9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/pneumonia.html": {
+      "checksum": "a4ffece3a5c9acc039b2f7bd8a30ee75"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/rash-eschar.html": {
+      "checksum": "d99012737c6d10fb44b3b1124d07202b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/specimen-collection.html": {
+      "checksum": "dba1b616f84b18521811d891ad36300e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/specimen-submission/suid.html": {
+      "checksum": "8ea5bce3cdd205ca5808f5dadc8d2dbd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/unexplained-deaths/index-2.html": {
+      "checksum": "7889d2929f3d53fba53988e3ba86ba9a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/idpb/unexplained-deaths/index.html": {
+      "checksum": "e1890ac731769c3695b8c5f55478ca02"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/index-2.html": {
+      "checksum": "61bb389ff587714786f65d8ff514dc8d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/index.html": {
+      "checksum": "f28d3dfe390c3504f9237463cff86115"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/infectious_disease/index.html": {
+      "checksum": "490dc435c1251fa0e5d7701e6ff82505"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/office_director/index.html": {
+      "checksum": "28ca8d07b0c255386d084504cccb686e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/poxvirus_rabies/index.html": {
+      "checksum": "d35ab42438c72124c2c12583f03650ca"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/prion_public/index.html": {
+      "checksum": "52f407c91d4feee8d08348e99f2727b3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/vspb/diseases.html": {
+      "checksum": "6022a7634c8b7083d805a379a05de7ac"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/vspb/index-2.html": {
+      "checksum": "e0dbfd579a7ca327e9adbd32c1b5f9ba"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/vspb/index.html": {
+      "checksum": "85524e9cd56960113b7acb7817241267"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/vspb/resources.html": {
+      "checksum": "8b10befbc9649d8696298c655ca1465b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhcpp/vspb/specimens.html": {
+      "checksum": "4b0d25896b4774756c372cce7c59392b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dhqp/index.html": {
+      "checksum": "0bc729dc095bfe974eaf19e8c125011c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/director-ncezid.html": {
+      "checksum": "254123944bb5bf19ab21fd9592c84c03"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/about.html": {
+      "checksum": "2b96f18667afd87c45482efa95425760"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/circumpolar-health.html": {
+      "checksum": "98d34e6d7551c209d685519ea015acb3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/dental-caries.html": {
+      "checksum": "a265471db9dda85a61d471dcddf88d0e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/eliminating-health-disparities.html": {
+      "checksum": "645374f492596efe9e692c9819c09fc9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/emerging-infectious-diseases.html": {
+      "checksum": "f37514b01c479b74b6f0225f16562fc2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/history.html": {
+      "checksum": "eb2d5f53c559cde52de074e1effdf492"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/improving-health-for-alaska-residents.html": {
+      "checksum": "b5f6c583e212c80bfc191f9102edcd96"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/index-2.html": {
+      "checksum": "46057575039c110715877d6906e4059f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/index.html": {
+      "checksum": "8a9a1d95ff45681215b00bd3b60241bf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/organization.html": {
+      "checksum": "c89426f3ecd1195b81603f36ef4ac9b5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/preparedness-response.html": {
+      "checksum": "4290965e42116b66d075fcfca5765c4a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/priority-areas.html": {
+      "checksum": "7ee9d2c5dfc4e19fda58efa28eb60c33"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-a-streptococcus-2013.html": {
+      "checksum": "02ac2786f3a09625a681a69b9bdc5612"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-a-streptococcus-2014.html": {
+      "checksum": "36ce006d71f71e37e02c12367e0f2d53"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-a-streptococcus-2015.html": {
+      "checksum": "bf37d2c2f1015a8fa62d169e40bce0e0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-b-streptococcus-2013.html": {
+      "checksum": "bc7969bca6e76bfa942a4cd4cb56d7db"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-b-streptococcus-2014.html": {
+      "checksum": "eee8c70413e8b555fb35c50c3c2e7502"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/group-b-streptococcus-2015.html": {
+      "checksum": "b3d697a6160ced29a2e008f34a34e8c1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/hi-2013.html": {
+      "checksum": "18c69acaa8420f01eb2eeaab12e6d0c8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/hi-2014.html": {
+      "checksum": "86fedf92e0b82e55bfc4dcaac85fe552"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/hi-2015.html": {
+      "checksum": "a4b38be0b89f1a63aa9a096b313fbb19"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/index.html": {
+      "checksum": "f6a6304484d3d82f700c55a0b3e6f3a2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/nm-2013.html": {
+      "checksum": "14fdd437d3b6634e65ca7e5b37ca41eb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/nm-2014.html": {
+      "checksum": "6ec48428af286b86c6f090ff70065827"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/nm-2015.html": {
+      "checksum": "8eea7e1e377b382ee7cdcb1c1a2f8401"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/sp-2013.html": {
+      "checksum": "850c4a7de27fd70ba87cdf1776b8e1a0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/sp-2014.html": {
+      "checksum": "f53230439504aedde8e2a263368ae498"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/reports/sp-2015.html": {
+      "checksum": "7e17c0e6506ec788de5aef7bea1add24"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/surveillance-in-alaska.html": {
+      "checksum": "bd5ca121330d50b057c23876cd93db93"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/aip/water-sanitation.html": {
+      "checksum": "e6554593aa7d9a743a23626a19aa788c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/eip/eip-network-activities.html": {
+      "checksum": "02784a599404406e9da6e1e5887ddd4d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/eip/eip-sites.html": {
+      "checksum": "e59a352ecf1e4709ce7576d5d163b52c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/eip/index-2.html": {
+      "checksum": "98da64925cfed0193174e5447354acf1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/eip/index.html": {
+      "checksum": "ab5c598bcbc362e2e3f99c44d35dbe80"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/elc/covid-response/index.html": {
+      "checksum": "086bf71d1b456ecdeda924906e3e7e63"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/elc/history-of-elc.html": {
+      "checksum": "ea46df64b46f5ce4b3706920f72ec9e8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/elc/history/elc-awards-by-grantee-2019.html": {
+      "checksum": "d97ce806572e6d835934fbf2596374db"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/elc/history/elc-awards-by-grantee-2020.html": {
+      "checksum": "042e7ecd3ce2b9880b71c1a32cd34500"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/epidemiology-laboratory-capacity.html": {
+      "checksum": "1aa4509f91c706ff524781fa3183ba09"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/focus-health-impact.html": {
+      "checksum": "d5efef06d109e42cbb92d5483d35f50b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/index.html": {
+      "checksum": "504e870e69762c5169c2b64e388c9995"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/phl-impact.html": {
+      "checksum": "cc98152614fbf42cbca7c531a07a0c54"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/projects.html": {
+      "checksum": "042a06c9337d52f3cf3aa01f8e4b67ed"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/published-models-tools.html": {
+      "checksum": "2c1a730ba34cfe2958764742adbb8b08"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/hemu/resources.html": {
+      "checksum": "6942dcc71fd875e108e3e27fed7322b5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/index.html": {
+      "checksum": "b181b02619632903274626e000b18ad2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/office-of-the-director.html": {
+      "checksum": "8089468eb6bdadbe6b180029d21a4a52"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/pdf/phl-impact-DRAFT-report-template.docx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/resources/YK_Delta_Final_Draft.xlsx": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/resources/covid-tracer-Advanced-Special-edition.xlsm": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dpei/xls/phl-impact-tools.xlsm": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/biotechnology-core-facility-branch.html": {
+      "checksum": "29f1bb3f267ce7e5fee4152ea92e7b28"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/comparative-medicine-branch.html": {
+      "checksum": "74068d9a1fd27c81f1d122cfadafc9b6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/index.html": {
+      "checksum": "55108adf250d2f28e43a46cd9a5440ec"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/mission-statement.html": {
+      "checksum": "df98795715ed060a194d42629eac2252"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/office-director.html": {
+      "checksum": "5dc0f0f22fdc1ebd437a668949bf6925"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dsr/reagent-and-diagnostic-services-branch.html": {
+      "checksum": "7021b4e5fb8505b66038d9cac36ecca4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/a-z-index.html": {
+      "checksum": "741d8cea08fb7c51eff9a5cf5bcd7c70"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about.html": {
+      "checksum": "2d4c4cbba684923325e2e2b685aa1365"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/org-dvbd.html": {
+      "checksum": "c6affa5ffc076dc71769da0fb53e46f9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/prepare-nation.html": {
+      "checksum": "0f8390f21ea2725b8f1e35f59ce3f72c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/prepare-nation/coe.html": {
+      "checksum": "ce42e93f993173e0ff617b43ff267c50"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/prepare-nation/elc.html": {
+      "checksum": "f5f5482d42593a5895835e0197ea06d0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/prepare-nation/elc/program-h.html": {
+      "checksum": "5e99a1249897fcc84795067556958a50"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/prevent-bites.html": {
+      "checksum": "51a987cbdb93118383dcf3e606bf46cd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/about/staff.html": {
+      "checksum": "fd34d2f56d9a652f2fff47222521588a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/bourbon/index.html": {
+      "checksum": "a91f3927ea20e80cd020a947d667f9fc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/coevbd/index.html": {
+      "checksum": "83d8683113ce06c09cf455a46e207003"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/avoid-dengue.html": {
+      "checksum": "351cb6c67385953c1581f99b1a910f6d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/dengue-vaccine.html": {
+      "checksum": "40899510df7fe764b224aae372fcc05f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/detenga-las-garrapatas/index.html": {
+      "checksum": "c41bc6153e75ce32b8eee659e94eeae3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/dpk-denguevaccine.html": {
+      "checksum": "cdd04c4f02ba814b37c0a43707c5b622"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/index.html": {
+      "checksum": "47726f89f38164e085db91b1523e5228"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/mosquitos/mosquito-dpk-es.html": {
+      "checksum": "2f41ade427de13e186067503dc5f1359"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/prevenga-la-enfermedad-de-lyme/index.html": {
+      "checksum": "8c564f4c8b056dff7eb0ba9aed11e63c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/spokesperson/connelly.html": {
+      "checksum": "7e8e308cb7eb4e9114d10a04fe0b6f24"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/spokesperson/nett.html": {
+      "checksum": "c36bae5b6fce2b5e4a8a3ecfe24a2f7f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/spokesperson/paz-bailey.html": {
+      "checksum": "8537747fae36a7e93ac23cb7bde02713"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/spokesperson/petersen.html": {
+      "checksum": "5c3d07746b42bd67ea07a5b99b0625dd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/stopmosquitoes.html": {
+      "checksum": "a7352111bf3dfc2045bfe05dca9dc2cc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/es/media/westnilevirus.html": {
+      "checksum": "2de62e6c708d75748bf08d3b179f08ba"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/framework.html": {
+      "checksum": "2bc364c848a09676cb8860e29a652df1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/index-2.html": {
+      "checksum": "4262ba2cf7dff570f0eafd6c0be1c0d7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/index.html": {
+      "checksum": "a78f1dedf9c3252f5e6ce05fd7197f71"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/avoid-dengue.html": {
+      "checksum": "08bc48160e66968681f587fbaec75d48"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/dengue-vaccine.html": {
+      "checksum": "a88fa6b04f572867d9f1fd232092b6ca"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/dpk-denguevaccine.html": {
+      "checksum": "e49331c288a7a6ec9f5ac602ad0e158e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/dpk-nootkatone.html": {
+      "checksum": "1b4db0fd2322bc9b6a5f60986c1b799d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/dpk-nootkatone/sme-bio-cbeard.html": {
+      "checksum": "83d85b0f63c61b583a389303da85252c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/ehrlichiosis-anaplasmosis/index-2.html": {
+      "checksum": "c6a11f31c7786df90bacba30b84bae02"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/ehrlichiosis-anaplasmosis/index.html": {
+      "checksum": "2bfdc456773573f6a6d603349c485477"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/fight-the-bite.html": {
+      "checksum": "601e3fec720e32e94cadd3ced8368e8b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/hunting-season-ticks.html": {
+      "checksum": "0489196058e9bfc2a0b8034fd781ca55"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/index.html": {
+      "checksum": "b34990a1fced6fec0e45a141beff0df9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/learn-about-zika.html": {
+      "checksum": "b97ae25dc255199d67e15aec09429c51"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/lyme-tickborne-diseases-increasing.html": {
+      "checksum": "df0f527ab51a038ace0a43c1dd0466bf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/lymedisease.html": {
+      "checksum": "459abd3225016eb44e4c97ac196d30f5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/mosquito-borne-diseases/mosquito-bites-everyone-is-at-risk.html": {
+      "checksum": "6b0c5bfa10346815b0f94823709ce492"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/rmsf.html": {
+      "checksum": "0f14ecd6729b5feb97769059506fae59"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/social-media-toolkit.html": {
+      "checksum": "508b0d17357bdca7fb9238223bcbb346"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/connelly.html": {
+      "checksum": "d543a30a7eb0722bd6b02b42c9179415"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/kersh.html": {
+      "checksum": "dfae52f34ce91c7ef9ffc3d963d73517"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/mead.html": {
+      "checksum": "7b8636dd262e5ccd1f78e3d5cd9bcc6b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/nett.html": {
+      "checksum": "ec54eb8bd03216ffa0f7ce0f4160f033"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/paz-bailey.html": {
+      "checksum": "88a281177b59d60e74b81c3a70f56300"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/spokesperson/petersen.html": {
+      "checksum": "ffbba85751aebf95a5d32c8ad02c3ec8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/stopmosquitoes.html": {
+      "checksum": "bce7c9af2b8b845339da342ca71720cd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/stopticks.html": {
+      "checksum": "4c572a5693fb7db973e4d38963ab223e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/media/westnilevirus.html": {
+      "checksum": "95170b41aaa9dfd58ced02ec19cd59ae"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/phefa/index.html": {
+      "checksum": "e6b09276fa69e91c5126719bc6c23b65"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/phefa/intern-fellow.html": {
+      "checksum": "40352d53ad49a3e1fa04fcec68ec099e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/phefa/meet-interns-fellows.html": {
+      "checksum": "2e3ca153b9d1cd7812302f97f594266c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arboviral-shipping.html": {
+      "checksum": "46d07dfe7f1aed1d0717ced050a3be43"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arc/collection_maintenance.html": {
+      "checksum": "62dc7ebac560b57a36a5effd0f2991b9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arc/contributions.html": {
+      "checksum": "021a31ad36e2b35ad99b2c2241dfa968"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arc/index.html": {
+      "checksum": "0c688dbc8bc3df3d4e5f4f8750702d63"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arc/solutions.html": {
+      "checksum": "00e0a9b5ae5d7f41df7152cd1a16fda4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/arc/whats-in-the-collection.html": {
+      "checksum": "0ecf8ce1064b4309fd73fe5d904f6cb1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/bacterial-zoonotic-shipping.html": {
+      "checksum": "49af17c09d8f3c78091af138dd7d336f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/dengue-shipping-espanol.html": {
+      "checksum": "3c17d064f4ef290118f21baf56e8730b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/dengue-shipping.html": {
+      "checksum": "a80262b0c14ad507f7828c1c4f47f390"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/hemolysis-palette.html": {
+      "checksum": "4bc61bf8bbb808544654ad3d1e517413"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/index.html": {
+      "checksum": "f091d2eba4e86049d1c854336f89c4a2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/specimensub/rickettsial-shipping.html": {
+      "checksum": "a7e50a70f20d59abd804b2caf871e9da"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/stories/partnerships.html": {
+      "checksum": "99476193aa89fe1b8e2c7f922f007a2e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/stories/spotlight.html": {
+      "checksum": "9611f22cfebd2dcae00585f312d490e6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/detect-prevent.html": {
+      "checksum": "abf79855f80e909fa6fda38946b18beb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/diagnostics.html": {
+      "checksum": "364059d5374d5f32ec214dd92364b08c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/discover.html": {
+      "checksum": "731d1b4bd49f4c26f3d5a263d103f69d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/funding.html": {
+      "checksum": "461a336499c073dc5bad7afc3fa966e0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/index.html": {
+      "checksum": "94fa39a6144fe9623f89eff6fa79ba44"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dvbd/what-how/respond.html": {
+      "checksum": "c648b7005713f964bb6479b0ee48bc87"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/dw-index.html": {
+      "checksum": "e89a832a5b652bb405540c9cd1d55dc4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dfwed.html": {
+      "checksum": "7ceae9aa47498857bc349584e0d44cb5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dgmq.html": {
+      "checksum": "3e66e34249e35fb7bcdf5599140406ef"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dhcpp.html": {
+      "checksum": "3c1f1d5384835b6bf3d67ae4ab424b2a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dhqp.html": {
+      "checksum": "79bbd9f5fd6e3cb9e84a4fead5f5c981"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dpei.html": {
+      "checksum": "ac090feea819a66f31300b5dd752fdb2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dsr.html": {
+      "checksum": "3c9aa4af23d5417f3df0ba1e4f899ccf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/dvbd.html": {
+      "checksum": "ecdebf49dd289d2ab9bcd875a0ba6acb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/index.html": {
+      "checksum": "f5a4e79021bcc4138041c6839741c28f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/informacion-sobre-el-ncezid.html": {
+      "checksum": "44f30ed8dcb76af37c00ade791806670"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/nuestras-divisiones.html": {
+      "checksum": "04703e5b4f54b33fccda4c1b58bad4cc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/organigrama-texto.html": {
+      "checksum": "7909320441102b28b0bb121f500d9f07"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/organigrama.html": {
+      "checksum": "076610bf05a2f76cf102cf1ca8001220"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/que-hacemos.html": {
+      "checksum": "19f49be610b9307e3b38cd2915007956"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/es/recursos.html": {
+      "checksum": "ebd5e6f123a6b47f22300badeb8504b9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/hhs-protect/index.html": {
+      "checksum": "c9cfabd1c2c9a7815b7202d487f336de"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/index-2.html": {
+      "checksum": "5a100734989e1f5270bacf8c075f6dff"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/index.html": {
+      "checksum": "50e410e0dc59be203b51f1ad1a0243fe"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/index864e.html": {
+      "checksum": "42da9a0a4cdbd5dd2c20f69ae628915f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/animations-and-videos.html": {
+      "checksum": "310e537bf499a935e51f5aa3ec5d1185"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/graphics.html": {
+      "checksum": "79165dbd9c372fcb2d9c35656ff65bfb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/index.html": {
+      "checksum": "3008bb02d38ff30a0c927006a48c0a12"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/infographics.html": {
+      "checksum": "4930c9e80f84516442b4fa1ec4bede55"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/medscape-commentaries.html": {
+      "checksum": "a499e705733955c4e4306b1e7b40d346"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/mobile-apps.html": {
+      "checksum": "803e0473232ddedc6c5a4b3cac02090f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/multimedia/wcms-inc/localundernav_tp4864e.html": {
+      "checksum": "d09651f56575720cd9a6e999b5dcfa49"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/org-ncezid.html": {
+      "checksum": "8cc59d18dd97694ccb43395543cd8e3e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories.html": {
+      "checksum": "f8fdcc897d819fa9f9088e9fe9ef205c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/ar-india.html": {
+      "checksum": "3cf2bca0922327f629cadf07fb4a5d03"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/c-auris-response.html": {
+      "checksum": "20556fb69047a873a5abb4f47765c748"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/champs-program.html": {
+      "checksum": "53d336067cc9c77f0d7551ea333ca5ed"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/cholera-outbreak-kenya.html": {
+      "checksum": "ca3d189215604315cfcffc941533574a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/ebola-reservoir-study.html": {
+      "checksum": "58650d5e3158f4e272db2035b58a1853"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/ebola-response-sierra-leone.html": {
+      "checksum": "2d7f36eed6b85bab80b09134192227b5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/ending-cholera-globally.html": {
+      "checksum": "d61174feb4c10252186ece9eb8ea2cf1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/hai-in-georgia.html": {
+      "checksum": "85ba2565d3c8eff5a19185736c198681"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/improving-diagnoses-zika-vbdb-in-indonesia.html": {
+      "checksum": "2dabe0ded275984acbbebb4e6077c1fd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/plague-a-disease-of-the-past-uganda-drc.html": {
+      "checksum": "9180952c97de9e73e28e09ed761252b0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/protecting-newborns-in-india.html": {
+      "checksum": "a72f653160f73eff69771e8863ef19f6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/protecting-people-in-haiti-from-rabies.html": {
+      "checksum": "9ad14851d9a2e5397521525d613a3796"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/rabies-work.html": {
+      "checksum": "22140c4a8c2228f719813b81903404c8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/rapid-infection-prevention.html": {
+      "checksum": "1a82455e8cb7037c6c6aeb045c4e47dc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/strengthening-wash-in-sierre-leone.html": {
+      "checksum": "62550dc4721c1b6448358cc41feaa743"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/testing-tools-to-fight-mokeypox-drc.html": {
+      "checksum": "930caef76371aba518271045c33b8917"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/tracking-vhf-in-uganda.html": {
+      "checksum": "b0882e097f9970979d3866700dd3e5b8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/training-in-nigeria.html": {
+      "checksum": "e6730b22b5b4031976f0798473b66272"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/uganda-vector-borne.html": {
+      "checksum": "9c2dd812989afc71c9c02f8580bb5ced"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/global-stories/zoonotic-diseases-ethiopia.html": {
+      "checksum": "23ec0ee88b36d4d49076c107286127e7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/index.html": {
+      "checksum": "c92b5d4bf657e455d1af27e5f05c7f5c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories.html": {
+      "checksum": "0e9405c0dc33a789e48ae642667242b2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/developing-a-vaccine-against-tickborne.html": {
+      "checksum": "7fb34d2fec9b589d6e2632f29359035e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/fight-against-rabies.html": {
+      "checksum": "06ce3b3fdd74d2cd4831f8a954a6b15f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/identifying-hospital-outbreaks.html": {
+      "checksum": "01a84c8b6c01e03ef787a3007d1d475e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/new-tickborne-disease-bacteria.html": {
+      "checksum": "0327db9696bb58791e7433aefbe6d2a8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/solution-to-urinary-tract-infection.html": {
+      "checksum": "16d93221c3352c7e56c51777b9892239"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/text-messages-alert-travelers.html": {
+      "checksum": "f7419b7ae2bb149d4875d8b5610d7e56"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/tracking-anibiotic-resistant-bacteria.html": {
+      "checksum": "9dafa3911e4c243f54f26d766d9d6527"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/urgently-modernizing-us-public-health-systems.html": {
+      "checksum": "fdd254a336a5961279534c16eeccae57"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/warrior-panel.html": {
+      "checksum": "aae79a010ae4ffed17c7d3e4ceb3e360"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/innovative-stories/wastewater.html": {
+      "checksum": "01142d73c4fe9c14567faffbe3a988dd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/related-blog-posts.html": {
+      "checksum": "dc015ceb463b726db8de3e31292ca3d6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/stories-features/wcms-inc/localundernav_tp4864e.html": {
+      "checksum": "d09651f56575720cd9a6e999b5dcfa49"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/23-337170/DVBD-NOFO-webinar-low-res.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/accomplishments/2022-ar-video.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/accomplishments/2022-healthcare-safety-video.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/accomplishments/2022-quarantine-stations.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/accomplishments/amd-high-res-video.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/videos/funding/CK22-2203-Webinar-LowResolution.mp4": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2013-highlights.html": {
+      "checksum": "b100f8da6f6413eeaa2e21485936d86f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2014-highlights.html": {
+      "checksum": "e4252addc264a133f835007d8f671a93"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2015-highlights.html": {
+      "checksum": "5de7e3f654fc9c39ee2b56bf5ef8b4ca"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2016-highlights.html": {
+      "checksum": "285c46d75c690ee37d26cf89785294e0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/antibiotic-resistance.html": {
+      "checksum": "9f1e205bf9e36976150fa030223c69b4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/global-border-health.html": {
+      "checksum": "afe46f91233e03d6be938889f6508101"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/lab-expertise.html": {
+      "checksum": "8bb5a3fabf7d9a31681ce6b432aa99f0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/ncezid-accomplishments-2017.html": {
+      "checksum": "7ca8e7d39a000ed8660f40ed4885be86"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/outbreaks-domestic.html": {
+      "checksum": "ff9fac39aada641dc482c4ad328c568b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/outbreaks-global.html": {
+      "checksum": "ad9c1db0bc2d11c4b399016ea815d4f8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/support-to-states.html": {
+      "checksum": "a6b71ce84784809ff91a25bd71acea71"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/vector-borne.html": {
+      "checksum": "de8b1a7859a6c57f8911b049a77c8a65"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2017-highlights/year-in-numbers.html": {
+      "checksum": "2e4de3f9746075080e79020ec706ce7b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/amd.html": {
+      "checksum": "a9d2cc2ee377cdc760cad4d1ed6ea2e1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/building-lab-and-epi-capacity.html": {
+      "checksum": "87c9a8a6daf52b108fdc9a55d56aae47"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/fighting-global-outbreaks.html": {
+      "checksum": "aa600e466bf6626a5e800534b26cc25d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/looking-ahead-2019.html": {
+      "checksum": "f55e50d8a1fd5f1bf240587cb3ca8106"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/ncezid-accomplishments-2018.html": {
+      "checksum": "23cf287e72b2c52c692f043a5175908a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/one-health.html": {
+      "checksum": "22d4fab83fc4aeb7f1d94962e7b4e11c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/protecting-from-health-threats.html": {
+      "checksum": "d8e176692eed3ddf113bd8fe524210ec"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/protecting-patients-from-infections.html": {
+      "checksum": "af42691efc4f88f1e432ae7696af479e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2018-highlights/safeguarding-travelers.html": {
+      "checksum": "77c281f0f539a5f41a16425f93c8906c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/breaking-the-mold.html": {
+      "checksum": "a741b846a8256ddec0983858b772cd79"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/collaborating-to-make-a-difference.html": {
+      "checksum": "c31fc57df26941c97dd9e6de0cee9b1e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/combating-infections-in-the-us.html": {
+      "checksum": "8a1f1caffd20b7baa171336733acfd2a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/confronting-infections-across-the-globe.html": {
+      "checksum": "50cfe20d4286660120b0539ddf276048"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/looking-ahead-to-2020.html": {
+      "checksum": "ea9c6f8c0ed132fd91db0ff8a847607a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/moving-the-needle.html": {
+      "checksum": "530713b7933ef0bb0501a35f90454fcf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/ncezid-accomplishments-2019.html": {
+      "checksum": "e67c04faa737e82c15e84564eb5eb8e2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/observing-significant-milestones.html": {
+      "checksum": "b0a2ee4082ccedc7d07e6463c52d436e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2019-highlights/protecting-travelers-health.html": {
+      "checksum": "ee57200726c3ecdae4e8c4bce86c9e66"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/accelerating-data-use.html": {
+      "checksum": "7e8e403d57c5c23f97b082a532fc5380"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/equipping-states.html": {
+      "checksum": "da5fb351004dbaacdd34e99129598a24"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/fighting-vector-borne-diseases.html": {
+      "checksum": "fc5eb1ff9411006f6714464ddb9aeae3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/germs-in-food-water-and-soil.html": {
+      "checksum": "3da869878e64624a3f70b2b7ffae67df"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/harnessing-the-power-of-labs.html": {
+      "checksum": "884aa7fd165434c389c35b22544d4d2f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/improving-the-health-of-patients.html": {
+      "checksum": "1e7c6a7b439201ad776c7b14e4fb3725"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/keeping-a-vigilant-eye.html": {
+      "checksum": "92fda2191e4db720796eb0e3701a2519"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/leading-discovery.html": {
+      "checksum": "f848e4a42f2039d76223473744bed6df"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/ncezid-progress-report-2020.html": {
+      "checksum": "88d14f4dfdb5472d588600d5b782ab95"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/next-up.html": {
+      "checksum": "0d919d614ffeaef74898d03380beef6d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/notable-work.html": {
+      "checksum": "64a63f93326ae3941c9458cd0523d495"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/protecting-border-heatlh.html": {
+      "checksum": "1c47182623444663da735451af91a8ea"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2020-highlights/who-we-are.html": {
+      "checksum": "1ccc2d8bac3370fff63c3e5d86af47f8"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/antibiotic-resistance.html": {
+      "checksum": "d635e4ce93961bed018395dd560e1c90"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/battling-covid-19.html": {
+      "checksum": "4304b9059c2c7b36ddc7dfea269112c7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/climate-change.html": {
+      "checksum": "0b6abd63c80a8419224beb464b6c3346"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/foodborne-disease.html": {
+      "checksum": "f9d084d5784afee9da2c870ad3ec39b1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/health-equity.html": {
+      "checksum": "eedc9c46bbef42cda3c6011ee5aff1a9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/in-our-scope.html": {
+      "checksum": "b90e5cd852be4b83676a752a7df3dbfb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/index.html": {
+      "checksum": "0ff4aef1f34701aa1acb766a6fb54d97"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/outbreak-response.html": {
+      "checksum": "a7b1bf86767316b7c56c1de069d5cf0a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/vector-borne-disease.html": {
+      "checksum": "ac89f14d8a9671e5929c85ca2cca699e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/waterborne-disease.html": {
+      "checksum": "a3011d106f7553c04e17218f35fc480d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2021-highlights/who-we-are.html": {
+      "checksum": "cb3670d0d7a2c50f32275094342e6eb3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/amd.html": {
+      "checksum": "1a20920e916428f041eb818b471e115c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/antimicrobial-resistance.html": {
+      "checksum": "2a650406571177da03787dc19530c1f4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/emerging-infectious-diseases.html": {
+      "checksum": "faebb0aa0fad61174d3b2064458df06e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/healthcare-safety.html": {
+      "checksum": "2e9326fddca127e782ddc751fa942a0e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/index.html": {
+      "checksum": "14bcfd39b559b7357a9341949a95217a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/mosquito-technology.html": {
+      "checksum": "15f7418e11bfd44952214dca42c4ba74"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/mpox.html": {
+      "checksum": "66471c7fedc7bf8f4964f4a92d8556ff"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/outbreaks.html": {
+      "checksum": "27f4183d6aae1dfd4e46c32f471edeb6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/quarantine-stations.html": {
+      "checksum": "3ae0c2ff6d5d8171e2f2e4efcc07f065"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/toolkit.html": {
+      "checksum": "196051c3086d3c9bfc6398d118e6606a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/2022-highlights/wastewater-surveillance.html": {
+      "checksum": "45a43fef4f5e4fccdf4a97b0e7e25697"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/climate-change-and-infectious-diseases/index.html": {
+      "checksum": "3274e46bb619f3d7c3df54eb19b93397"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/climate-change-and-infectious-diseases/index796f.html": {
+      "checksum": "28b03a4a035701f58635fddab2ed873e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/climate-change-and-infectious-diseases/what-can-we-do.html": {
+      "checksum": "439220ce1379e220706e44d878b61231"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/climate-change-and-infectious-diseases/whats-needed.html": {
+      "checksum": "e866773335b54a5e1afd87e4661edc9d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/crosscutting-programs/around-the-world.html": {
+      "checksum": "cdd7484bb7d35d3aff47ad9b3088896a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/crosscutting-programs/health-home-abroad.html": {
+      "checksum": "9d12d161862a1a57a83164146d7bc0c7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/crosscutting-programs/index.html": {
+      "checksum": "eca52a6c39e8693805cb58b251a41ad3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/crosscutting-programs/tribal-health-in-action.html": {
+      "checksum": "c462068dee621e8aab8fbefb1a33c717"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2020/funding-july-2020.html": {
+      "checksum": "be2d682713b266892acba17866f083b2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2021.html": {
+      "checksum": "6b3cecebcf8f521f69b1a4c7a16eb094"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2021/funding-march-2021.html": {
+      "checksum": "2e464f2bb45eac1fb44d39172cacb0c6"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2021/global-AR-HAI.html": {
+      "checksum": "7eb06ff9e907c82e0ef91edcbe8aece1"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2021/improving-national-capacity.html": {
+      "checksum": "783241f5077c1a9c2ace8cfba1a85c52"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2022.html": {
+      "checksum": "06439054007e93d37d57ac0aa9f520f3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2022/healthcare-infection-control.html": {
+      "checksum": "25fcfd52f0e5251d1c1d3bba8828da9a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2023.html": {
+      "checksum": "b2dba626cdf3fa92679aad946df1f7b7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/grants/2023/prevention-control-vector-borne-diseases.html": {
+      "checksum": "27258872de6ca39003b2a1ab30bfdeed"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/index.html": {
+      "checksum": "862c1bf10cbe89053045f1fcf00c3ffc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations.html": {
+      "checksum": "476d82b162dbaefca4ca0654d88a608b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/biothreats.html": {
+      "checksum": "74a5b69009fd40d4147707ecca30ac44"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/fungal-infections.html": {
+      "checksum": "e8d6e38e3ad0349095f33ee609845e71"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/future.html": {
+      "checksum": "dbcb24ba8c4971e00c3fdcfda09db2a7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/hantavirus.html": {
+      "checksum": "a15dad9a40f31a8fa16a6e18c5ed0a0d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/innovate-antibiotic-resistance.html": {
+      "checksum": "c15e42aae945419e075ebad3549f0fba"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/introduction.html": {
+      "checksum": "21993663f03aba1886507d85d2065054"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/lab-science.html": {
+      "checksum": "acfc6248ec9730fb1b9a087175098051"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/rabies.html": {
+      "checksum": "9dceb7a05f945300767ad49a77081f95"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/smallpox.html": {
+      "checksum": "9214d42e55b8b050cfd45b31dacbfcde"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/vector-borne-disease-testing.html": {
+      "checksum": "609da6380de0d551e13e9e81ab3cb3d5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/vector-borne-diseases.html": {
+      "checksum": "738d87b4aaa21b1a368db4ea20f0145b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/waterborne-diseases.html": {
+      "checksum": "9d19dcc755592ac1547e71f16d40c30c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/whole-genome-sequence.html": {
+      "checksum": "328cd8161c2eb87f684bdbede538fdfe"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/zika-inside-the-virus.html": {
+      "checksum": "0798581463f9abaf5a165532313d8194"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/innovations/zika-mapping.html": {
+      "checksum": "b92a2315d08eed03b8e1fedd368a63fb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/ncezid-publications.html": {
+      "checksum": "9338661a328544605024c866bbdde8ad"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-partners.html": {
+      "checksum": "b15c1ec001c1b24a9cbb961c36d00109"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics.html": {
+      "checksum": "c51980aa2b172be08100864764ddae15"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/borders-travelers.html": {
+      "checksum": "f7afe64e365fe371d501e3a7914983d0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/chronic-symptoms.html": {
+      "checksum": "b8c85c906c178a9d5fc836207246ab74"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/deadly-unexplained-diseases.html": {
+      "checksum": "bf17e90701c90041741bce363df1ffc4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/fighting-antibiotic-resistance.html": {
+      "checksum": "3ea45406d816d5073844b7b6b064c41f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/foodborne-disease.html": {
+      "checksum": "ece1505b74a01bab7a487fab2c23fadf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/healthcare-associated-infections.html": {
+      "checksum": "29df4d02448cdbe90267e30ea65bd0da"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/innovating-solutions.html": {
+      "checksum": "babd0eee44121f83561134dc6ebe35e9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/lab-expertise.html": {
+      "checksum": "0f49284a035e3156a79730c57b7a1162"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/one-health.html": {
+      "checksum": "caa1ecc1adce2c02c75d5cbbbf64d66d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/protecting-americans-from-bioterrorism.html": {
+      "checksum": "5c705baaedf4e3dd19c9cfcaf44e7103"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/responding-to-outbreaks.html": {
+      "checksum": "63c4e04ad646110a50fa931ba643dd4e"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/supporting-states.html": {
+      "checksum": "9415c4fd998cf1b43121e2ddc2f3b05d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/targeting-infectious-disease.html": {
+      "checksum": "09fa14579b23f0bbf6209a0c1dc785f4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/vector-borne-diseases.html": {
+      "checksum": "16e433cddbfea6a9b4de31bbcb127fbc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-topics/waterborne-fungal-infections.html": {
+      "checksum": "63a8ac1a0a99d5a3149fb02d6e417cef"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2015.html": {
+      "checksum": "572b363c7651646aa81a92fbe9e449b7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2016.html": {
+      "checksum": "ff235bd035ce230ec663689dbddf2393"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2017.html": {
+      "checksum": "6900183aec03215e0035352558414eaf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2018.html": {
+      "checksum": "e0ff5f487b7cbd8e2f24a685aba533a9"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2019.html": {
+      "checksum": "362b0598a7af35736762afc27af5462c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2020.html": {
+      "checksum": "d8a24a8138489a7f733024c231e9b735"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2021.html": {
+      "checksum": "b744981582249f6f3fe9191f55cc39c0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-2022.html": {
+      "checksum": "6160f5204ed78d2b3d994b8492b4ac6f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/our-work-our-stories.html": {
+      "checksum": "8d2e0498a2e927396b29ceb6c23da66a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/antibiotic-stewardship.html": {
+      "checksum": "e55907f4c893e86fdcbf493434bb823a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/combatting-ar.html": {
+      "checksum": "a2b940e09dee01700bbf5f66f8d1094c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/crypto-screenings-south-africa.html": {
+      "checksum": "6749bf33d5353867eda5dd6f62a026fd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/delivering-cure.html": {
+      "checksum": "049162ee4a401841fb68d4b21e0b6214"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/expand-ngs-STLT-labs.html": {
+      "checksum": "b16b1cf5b514bccaf977f50d00841caa"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/fighting-zika.html": {
+      "checksum": "21565529327a6b7216f8b5dc908fc80a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/healthcare-costs-associated-with-ar-infections.html": {
+      "checksum": "f3458a11a37d9bb94a26aae3eeee3f12"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/hilton-foundation.html": {
+      "checksum": "7a508a93585deda80b8eb5e561c4df08"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/improving-american-indian-health.html": {
+      "checksum": "96313098c4b76d894acb3d8de8d5e2d7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/innovation-amd.html": {
+      "checksum": "6e795a3d2368469d7606732213a672c3"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/new-rabies-test.html": {
+      "checksum": "27884876c0ffe58086395a73cfbd44a2"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/petsmart-charities-and-cdc-foundation-rsmf-education.html": {
+      "checksum": "5a08e7c129d8829f157cd04839cd5915"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/prevent-illness-people-pets.html": {
+      "checksum": "2cf80ea2c2c8f4f3d954f58b0061538c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/prevent-salmonella-flocks.html": {
+      "checksum": "159615835af92b88e2e468a090ce4a6f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/safe-injection-practices.html": {
+      "checksum": "52fbeb9bbc80dc3804b04d8c6a43fd96"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/safer-in-water.html": {
+      "checksum": "02daa1ca9379969e330d4373b414e18a"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/travelers-health.html": {
+      "checksum": "f2de6c4aed522a6c9a156055b07a0f87"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/vector-borne-disease-center-of-excellence.html": {
+      "checksum": "86c188c4a6cea7798a967ca80fe39b5d"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/waste-fuel-in-Kenya.html": {
+      "checksum": "1133d545c1123254e7ea61df6621d2d4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/partnership-in-action/yellow-fever-vaccination-during-covid-19.html": {
+      "checksum": "8104adc09440f45ab4253936bb33328f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/recent-work.html": {
+      "checksum": "2ca765c2cd908326186526e7580ed6c0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/what-we-do/wcms-inc/localrelatedmodule-govd_tp4115a.html": {
+      "checksum": "1f5e458fefd6763da095569d723cdf76"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/index.html": {
+      "checksum": "18ab06d6a6c0e1ec227962e98dfdec78"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2015.html": {
+      "checksum": "1a9b920f603956dbe64851d3f03bcb65"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2016.html": {
+      "checksum": "2fdd9942d3e151c2d35e0bf0309464c7"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2017.html": {
+      "checksum": "6c7d0b581667b9bfa5e3b1d640390560"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2018.html": {
+      "checksum": "df85d78a28f3838782e3355ccea0ebec"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2019.html": {
+      "checksum": "160fc1f2bdbef7d847859857a80f64d4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2020.html": {
+      "checksum": "0a3e76bf595ff4fb5da3ea18684c306b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2021.html": {
+      "checksum": "a4e22bff2a5b8c97cd746569ec2f4726"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom-2022.html": {
+      "checksum": "9cbfa28c1d5d7c40deb35f11e4854dba"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/newsroom.html": {
+      "checksum": "d4c6dc1955ffac5ee27b4b65b07cea69"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/whats-new/wcms-inc/localundernav_tp4864e.html": {
+      "checksum": "d09651f56575720cd9a6e999b5dcfa49"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/about-our-name.html": {
+      "checksum": "ed387021f8a9f86076b469c134efa5cd"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/budget.html": {
+      "checksum": "1b82900ee6aa308cb68d18108249629b"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/clia/certificates.html": {
+      "checksum": "45757cb838d1b6d388ef4f7d9fcbc8fc"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/director-ncezid.html": {
+      "checksum": "af961397f91a03b64671e693753a04d0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/index.html": {
+      "checksum": "13a9e202e23f24749f0a7a13c866ab2f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dclsr.html": {
+      "checksum": "f09ff6e3747d678112ac8ee34292b24c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dfwed.html": {
+      "checksum": "a7224ef592374447c8ac4488c59defee"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dgmh.html": {
+      "checksum": "44554b1acefdda6e09c5562059f3a72f"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dgmq.html": {
+      "checksum": "d19408325f7c3873d4c86ef73ef47ec0"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dhcpp.html": {
+      "checksum": "45096789394ca33b5d2740bdd82fc551"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dhqp.html": {
+      "checksum": "4a2d0ecd048816da7bd0ed7d8b7fdcfa"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/didri.html": {
+      "checksum": "1e748ca09fa532c857a10fbfff92fb30"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dpdm.html": {
+      "checksum": "3bb93ba0bb3217313f46f80618163aa5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dpei.html": {
+      "checksum": "a5ecdf58180be2b85e74b0611f55af52"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dsr.html": {
+      "checksum": "e5e8695ed21c1096d85e15cd52dc9306"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/dvbd.html": {
+      "checksum": "e986a5fe13ec89f1b348413593f6f488"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/index.html": {
+      "checksum": "84db3d71f7224ac6c73683e339717fa4"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/oamd.html": {
+      "checksum": "3eb23f5f44a4ab12ddc8d412d9082ecf"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/ncezid-divisions/oho.html": {
+      "checksum": "027a5b233c9b5376d84cf9afedbebe3c"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/org-ncezid-text.html": {
+      "checksum": "32f439e8a3e0d6776dc8e340e032d1f5"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/org-ncezid.html": {
+      "checksum": "cdc01e1a8a050336cd55f167708766fb"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/social-media.html": {
+      "checksum": "eaa8b31e824542c98c1a9151520b7ffe"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/strategic-plans.html": {
+      "checksum": "9825efefc9d2b8466721643e0eb03b53"
+    },
+    "data/websites/ncezid/ncezid/www.cdc.gov/ncezid/who-we-are/wcms-inc/localundernav_tp4864e.html": {
+      "checksum": "d09651f56575720cd9a6e999b5dcfa49"
+    },
+    "data/websites/ncezid/test.whtt": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/websites/prevent_flu.html": {
+      "checksum": "da92ea38d95e14ef0cc068d6b0a8df36"
+    },
+    "data/websites/prevent_flu_files/3-actions-fight-flu-poster-600px.jpg": {
+      "checksum": "02a9528710fd11407566fa38c2af9a7c"
+    },
+    "data/websites/prevent_flu_files/AppMeasurement.min.js.download": {
+      "checksum": "d860c16ac938f7d839f0ec158d02d0f0"
+    },
+    "data/websites/prevent_flu_files/AppMeasurement_Module_ActivityMap.min.js.download": {
+      "checksum": "2d1382c349d480b6b41574ac0c1af066"
+    },
+    "data/websites/prevent_flu_files/RC198d1888b45d40b9bbce91a07b9b0266-source.min.js.download": {
+      "checksum": "16605911fa0cb16fa59c8efb61597dc4"
+    },
+    "data/websites/prevent_flu_files/RCc3a7d7f14ead4c63902031245602167d-source.min.js.download": {
+      "checksum": "19cb05c206c806eb4f89060af4ac07bf"
+    },
+    "data/websites/prevent_flu_files/Universal-Federated-Analytics-Min.js.download": {
+      "checksum": "b7b7a027119a4e0aa84addef3191ce1b"
+    },
+    "data/websites/prevent_flu_files/ab.js.download": {
+      "checksum": "6703d162c0276f30e462a4fe666202df"
+    },
+    "data/websites/prevent_flu_files/all.css": {
+      "checksum": "20a9ce516eaea76da29a23adc43e8998"
+    },
+    "data/websites/prevent_flu_files/analytics.js.download": {
+      "checksum": "575b5480531da4d14e7453e2016fe0bc"
+    },
+    "data/websites/prevent_flu_files/analytics_cdcgov.js.download": {
+      "checksum": "91854db513dc29179edaba0eb55859c8"
+    },
+    "data/websites/prevent_flu_files/antiviral-info-600px.jpg": {
+      "checksum": "7183dc9f174cee1a25fd55507ef68c8d"
+    },
+    "data/websites/prevent_flu_files/app.min.js.download": {
+      "checksum": "687cf5a7614632b82b211e0ab3478287"
+    },
+    "data/websites/prevent_flu_files/bootstrap.bundle.min.js.download": {
+      "checksum": "3648fa980c6623edee76d548305e5f8a"
+    },
+    "data/websites/prevent_flu_files/cdc_config.js.download": {
+      "checksum": "e9ae6cf6cc96fd51b27d9b1b4579ca1c"
+    },
+    "data/websites/prevent_flu_files/css": {
+      "checksum": "123a6693e07b3f332f3bad9f36b1d6ec"
+    },
+    "data/websites/prevent_flu_files/everyday-actions-prevent-600px.jpg": {
+      "checksum": "2937d4903ac736d5e2a800872e5799c3"
+    },
+    "data/websites/prevent_flu_files/flu-guide-parents-600px.jpg": {
+      "checksum": "0d06e2cc7292d74911837d95ce0d9d3e"
+    },
+    "data/websites/prevent_flu_files/flu-prevent-banner-update.jpg": {
+      "checksum": "72b5ba5ee8fabbb83b41189fbf733f48"
+    },
+    "data/websites/prevent_flu_files/gateway.min.js.download": {
+      "checksum": "a8b1123a225c3e1d391f30f4cfb72dbe"
+    },
+    "data/websites/prevent_flu_files/jquery.min.js.download": {
+      "checksum": "954f70f07f05742168adceba796dda72"
+    },
+    "data/websites/prevent_flu_files/js": {
+      "checksum": "9b2a02ee55e52ce3d88b9cde15a62f79"
+    },
+    "data/websites/prevent_flu_files/launch-04da70ea688d.min.js.download": {
+      "checksum": "8b5ca6ae21cbd3f18a998b374b0dcc35"
+    },
+    "data/websites/prevent_flu_files/left.png": {
+      "checksum": "0501a5d9aff5f205a3f526d84b117fc4"
+    },
+    "data/websites/prevent_flu_files/lion-kitten-flu-700px.jpg": {
+      "checksum": "47847f0df1c7302fc9efa6b2cdf0be1e"
+    },
+    "data/websites/prevent_flu_files/localrd.css": {
+      "checksum": "70c2e41be1e4701bd9c6a01637fcf261"
+    },
+    "data/websites/prevent_flu_files/maps-002.png": {
+      "checksum": "7c9109a1a04d93d0e6f4a5cb3f7899a2"
+    },
+    "data/websites/prevent_flu_files/print.min.css": {
+      "checksum": "9e957996cb01610c869da2f38e7ab05f"
+    },
+    "data/websites/prevent_flu_files/protect-from-flu-600px.jpg": {
+      "checksum": "c915b52ffd4f31d73a75c2b43f891afc"
+    },
+    "data/websites/prevent_flu_files/qrcode.min.js.download": {
+      "checksum": "418e5a47e298e73292873b3fc33f01e5"
+    },
+    "data/websites/prevent_flu_files/right.png": {
+      "checksum": "e85182e4f47623fd546cda3065c20d28"
+    },
+    "data/websites/prevent_flu_files/stop-spread-flu-600px.jpg": {
+      "checksum": "588452937305704996756302a0f958c6"
+    },
+    "data/websites/prevent_flu_files/style.css": {
+      "checksum": "d2c9814781721cb67a0eca6f4e11fd52"
+    },
+    "data/websites/prevent_flu_files/three-ways-600px.jpg": {
+      "checksum": "78c1151600bc104c37dc920d644327b7"
+    },
+    "data/websites/prevent_flu_files/topic_levels(1).js.download": {
+      "checksum": "d9ffb106ac96728ac5b15bb88ae34c5a"
+    },
+    "data/websites/prevent_flu_files/topic_levels.js.download": {
+      "checksum": "d9ffb106ac96728ac5b15bb88ae34c5a"
+    },
+    "data/websites/prevent_flu_files/vaxbot-nohover.js.download": {
+      "checksum": "1e10397f420102897c4abf8583167049"
+    },
+    "data/websites/prevent_flu_files/who-should-get-it-600px.jpg": {
+      "checksum": "f2624f72a693dcf0a3e7e9ea9fe5b027"
+    },
+    "data/websites/prion.html": {
+      "checksum": "52f407c91d4feee8d08348e99f2727b3"
+    },
+    "data/websites/templates/doc_embeddings.csv": {
+      "checksum": "83ef07859759d874f8800aba076cd88b"
+    },
+    "data/websites/templates/html/about.html": {
+      "checksum": "da06d7060f5a2ca1980a8a7018864988"
+    },
+    "data/websites/templates/html/app_summary.html": {
+      "checksum": "30e02d8e89ed4c2c24d90738b483de61"
+    },
+    "data/websites/templates/html/behavioral_basics.html": {
+      "checksum": "1065a54c4a64e9f462b2b5bea8f542b4"
+    },
+    "data/websites/templates/html/bioterrorism.html": {
+      "checksum": "508dafb3e7b7a9a26b6aa20f932d2d61"
+    },
+    "data/websites/templates/html/campaign_profile.html": {
+      "checksum": "c36ff103536c5b92085e69753207adac"
+    },
+    "data/websites/templates/html/caring_for_people.html": {
+      "checksum": "44331d5e22d23d31679f6f5c7b823801"
+    },
+    "data/websites/templates/html/causes_and_spread.html": {
+      "checksum": "addc75fc807562c47e75734973ef7d52"
+    },
+    "data/websites/templates/html/clinical_care.html": {
+      "checksum": "30a659206e767776931f424f56750dd1"
+    },
+    "data/websites/templates/html/clinical_care_pregnancy.html": {
+      "checksum": "7e5b27a607771a3357c48a6224383d37"
+    },
+    "data/websites/templates/html/clinical_guidance.html": {
+      "checksum": "279c36e9067f5e4b06be246b5f792dac"
+    },
+    "data/websites/templates/html/clinical_guidance_special_pops.html": {
+      "checksum": "5ddddd5463e006363afc05299ab1c62f"
+    },
+    "data/websites/templates/html/clinical_overviiew.html": {
+      "checksum": "f8af4616f77240cece893d0721236bbe"
+    },
+    "data/websites/templates/html/clinical_safety.html": {
+      "checksum": "e957c3d52b8706fe46329f19a0bd8d2c"
+    },
+    "data/websites/templates/html/clinical_signs.html": {
+      "checksum": "99c81891de5537c9db1d7044898336bb"
+    },
+    "data/websites/templates/html/clinical_testing.html": {
+      "checksum": "574fcd951f0f710783e0349512ab4aa7"
+    },
+    "data/websites/templates/html/cover_page.html": {
+      "checksum": "cc0e2f41b305f675bcadffa3e9eff376"
+    },
+    "data/websites/templates/html/data_description.html": {
+      "checksum": "25e88ed03b523ed6ba1e55e5979f56fa"
+    },
+    "data/websites/templates/html/data_or_surveillance.html": {
+      "checksum": "793d1445f3453e2928072e1ef4c58eff"
+    },
+    "data/websites/templates/html/disease_condition_basics.html": {
+      "checksum": "c08e1acacd56e3dd935d4291355cac2b"
+    },
+    "data/websites/templates/html/environmental_basics.html": {
+      "checksum": "4cfaa092f0a1cf09a304b954b69994b0"
+    },
+    "data/websites/templates/html/events.html": {
+      "checksum": "17abbf9a4553044513b0c903f6239a11"
+    },
+    "data/websites/templates/html/facts_and_stats.html": {
+      "checksum": "0aeab9dd506a617e76241335ebcc6f52"
+    },
+    "data/websites/templates/html/funding.html": {
+      "checksum": "361fec4ae6d20c2d08d00402f9d26ece"
+    },
+    "data/websites/templates/html/getting_your_vaccine.html": {
+      "checksum": "9afd265f6421f445872c71224fd3e983"
+    },
+    "data/websites/templates/html/health_and_safety.html": {
+      "checksum": "1dbd24bd3ca3bd8401dec7ffee5d8a10"
+    },
+    "data/websites/templates/html/health_equity.html": {
+      "checksum": "020b873e5149f789e8bd0d57a53a4b1b"
+    },
+    "data/websites/templates/html/healthy_habits.html": {
+      "checksum": "10e8c96937f15f254b42053193dbf838"
+    },
+    "data/websites/templates/html/infection_control.html": {
+      "checksum": "5265c7372f69c300ef8a01a63535c7a0"
+    },
+    "data/websites/templates/html/intervention.html": {
+      "checksum": "4312761af1c0144a86f92a401e63d67c"
+    },
+    "data/websites/templates/html/lab_testing.html": {
+      "checksum": "9aa2fb0573245050b8d3c0bc8c241509"
+    },
+    "data/websites/templates/html/listing_page.html": {
+      "checksum": "32bd836f2ae0a5f6ab572439aa0f993c"
+    },
+    "data/websites/templates/html/living_with.html": {
+      "checksum": "ee73aa50c2b12b5208079e0858bfe0f9"
+    },
+    "data/websites/templates/html/news.html": {
+      "checksum": "5fac14b0cae958017ebea41f40f1c371"
+    },
+    "data/websites/templates/html/outbreak.html": {
+      "checksum": "d351908181cc5226fc544950e6169792"
+    },
+    "data/websites/templates/html/participate_in.html": {
+      "checksum": "f21bca3d74e91bf834a4245673f6cc64"
+    },
+    "data/websites/templates/html/partner_profile.html": {
+      "checksum": "7f644bbe5b92ed111346874253a6a911"
+    },
+    "data/websites/templates/html/ph_strateegy.html": {
+      "checksum": "315815cbe80617ed650c0db4388172a1"
+    },
+    "data/websites/templates/html/prevention.html": {
+      "checksum": "55b46c2c33d9636847d94799087d003c"
+    },
+    "data/websites/templates/html/prog_init_search_special.html": {
+      "checksum": "634aa422c25a9321338bc9473354411b"
+    },
+    "data/websites/templates/html/program_initiative.html": {
+      "checksum": "e2da25ed7178822e2fd446614d13b1fd"
+    },
+    "data/websites/templates/html/pub_summary.html": {
+      "checksum": "4adcc8c0aae167d01fb1827bf32a26b3"
+    },
+    "data/websites/templates/html/real_stories.html": {
+      "checksum": "a51a84cf3cdbb6b10c0319d60411a198"
+    },
+    "data/websites/templates/html/report_pub_or_study.html": {
+      "checksum": "58b04f58bdff6e466d6d726a521a50a9"
+    },
+    "data/websites/templates/html/research_data_summary.html": {
+      "checksum": "5b568fa361d8324098b8e1debebf7b5f"
+    },
+    "data/websites/templates/html/response.html": {
+      "checksum": "fc9b02235dc64c256fd2ee89aa474fa4"
+    },
+    "data/websites/templates/html/response_guidance.html": {
+      "checksum": "c5b38d0b63a62f85eabbda1518423a7f"
+    },
+    "data/websites/templates/html/risk_factors.html": {
+      "checksum": "b6c9f04ab4555b0df525c5986f8fb82a"
+    },
+    "data/websites/templates/html/safety_preparedness.html": {
+      "checksum": "d542ba7c7650bc798866b3ee01987ee1"
+    },
+    "data/websites/templates/html/school_guidance.html": {
+      "checksum": "72216c44fffcb2b18d5c41ed4e94e311"
+    },
+    "data/websites/templates/html/signs_symptoms.html": {
+      "checksum": "85e3e524d9bc183d184673cb3a79c05f"
+    },
+    "data/websites/templates/html/single_story.html": {
+      "checksum": "7b75f067e7113562ffc5c677d77e4af8"
+    },
+    "data/websites/templates/html/situation_summary.html": {
+      "checksum": "9e8f915ab117d46b7b315ec86385781d"
+    },
+    "data/websites/templates/html/specimen_collection.html": {
+      "checksum": "175204f1fc43e08c67e8ffac7f822ae7"
+    },
+    "data/websites/templates/html/specimen_submission.html": {
+      "checksum": "bd6570ae2890e32f5bc6e5c4a2a69158"
+    },
+    "data/websites/templates/html/staff_biography.html": {
+      "checksum": "311495dca75da172dcd48d5bfaffc51c"
+    },
+    "data/websites/templates/html/survey_surveillance_profile.html": {
+      "checksum": "4404059e15d78ba80923194fd1928228"
+    },
+    "data/websites/templates/html/talking_to.html": {
+      "checksum": "5362468e16c3ded793c48bc62f7a9217"
+    },
+    "data/websites/templates/html/testing_screening.html": {
+      "checksum": "460330852689b50defb663f44a06acbd"
+    },
+    "data/websites/templates/html/toolkit.html": {
+      "checksum": "35b1850f310fe115fb87ccfff37d5d43"
+    },
+    "data/websites/templates/html/training.html": {
+      "checksum": "c91d248736e841c4226de69f552baa92"
+    },
+    "data/websites/templates/html/training_materials.html": {
+      "checksum": "e7a01405274980e331b3fce4d0a8d28d"
+    },
+    "data/websites/templates/html/treatment.html": {
+      "checksum": "341663d4ff5e50ed100809ab08736233"
+    },
+    "data/websites/templates/html/vaccine_administration.html": {
+      "checksum": "10dc0439ede8e10a50319861516a9fe6"
+    },
+    "data/websites/templates/html/vaccine_basics.html": {
+      "checksum": "0b8bf2bf18d937ed341938877c5a111c"
+    },
+    "data/websites/templates/html/vaccine_product_info.html": {
+      "checksum": "f9dfa07d73f5245c14359314a2b7357a"
+    },
+    "data/websites/templates/html/vaccine_recommendations.html": {
+      "checksum": "33e1f9213102f03de737d373e9bb5fb2"
+    },
+    "data/websites/templates/html/vaccine_safety.html": {
+      "checksum": "e4fcfed6befbfc2d5e28b3ca599c38dd"
+    },
+    "data/websites/templates/html/vaccine_special.html": {
+      "checksum": "9e3472b4d3f665bad606d91f0a57d96a"
+    },
+    "data/websites/templates/html/vaccine_storage.html": {
+      "checksum": "f57ed344a37f03ee1d505c6ac578dcc2"
+    },
+    "data/websites/templates/text/about.txt": {
+      "checksum": "50e5fb43e55d1ea9a92b2b7b342c48b7"
+    },
+    "data/websites/templates/text/app_summary.txt": {
+      "checksum": "ec640405b362eb2adc9886fe798d15c3"
+    },
+    "data/websites/templates/text/behavioral_basics.txt": {
+      "checksum": "98607138b836514498e6c1221082dfe3"
+    },
+    "data/websites/templates/text/bioterrorism.txt": {
+      "checksum": "a247ad6311b501bab78b4acc316aa75f"
+    },
+    "data/websites/templates/text/campaign_profile.txt": {
+      "checksum": "44153c42fc7bb444bffbf7e751d92704"
+    },
+    "data/websites/templates/text/caring_for_people.txt": {
+      "checksum": "b76df77d840b8adf8726c14c14aaf08f"
+    },
+    "data/websites/templates/text/causes_and_spread.txt": {
+      "checksum": "b62c5badebdca9751cd73d4d23ebf2dc"
+    },
+    "data/websites/templates/text/clinical_care.txt": {
+      "checksum": "5c47ee19170651af33815cb2ad8f26e7"
+    },
+    "data/websites/templates/text/clinical_care_pregnancy.txt": {
+      "checksum": "a6db04b54ca2629ef8cca795a0480413"
+    },
+    "data/websites/templates/text/clinical_guidance.txt": {
+      "checksum": "d666d1b9e9b8bb0a6ac4b4df6ce4f592"
+    },
+    "data/websites/templates/text/clinical_guidance_special_pops.txt": {
+      "checksum": "6b8272f6de9e0de1956a64fb3fa212a3"
+    },
+    "data/websites/templates/text/clinical_overviiew.txt": {
+      "checksum": "c4b93a1567a5d8183653696ea27c019b"
+    },
+    "data/websites/templates/text/clinical_safety.txt": {
+      "checksum": "0c6cbb4d3873472f95608399997806f6"
+    },
+    "data/websites/templates/text/clinical_signs.txt": {
+      "checksum": "0af7aa3f33635e526b53d3196af76d7f"
+    },
+    "data/websites/templates/text/clinical_testing.txt": {
+      "checksum": "29fa6931748cf714b786bcd8e5445e1f"
+    },
+    "data/websites/templates/text/cover_page.txt": {
+      "checksum": "5219c2cb1e45fe6b582a055c71ba61c5"
+    },
+    "data/websites/templates/text/data_description.txt": {
+      "checksum": "57e9e9000654ea1fd7246dfac7009885"
+    },
+    "data/websites/templates/text/data_or_surveillance.txt": {
+      "checksum": "604d92449b3ecf3fe7694252c4f5b7e6"
+    },
+    "data/websites/templates/text/disease_condition_basics.txt": {
+      "checksum": "ea69b0ce19360c19aa68072529c3b545"
+    },
+    "data/websites/templates/text/environmental_basics.txt": {
+      "checksum": "65d555946af218f2e2b5da8c3483d6fa"
+    },
+    "data/websites/templates/text/events.txt": {
+      "checksum": "f91097d90059abfa66c43225ce2b8a66"
+    },
+    "data/websites/templates/text/facts_and_stats.txt": {
+      "checksum": "a04bf8b0dd9b19c7b02dca11279dbb61"
+    },
+    "data/websites/templates/text/funding.txt": {
+      "checksum": "9263ad2694151b929504ce5a2d64936e"
+    },
+    "data/websites/templates/text/getting_your_vaccine.txt": {
+      "checksum": "23fcd12a589a66f2891817019dbda03a"
+    },
+    "data/websites/templates/text/health_and_safety.txt": {
+      "checksum": "955d4d6464cbb2eac093843e6915f351"
+    },
+    "data/websites/templates/text/health_equity.txt": {
+      "checksum": "da1510dbaaac5e337854dca1b336685f"
+    },
+    "data/websites/templates/text/healthy_habits.txt": {
+      "checksum": "e3a5a390eb92ba995d95ffb9e02a07c9"
+    },
+    "data/websites/templates/text/infection_control.txt": {
+      "checksum": "b039a1d66a1f36004ad6da3f23f5a6ca"
+    },
+    "data/websites/templates/text/intervention.txt": {
+      "checksum": "5e977c28de85fbebb6ff1f27650d69f7"
+    },
+    "data/websites/templates/text/lab_testing.txt": {
+      "checksum": "bd6af220eff6354754cd8fb016bb3965"
+    },
+    "data/websites/templates/text/listing_page.txt": {
+      "checksum": "e56fafa96eb71852f30d320dbd668ff9"
+    },
+    "data/websites/templates/text/living_with.txt": {
+      "checksum": "522388894837398b7b0c2c3efe4f5595"
+    },
+    "data/websites/templates/text/news.txt": {
+      "checksum": "fa72bab20002eebc4d2bef55056868a3"
+    },
+    "data/websites/templates/text/outbreak.txt": {
+      "checksum": "c072d4f5de86e534223ff5af35252388"
+    },
+    "data/websites/templates/text/participate_in.txt": {
+      "checksum": "3f88296466b30d4e23621b9a6be14bab"
+    },
+    "data/websites/templates/text/partner_profile.txt": {
+      "checksum": "5b8ec621a2b05fe444ac09fc59538875"
+    },
+    "data/websites/templates/text/ph_strateegy.txt": {
+      "checksum": "d52eb59b74783b415afabbf927c76f54"
+    },
+    "data/websites/templates/text/prevention.txt": {
+      "checksum": "a78b74a7d16dabf5eb64171d634065a4"
+    },
+    "data/websites/templates/text/prog_init_search_special.txt": {
+      "checksum": "dabace7972ce752b8a153177c7a0683f"
+    },
+    "data/websites/templates/text/program_initiative.txt": {
+      "checksum": "9397ea2b75a4c057fc77a0113fc8672e"
+    },
+    "data/websites/templates/text/pub_summary.txt": {
+      "checksum": "aefa469a82bd239a3e221c83ea26d974"
+    },
+    "data/websites/templates/text/real_stories.txt": {
+      "checksum": "36278bb896165d9977aad550af02c682"
+    },
+    "data/websites/templates/text/report_pub_or_study.txt": {
+      "checksum": "f3d95db31aa96086c3101cdefb331e59"
+    },
+    "data/websites/templates/text/research_data_summary.txt": {
+      "checksum": "cc334d0f5a9dc1e265e85971ae760403"
+    },
+    "data/websites/templates/text/response.txt": {
+      "checksum": "cf3a357b9b423356890a472e7c55b747"
+    },
+    "data/websites/templates/text/response_guidance.txt": {
+      "checksum": "7240536cf33495286f05ae169aa35abe"
+    },
+    "data/websites/templates/text/risk_factors.txt": {
+      "checksum": "9efaa070e07a8647dc62f3ee3d7da34f"
+    },
+    "data/websites/templates/text/safety_preparedness.txt": {
+      "checksum": "408d85293af5fb1fe449fce785785384"
+    },
+    "data/websites/templates/text/school_guidance.txt": {
+      "checksum": "301cf56342770ff021154f36ca76215b"
+    },
+    "data/websites/templates/text/signs_symptoms.txt": {
+      "checksum": "6ad0e4180a68827b90a8140a17c6dc64"
+    },
+    "data/websites/templates/text/single_story.txt": {
+      "checksum": "21004fbbb6e3331916cf337de72d1254"
+    },
+    "data/websites/templates/text/situation_summary.txt": {
+      "checksum": "e43b9af5b414d7d6afbf0f02cc8477e6"
+    },
+    "data/websites/templates/text/specimen_collection.txt": {
+      "checksum": "bb3bdde4700854ab6fffac29df7b86e4"
+    },
+    "data/websites/templates/text/specimen_submission.txt": {
+      "checksum": "045e2802654334cfd948c57d5002c341"
+    },
+    "data/websites/templates/text/staff_biography.txt": {
+      "checksum": "d819dc92deb3f53a36f9793e3eac8106"
+    },
+    "data/websites/templates/text/survey_surveillance_profile.txt": {
+      "checksum": "eef1e83bf190b83c7cd399e68acacc6b"
+    },
+    "data/websites/templates/text/talking_to.txt": {
+      "checksum": "54141b801c70bfe3576dea54db2b72fb"
+    },
+    "data/websites/templates/text/testing_screening.txt": {
+      "checksum": "560bfd21d50c723c7b759d5dccb93cda"
+    },
+    "data/websites/templates/text/toolkit.txt": {
+      "checksum": "9a8c620481c26db430f75eb5ab7a6b3a"
+    },
+    "data/websites/templates/text/training.txt": {
+      "checksum": "d878ddfeb2866e8839cfc63ac0738363"
+    },
+    "data/websites/templates/text/training_materials.txt": {
+      "checksum": "84750303816a40441b024e485bdc25ef"
+    },
+    "data/websites/templates/text/treatment.txt": {
+      "checksum": "3b45a10761d2bb4e5dce6c78dc619b6f"
+    },
+    "data/websites/templates/text/vaccine_administration.txt": {
+      "checksum": "ee64ad37c3cd07a3dccb52a4b0b58ce0"
+    },
+    "data/websites/templates/text/vaccine_basics.txt": {
+      "checksum": "9b70648c68031a588f148c71a660f4ce"
+    },
+    "data/websites/templates/text/vaccine_product_info.txt": {
+      "checksum": "93edb0ed56d4fb68ff97425066097a35"
+    },
+    "data/websites/templates/text/vaccine_recommendations.txt": {
+      "checksum": "00761ac064349fcbaf90eeceebe9633f"
+    },
+    "data/websites/templates/text/vaccine_safety.txt": {
+      "checksum": "ef7fb0394489086afded030c88bb4fd7"
+    },
+    "data/websites/templates/text/vaccine_special.txt": {
+      "checksum": "605ac21b799b98359fd216b5eb8fd026"
+    },
+    "data/websites/templates/text/vaccine_storage.txt": {
+      "checksum": "de44ccadbb4424eef83490de66222284"
+    },
+    "data/websites/templates/title_embeddings.csv": {
+      "checksum": "c38a261964cdb7350837660dd3186580"
+    },
+    "data/websites/templates/titles.txt": {
+      "checksum": "61962f52b6339161da19e8059d21558e"
+    },
+    "example.html": {
+      "checksum": "3db2c8398c60ccc0ae2556428f024c3e"
+    },
+    "journal_encoding.py": {
+      "checksum": "8820c5e9540e8e69f4ec9706c761d75b"
+    },
+    "journal_processing.py": {
+      "checksum": "735abe8c5336c155a849f1bc526485ae"
+    },
+    "output/app demo.pdf": {
+      "checksum": "d73324af89b15608c47971de90bb7986"
+    },
+    "output/app demo.pptx": {
+      "checksum": "34413b786d02904388ef61bd592535a9"
+    },
+    "output/cci_report.txt": {
+      "checksum": "e30dbfb99a771f2a089da781a9f726af"
+    },
+    "output/chat.txt": {
+      "checksum": "5ae819cbe85f74f517d88e0450948850"
+    },
+    "output/diabetes.txt": {
+      "checksum": "b508cb8845f1071b174ea963fa0c97f0"
+    },
+    "output/draft.txt": {
+      "checksum": "74708678df854586db1c16d93df12422"
+    },
+    "output/immune_draft.txt": {
+      "checksum": "96c1b79cdd317e9e597a749d6f9432fb"
+    },
+    "output/prevent_flu.txt": {
+      "checksum": "69c10f10f226951c62e3bd8e981407e6"
+    },
+    "pages/1_Create.py": {
+      "checksum": "e19fde006eab61b2ddd25dc2de353784"
+    },
+    "pages/2_Edit.py": {
+      "checksum": "0b22c1220f61f144542ec17590d7c0c7"
+    },
+    "pages/3_Chat.py": {
+      "checksum": "7356da55163737c8e2736f3adf23375b"
+    },
+    "pages/4_View.py": {
+      "checksum": "e306dfca4d50e9ff03130dba7c02a0cd"
+    },
+    "scratch.py": {
+      "checksum": "c6c202f5b3850c8c2dc49e6d6f8ea656"
+    },
+    "template_encoding.py": {
+      "checksum": "722b632105cb49572f6e0cc04fe49581"
+    },
+    "tools/__init__.py": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "tools/__pycache__/__init__.cpython-310.pyc": {
+      "checksum": "ea80baaff410adc784af7c02a99df8a2"
+    },
+    "tools/__pycache__/generic.cpython-310.pyc": {
+      "checksum": "95425cc0b228b4479a9a987c778e4289"
+    },
+    "tools/__pycache__/html.cpython-310.pyc": {
+      "checksum": "42b90b5ff87c052f14606c9f5722b124"
+    },
+    "tools/__pycache__/strml.cpython-310.pyc": {
+      "checksum": "a0bb85f21aa5d1ade82e12bf8e27027c"
+    },
+    "tools/generic.py": {
+      "checksum": "8b41462a7a88d6df5270e1ca5457e897"
+    },
+    "tools/html.py": {
+      "checksum": "5d83dcccc58472adf5b2b619d2331e1a"
+    },
+    "tools/strml.py": {
+      "checksum": "0c1340a735a49e55b25f566c0bf17cd0"
+    }
+  }
+}
