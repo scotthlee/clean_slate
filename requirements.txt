@@ -15,7 +15,7 @@ catalogue==2.0.10
 certifi==2023.11.17
 charset-normalizer==3.3.2
 click==8.1.7
-cloudpathlib==0.16.0
+cloudpathlib
 command-not-found==0.3
 confection==0.1.4
 cryptography==3.4.8
