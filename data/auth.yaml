@@ -12,6 +12,10 @@ credentials:
       email: wjl9@cdc.gov
       name: Laura Murrell
       password: $2b$12$wUFlxVByHeHoGGrNfytx2.XwIbsJ2v4aPtrjry9ioDJpHQmfhav6O
+    qdi3:
+      email: qdi3@cdc.gov
+      name: Thomas Jaensch
+      password: $2b$12$yHux/YdioXFMri.taj7lU.grkUnwB3v8VdNWA5la8B5lrYezJFxBG
 cookie:
   expiry_days: 0
   key: UYYbQGrYvYqtbSERKAiLbMCeZddLAnGgIHyWEtzF
