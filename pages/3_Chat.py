@@ -125,8 +125,8 @@ else:
                     temperature=st.session_state.temperature,
                     max_tokens=st.session_state.max_tokens,
                     top_p=st.session_state.top_p,
-                    frequency_penalty=0,
-                    presence_penalty=0,
+                    frequency_penalty=st.session_state.frequency_penalty,
+                    presence_penalty=st.session_state.presence_penalty,
                     stream=True,
                     stop=None
                 )

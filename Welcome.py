@@ -96,17 +96,20 @@ if 'context' not in st.session_state:
     st.session_state.context = ''
 
 # Setting keys for changing settings from different menus
-st.session_state.gpt_keys = {'keys': [
+st.session_state.gpt_keys = [
     'engine', 'max_tokens', 'top_p',
-    'temperature'
-    ]
-}
-st.session_state.gpt_defaults = {
+    'temperature', 'frequency_penalty', 'presence_penalty'
+]
+
+gpt_defaults = {
     'engine': 'gpt-35-turbo',
     'max_tokens': None,
     'top_p': 0.95,
-    'temperature': 0.70
+    'temperature': 0.70,
+    'presence_penalty': 0.0,
+    'frequency_penalty': 0.0
 }
+st.session_state.gpt_defaults = gpt_defaults
 gpt_dict = {
     'gpt-35-turbo': {
         'engine': 'GPT35-Turbo-0613',
@@ -141,6 +144,11 @@ if 'max_tokens' not in st.session_state:
     st.session_state.max_tokens = st.session_state.gpt_defaults['max_tokens']
 if 'top_p' not in st.session_state:
     st.session_state.top_p = st.session_state.gpt_defaults['top_p']
+if 'presence_penalty' not in st.session_state:
+    st.session_state.presence_penalty = gpt_defaults['presence_penalty']
+if 'frequency_penalty' not in st.session_state:
+    st.session_state.frequency_penalty = gpt_defaults['frequency_penalty']
+
 if 'gpt_person' not in st.session_state:
     st.session_state.gpt_persona = "You are an AI assistant that helps people \
     find information."

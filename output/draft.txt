@@ -1,51 +1,41 @@
-## Page title: Preventing Flu
+## Page title: About the Prion and Public Health Office
 
-## Key points (required)
+## **At a glance**
 
-* Understand how to prevent the flu to protect yourself and others.
-  * Flu vaccines are the first line of defense against the influenza virus.
-  * Everyone 6 months of age and older should get vaccinated annually.
+The Prion and Public Health Office is the designated branch within the DHCPP at CDC that specializes in monitoring and coordinating efforts related to human prion diseases in the United States.
 
-## Overview
+## Our mission
 
-The flu, or influenza, is a respiratory illness that can cause mild to severe symptoms and can even be life-threatening. It is highly contagious and spreads through respiratory droplets when an infected person coughs or sneezes. Symptoms include fever, cough, sore throat, body aches, and fatigue. The best prevention method is getting a yearly flu vaccine, which is recommended by the CDC for everyone over the age of 6 months. Additionally, everyday preventive actions can help stop the spread of the flu virus.
+Our mission is to lead and enhance the monitoring, detection, and response to prion diseases, and to provide guidance and support in related public health activities. We aim to facilitate understanding, promote effective interventions, and ultimately protect public health from the impact of these rare but fatal neurodegenerative diseases.
 
-## Exposure
+## Values
 
-Exposure to the flu virus can occur when you come into contact with an infected person or a contaminated surface. The virus can enter your body when you touch your face with unwashed hands or through the inhalation of airborne droplets. People at higher risk of severe flu complications include young children, pregnant individuals, those with chronic health conditions, and the elderly. Health care workers and caregivers for high-risk individuals should also take extra precautions to prevent spreading the flu.
+- **Commitment to Public Health:** We are dedicated to safeguarding the health of populations by tracking and studying prion diseases.
+- **Collaboration and Support:** We work closely with clinicians, health departments, and federal agencies to foster a collaborative approach to managing prion-related challenges.
+- **Scientific Excellence:** Our focus on scientific rigor ensures that our surveillance and research activities maintain the highest standards.
 
-## Prevention Methods and Options
+## Priorities
 
-* **Getting Vaccinated:** A flu vaccine is the most effective way to protect against the flu. It reduces the risk of illness, hospitalizations, and severe outcomes. Ideally, get vaccinated by the end of October, but vaccination should continue throughout flu season.
-  * **Everyday Preventive Actions:** To reduce the spread of germs, avoid close contact with sick individuals, stay home when you are sick, cover coughs and sneezes, wash your hands frequently, and clean surfaces regularly.
-  * **Antiviral Drugs:** If you get the flu, antiviral drugs may be prescribed by your doctor. These can make the illness milder and prevent serious complications, especially if started within two days of becoming sick.
+- **Monitoring:** Vigilant surveillance of human prion diseases to identify and respond to emerging patterns and cases.
+- **Education:** Providing accurate information and consulting services to healthcare professionals and public health partners.
+- **Research and Investigation:** Facilitating and supporting in-depth research including the study of brain autopsies to better understand prion diseases.
 
-## Making a Plan
+## Goals
 
-Plan to get your flu vaccine each year, and encourage friends and family to do the same. Keep hand sanitizer with you for times when soap and water aren't available, and maintain a clean environment at home and work.
+- To maintain and improve national surveillance systems for human prion diseases.
+- To enhance our understanding of the epidemiology and biology of prion diseases.
+- To support healthcare providers and partners in responding to and managing prion disease cases.
+- To provide valuable insights and data for guiding public health policies and practices concerning prion diseases.
 
-## Why It’s Important
+## Key activities
 
-Getting vaccinated not only protects you from the flu but also helps protect the community by reducing the spread of the virus. It's particularly important to prevent serious illness in those who are at higher risk.
+- **Monitoring and studying human prion diseases:** Continuously tracking and analyzing prion disease cases to inform public health strategies.
+- **Consulting and collaborating:** Offering expert advice and support to a wide network of stakeholders involved in prion disease management.
+- **Support during epidemiological investigations:** Assisting in the investigation of prion disease cases to mitigate public health risks.
+- **Facilitating brain autopsies studies:** Enabling the study of brain tissue to confirm diagnoses and advance scientific knowledge in the field of prion research.
 
-## Treatment
+[Download pdf icon[PDF – 2 pages]](https://www.cdc.gov/prions/pdf/prion-public-health-office-factsheet.pdf)
 
-If you contract the flu, consult your healthcare provider as soon as possible. They may prescribe antiviral drugs to help you recover more quickly and reduce the risk of complications.
+#### Exit Notification / Disclaimer Policy
 
-## Reporting
-
-If you suspect an outbreak of the flu in your community, report it to your local health department to help them monitor and control the spread of the virus.
-
-## Resources
-
-* **Flu Vaccine Finder:** [Find Vaccines](https://vaccinefinder.org/find-vaccine)
-* **CDC's Flu Page:** [Visit CDC/Flu](https://www.cdc.gov/flu)
-* **Comparison of Flu and COVID-19:** [Learn More](https://www.cdc.gov/flu/symptoms/flu-vs-covid19.htm)
-
-[Keep reading: View the full "Take Three Actions to Fight Flu" Infographic for more detailed information.]
-
-## Reminder
-
-Don't forget to get your flu vaccine this year. It's the most important step in protecting yourself and your community from the flu.
-
-[Use callouts for important pieces of information, like tips and reminders.]
+For additional resources and information regarding our policies, please visit our website. (Note: This section would typically contain a link to the Exit Notification/Disclaimer Policy for the CDC or the specific office.)
