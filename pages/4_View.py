@@ -13,7 +13,7 @@ from tools import html, generic
 
 
 # Set up the page
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', page_title='View', page_icon='👓')
 st.title('Web Page Preview')
 st.header('', divider='rainbow')
 

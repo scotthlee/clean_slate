@@ -67,25 +67,23 @@ def start_generation(s, GPT=True):
     with st.spinner('Generating Text...'):
         if GPT:
             try:
-                message_text = [
-                    {"role": "system",
-                    "content": st.session_state.gpt_persona},
-                    {"role": "user",
-                     "content": s},
+                message = [
+                    {"role": "system", "content": st.session_state.gpt_persona},
+                    {"role": "user", "content": s},
                 ]
                 completion = openai.ChatCompletion.create(
                     engine=st.session_state.engine,
-                    messages=message_text,
+                    messages=message,
                     temperature=st.session_state.temperature,
                     max_tokens=st.session_state.max_tokens,
                     top_p=st.session_state.top_p,
-                    frequency_penalty=0,
-                    presence_penalty=0,
+                    frequency_penalty=st.session_state.frequency_penalty,
+                    presence_penalty=st.session_state.presence_penalty,
                     stop=None
                 )
                 res = completion['choices'][0]['message']['content']
             except:
-                st.error('OpenAI API currently unavailable')
+                st.error('OpenAI API currently unavailable. Please try again.')
                 res = s
         else:
             res = s

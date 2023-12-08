@@ -259,6 +259,20 @@ else:
                             on_change=update_settings,
                             kwargs={'keys': ['top_p']},
                             value=st.session_state.top_p)
+            st.slider(label='Presence Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_presence_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['presence_penalty']},
+                      value=st.session_state.presence_penalty)
+            st.slider(label='Frequency Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_frequency_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['frequency_penalty']},
+                      value=st.session_state.frequency_penalty)
             st.button('Reset',
                       on_click=reset_gpt)
 
