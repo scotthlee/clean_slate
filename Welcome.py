@@ -10,7 +10,7 @@ from yaml.loader import SafeLoader
 config = json.load(open('data/app_config.json', 'r'))
 
 # Set up the page
-st.set_page_config(page_title="Hello")
+st.set_page_config(page_title='Welcome', page_icon='👋')
 st.write("# Welcome to the Web Content Editor!")
 
 # Load the credentials
@@ -96,17 +96,20 @@ if 'context' not in st.session_state:
     st.session_state.context = ''
 
 # Setting keys for changing settings from different menus
-st.session_state.gpt_keys = {'keys': [
+st.session_state.gpt_keys = [
     'engine', 'max_tokens', 'top_p',
-    'temperature'
-    ]
-}
-st.session_state.gpt_defaults = {
+    'temperature', 'frequency_penalty', 'presence_penalty'
+]
+
+gpt_defaults = {
     'engine': 'gpt-35-turbo',
     'max_tokens': None,
     'top_p': 0.95,
-    'temperature': 0.70
+    'temperature': 0.70,
+    'presence_penalty': 0.0,
+    'frequency_penalty': 0.0
 }
+st.session_state.gpt_defaults = gpt_defaults
 gpt_dict = {
     'gpt-35-turbo': {
         'engine': 'GPT35-Turbo-0613',
@@ -122,7 +125,7 @@ gpt_dict = {
 st.session_state.gpt_dict = gpt_dict
 
 if 'model_name' not in st.session_state:
-    st.session_state.model_name = st.session_state.gpt_defaults['engine']
+    st.session_state.model_name = gpt_defaults['engine']
 if 'engine' not in st.session_state:
     st.session_state.engine = gpt_dict[st.session_state.model_name]['engine']
 if 'engine_choices' not in st.session_state:
@@ -136,13 +139,18 @@ if 'api_key' not in st.session_state:
 if 'base_url' not in st.session_state:
     st.session_state.base_url = gpt_dict[st.session_state.model_name]['url']
 if 'temperature' not in st.session_state:
-    st.session_state.temperature = st.session_state.gpt_defaults['temperature']
+    st.session_state.temperature = gpt_defaults['temperature']
 if 'max_tokens' not in st.session_state:
-    st.session_state.max_tokens = st.session_state.gpt_defaults['max_tokens']
+    st.session_state.max_tokens = gpt_defaults['max_tokens']
 if 'top_p' not in st.session_state:
-    st.session_state.top_p = st.session_state.gpt_defaults['top_p']
+    st.session_state.top_p = gpt_defaults['top_p']
+if 'presence_penalty' not in st.session_state:
+    st.session_state.presence_penalty = gpt_defaults['presence_penalty']
+if 'frequency_penalty' not in st.session_state:
+    st.session_state.frequency_penalty = gpt_defaults['frequency_penalty']
+
 if 'gpt_person' not in st.session_state:
-    st.session_state.gpt_persona = "You are an AI assistant that helps people \
+    st.session_state.gpt_persona = "You are an AI assistant that helps people\
     find information."
 if 'gpt_temp_suggestion' not in st.session_state:
     st.session_state.gpt_temp_suggestion = ''

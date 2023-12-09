@@ -30,11 +30,13 @@ def save_chat():
 
 
 # Load the config; should probably only be done once and added to session_state
-config = json.load(open('data/app_config.json', 'r'))
 cci_dict = json.load(open('data/cci/cci.json', 'r'))
 
 # Setting up the OpenAI API
 strml.load_openai_settings()
+
+# Adding the page title and icon
+st.set_page_config(page_title='Chat', page_icon='😺')
 
 # Creating a prompt with the current draft content
 draft_message = "Here's a draft of some web content I'm working on. "
@@ -90,6 +92,20 @@ else:
                             on_change=update_settings,
                             kwargs={'keys': ['top_p']},
                             value=st.session_state.top_p)
+            st.slider(label='Presence Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_presence_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['presence_penalty']},
+                      value=st.session_state.presence_penalty)
+            st.slider(label='Frequency Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_frequency_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['frequency_penalty']},
+                      value=st.session_state.frequency_penalty)
             st.button('Reset',
                       on_click=reset_gpt)
 
@@ -125,8 +141,8 @@ else:
                     temperature=st.session_state.temperature,
                     max_tokens=st.session_state.max_tokens,
                     top_p=st.session_state.top_p,
-                    frequency_penalty=0,
-                    presence_penalty=0,
+                    frequency_penalty=st.session_state.frequency_penalty,
+                    presence_penalty=st.session_state.presence_penalty,
                     stream=True,
                     stop=None
                 )

@@ -110,8 +110,8 @@ def score_by_vt():
             temperature=st.session_state.temperature,
             max_tokens=st.session_state.max_tokens,
             top_p=st.session_state.top_p,
-            frequency_penalty=0,
-            presence_penalty=0,
+            frequency_penalty=st.session_state.frequency_penalty,
+            presence_penalty=st.session_state.presence_penalty,
             stop=None
         )
         res = completion['choices'][0]['message']['content']
@@ -174,7 +174,7 @@ cci_dict = json.load(open('data/cci/cci.json', 'r'))
 strml.load_openai_settings()
 
 # Set up the page
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', page_title='Edit', page_icon='✂')
 st.title('Content Editor')
 
 if not st.session_state.authentication_status:
@@ -259,6 +259,20 @@ else:
                             on_change=update_settings,
                             kwargs={'keys': ['top_p']},
                             value=st.session_state.top_p)
+            st.slider(label='Presence Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_presence_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['presence_penalty']},
+                      value=st.session_state.presence_penalty)
+            st.slider(label='Frequency Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_frequency_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['frequency_penalty']},
+                      value=st.session_state.frequency_penalty)
             st.button('Reset',
                       on_click=reset_gpt)
 

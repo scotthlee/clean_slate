@@ -37,7 +37,7 @@ def save_text(toast=True):
 
 
 def reset_gpt():
-    for key in st.session_state.gpt_keys['keys']:
+    for key in st.session_state.gpt_keys:
         st.session_state[key] = st.session_state.gpt_defaults[key]
     return
 

@@ -67,25 +67,23 @@ def start_generation(s, GPT=True):
     with st.spinner('Generating Text...'):
         if GPT:
             try:
-                message_text = [
-                    {"role": "system",
-                    "content": st.session_state.gpt_persona},
-                    {"role": "user",
-                     "content": s},
+                message = [
+                    {"role": "system", "content": st.session_state.gpt_persona},
+                    {"role": "user", "content": s},
                 ]
                 completion = openai.ChatCompletion.create(
                     engine=st.session_state.engine,
-                    messages=message_text,
+                    messages=message,
                     temperature=st.session_state.temperature,
                     max_tokens=st.session_state.max_tokens,
                     top_p=st.session_state.top_p,
-                    frequency_penalty=0,
-                    presence_penalty=0,
+                    frequency_penalty=st.session_state.frequency_penalty,
+                    presence_penalty=st.session_state.presence_penalty,
                     stop=None
                 )
                 res = completion['choices'][0]['message']['content']
             except:
-                st.error('OpenAI API currently unavailable')
+                st.error('OpenAI API currently unavailable. Please try again.')
                 res = s
         else:
             res = s
@@ -155,8 +153,8 @@ def suggest_template():
             temperature=st.session_state.temperature,
             max_tokens=st.session_state.max_tokens,
             top_p=st.session_state.top_p,
-            frequency_penalty=0,
-            presence_penalty=0,
+            frequency_penalty=st.session_state.frequency_penalty,
+            presence_penalty=st.session_state.presence_penalty,
             stop=None
         )
         res = completion['choices'][0]['message']['content']
@@ -185,8 +183,7 @@ page = bs(open(page_path, mode='r', encoding='utf-8'),
 default_headers, default_header_idx = html.list_headers(page)
 
 # Set up the page
-st.set_page_config(page_title='Web Content Editor',
-                   layout='wide')
+st.set_page_config(page_title='Create', layout='wide', page_icon='✨')
 st.title('Content Generator')
 
 if not st.session_state.authentication_status:
@@ -271,13 +268,27 @@ else:
                             on_change=update_settings,
                             kwargs={'keys': ['top_p']},
                             value=st.session_state.top_p)
+            st.slider(label='Presence Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_presence_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['presence_penalty']},
+                      value=st.session_state.presence_penalty)
+            st.slider(label='Frequency Penalty',
+                      min_value=0.0,
+                      max_value=2.0,
+                      key='_frequency_penalty',
+                      on_change=update_settings,
+                      kwargs={'keys': ['frequency_penalty']},
+                      value=st.session_state.frequency_penalty)
             st.button('Reset',
                       on_click=reset_gpt)
 
     # Fill in the elements
     left_pane, right_pane = st.columns(2)
     with left_pane:
-        with st.expander('Load'):
+        with st.expander(f'**Step 1**: Load Existing Pages (Optional)'):
             load_file = st.file_uploader(label='Existing Pages',
                                          type=['html'],
                                          accept_multiple_files=True,
@@ -297,45 +308,9 @@ else:
                       the prompt',
                       on_click=clear_context)
 
-        control_exp = st.expander(label='Text Generation Controls',
-                                  expanded=True)
-        with control_exp:
-            b1, b2, b3, b4 = st.columns(4)
-            with b1:
-                go_button = st.button(label='Start',
-                                      key='go_button',
-                                      type='primary',
-                                      help='Starts text generation.',
-                                      on_click=prompt_model)
-            with b2:
-                stop_button = st.button(label='Stop',
-                                        help='Stops text generation.',
-                                        key='stop_button',
-                                        type='secondary')
-            with b3:
-                clear_button = st.button(label='Clear',
-                                         key='clear_button',
-                                         type='secondary',
-                                         help='Clears generated content.',
-                                         on_click=erase_response)
-
-        temp_exp = st.expander(label='Template options', expanded=True)
-        with temp_exp:
-            st.write('Choose a Template')
-            template_choice = st.selectbox(label='Template Choices',
-                                           key='_template_choice',
-                                           options=st.session_state.template_options,
-                                           placeholder='Choose a content template',
-                                           help=st.session_state.template_help,
-                                           on_change=update_sections)
-            header_choce = st.multiselect(label='Template Sections',
-                                          key='_select_sections',
-                                          options=st.session_state.section_options,
-                                          placeholder='What sections would you like to keep?',
-                                          help=st.session_state.section_help,
-                                          on_change=update_prompt)
-            st.header('', divider='rainbow')
-            st.write('Suggest a Template')
+        suggest_exp = st.expander(label=f'**Step 2**: Get a Template Suggestion\
+                                   (Optional)')
+        with suggest_exp:
             suggest_with_context = st.toggle(label='Use existing pages',
                                              key='_suggest_with_context',
                                              value=st.session_state.suggest_with_context,
@@ -364,7 +339,22 @@ else:
                                                    'toast': False},
                                            value=st.session_state.gpt_temp_suggestion)
 
-        prompt_exp = st.expander(label='Prompt options', expanded=True)
+        temp_exp = st.expander(label=f'**Step 3**: Choose a Template', expanded=True)
+        with temp_exp:
+            template_choice = st.selectbox(label='Template Choices',
+                                           key='_template_choice',
+                                           options=st.session_state.template_options,
+                                           placeholder='Choose a content template',
+                                           help=st.session_state.template_help,
+                                           on_change=update_sections)
+            header_choce = st.multiselect(label='Template Sections',
+                                          key='_select_sections',
+                                          options=st.session_state.section_options,
+                                          placeholder='What sections would you like to keep?',
+                                          help=st.session_state.section_help,
+                                          on_change=update_prompt)
+
+        prompt_exp = st.expander(label=f'**Step 4**: Write the Prompt', expanded=True)
         with prompt_exp:
             prompt_box = st.text_area(label='Model Instructions',
                                       height=200,
@@ -380,6 +370,26 @@ else:
                                         key='_template_text')
 
     with right_pane:
+        st.write(f'**Step 5**: Generate Content')
+        go_cols = st.columns(6)
+        with go_cols[0]:
+            go_button = st.button(label='Start',
+                                  key='go_button',
+                                  type='primary',
+                                  help='Starts text generation.',
+                                  on_click=prompt_model)
+        with go_cols[1]:
+            stop_button = st.button(label='Stop',
+                                    help='Stops text generation.',
+                                    key='stop_button',
+                                    type='secondary')
+        with go_cols[2]:
+            clear_button = st.button(label='Clear',
+                                     key='clear_button',
+                                     type='secondary',
+                                     help='Clears generated content.',
+                                     on_click=erase_response)
+
         st.write('Content')
         response_box = st.text_area(label='Model Response',
                                     height=700,
