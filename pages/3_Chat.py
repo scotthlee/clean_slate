@@ -56,7 +56,6 @@ else:
                                  kwargs={'keys': ['draft_chat']},
                                  on_change=update_settings)
         with st.expander('Chat Controls', expanded=True):
-            cols = st.columns(2)
             cl_chat = st.button(label='Clear',
                                 help='Clear current chat history.',
                                 key='clear_chat',
@@ -78,20 +77,20 @@ else:
                           index=st.session_state.engine_choices.index(curr_model),
                           options=st.session_state.engine_choices)
             st.number_input(label='Max Tokens',
-                          key='_max_tokens',
-                          on_change=update_settings,
-                          kwargs={'keys': ['max_tokens']},
-                          value=st.session_state.max_tokens)
+                            key='_max_tokens',
+                            on_change=update_settings,
+                            kwargs={'keys': ['max_tokens']},
+                            value=st.session_state.max_tokens)
             st.slider(label='Temperature',
                       key='_temperature',
                       on_change=update_settings,
                       kwargs={'keys': ['temperature']},
                       value=st.session_state.temperature)
             st.slider(label='Top P',
-                            key='_top_p',
-                            on_change=update_settings,
-                            kwargs={'keys': ['top_p']},
-                            value=st.session_state.top_p)
+                      key='_top_p',
+                      on_change=update_settings,
+                      kwargs={'keys': ['top_p']},
+                      value=st.session_state.top_p)
             st.slider(label='Presence Penalty',
                       min_value=0.0,
                       max_value=2.0,
