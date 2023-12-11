@@ -192,7 +192,10 @@ def fetch_title(soup):
     return title
 
 
-def generate_prompt(soup, join_str='\n\n', strip_option=True):
+def generate_prompt(soup,
+                    join_str='\n\n',
+                    strip_option=True,
+                    strip_required=True):
     """Generates a text prompt from a content template."""
     key_card = fetch_key_card(soup)
     guidance = fetch_guidance(soup)
@@ -204,6 +207,8 @@ def generate_prompt(soup, join_str='\n\n', strip_option=True):
     prompt = strip_returns(prompt)
     if strip_option:
         prompt = prompt.replace('(optional)', '')
+    if strip_required:
+        prompt = prompt.replace('(required)', '')
     return prompt
 
 
