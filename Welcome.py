@@ -95,6 +95,8 @@ if 'section_help' not in st.session_state:
      required in the final site unless you indicate otherwise by modifying the\
       template text or by adding instructions about which sections to treat as\
        optional, both in the Prompt Options section below."
+if 'sections' not in st.session_state:
+    st.session_state.sections = []
 if 'logged_prompt' not in st.session_state:
     st.session_state.logged_prompt = None
 if 'example_instructions' not in st.session_state:
@@ -172,3 +174,5 @@ if 'gpt_temp_suggestion' not in st.session_state:
     st.session_state.gpt_temp_suggestion = ''
 if 'suggest_with_context' not in st.session_state:
     st.session_state.suggest_with_context = True
+if 'old_messages' not in st.session_state:
+    st.session_state.old_messages = ''
