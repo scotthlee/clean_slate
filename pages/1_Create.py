@@ -6,8 +6,10 @@ import platform
 import os
 import urllib
 import openai
+import tiktoken
 
 from bs4 import BeautifulSoup as bs
+from urllib.request import urlopen
 from trubrics.integrations.streamlit import FeedbackCollector
 
 
@@ -101,20 +103,31 @@ def stop_generation():
     return
 
 
-def add_context_page():
-    header_levels = ['h1', 'h2', 'h3', 'h4', 'p']
-    if st.session_state._context_pages is not None:
-        files = st.session_state._context_pages
-        context = []
-        for f in files:
-            page_name = f.name
-            if page_name not in st.session_state.context_list:
-                st.session_state.context_list += f.name + '\n'
-                page = bs(f, features='html.parser')
-                chunks = [html.fetch_section(page, search_tag=h)[0]
-                          for h in header_levels]
-                context.append(''.join(set(chunks)))
-        st.session_state.context +=  '\n'.join(context)
+def add_context_page(page_type='file',
+                     header_levels=['h1', 'h2', 'h3', 'h4', 'p']):
+    context = []
+    if page_type == 'url':
+        if st.session_state._context_urls is not None:
+            to_load = st.session_state._context_urls.split(';')
+            for url in to_load:
+                if url not in st.session_state.context_list:
+                    page = bs(urlopen(url), features='html.parser')
+                    st.session_state.context_list += str(page.title) + '\n'
+                    chunks = [html.fetch_section(page, search_tag=h)[0]
+                              for h in header_levels]
+                    context.append(''.join(set(chunks)))
+    else:
+        if st.session_state._context_pages is not None:
+            files = st.session_state._context_pages
+            for f in files:
+                page_name = f.name
+                if page_name not in st.session_state.context_list:
+                    st.session_state.context_list += f.name + '\n'
+                    page = bs(f, features='html.parser')
+                    chunks = [html.fetch_section(page, search_tag=h)[0]
+                              for h in header_levels]
+                    context.append(''.join(set(chunks)))
+    st.session_state.context +=  '\n'.join(context)
     return
 
 
@@ -237,37 +250,39 @@ else:
                 st.write('')
                 save_button = st.button(label='Save Draft',
                                         type='secondary',
-                                        on_click=save_text)
+                                        on_click=save_text,
+                                        kwargs={'file_dir':
+                                            st.session_state.working_directory})
             with io_cols[0]:
                 save_name = st.text_input(label='File Name',
-                                          value=st.session_state.draft_file_name,
+                                          value=st.session_state.create_draft_filename,
                                           placeholder='Enter a filename here.',
                                           on_change=update_settings,
                                           key='_create_draft_filename',
-                                          kwargs={'keys': ['draft_file_name']})
+                                          kwargs={'keys': ['create_draft_filename']})
         with st.expander('ChatGPT', expanded=False):
             curr_model = st.session_state.model_name
             st.selectbox(label='Engine',
-                          key='_model_name',
-                          on_change=update_settings,
-                          kwargs={'keys': ['model_name']},
-                          index=st.session_state.engine_choices.index(curr_model),
-                          options=st.session_state.engine_choices)
+                         key='_model_name',
+                         on_change=update_settings,
+                         kwargs={'keys': ['model_name']},
+                         index=st.session_state.engine_choices.index(curr_model),
+                         options=st.session_state.engine_choices)
             st.number_input(label='Max Tokens',
-                          key='_max_tokens',
-                          on_change=update_settings,
-                          kwargs={'keys': ['max_tokens']},
-                          value=st.session_state.max_tokens)
+                            key='_max_tokens',
+                            on_change=update_settings,
+                            kwargs={'keys': ['max_tokens']},
+                            value=st.session_state.max_tokens)
             st.slider(label='Temperature',
                       key='_temperature',
                       on_change=update_settings,
                       kwargs={'keys': ['temperature']},
                       value=st.session_state.temperature)
             st.slider(label='Top P',
-                            key='_top_p',
-                            on_change=update_settings,
-                            kwargs={'keys': ['top_p']},
-                            value=st.session_state.top_p)
+                      key='_top_p',
+                      on_change=update_settings,
+                      kwargs={'keys': ['top_p']},
+                      value=st.session_state.top_p)
             st.slider(label='Presence Penalty',
                       min_value=0.0,
                       max_value=2.0,
@@ -289,7 +304,7 @@ else:
     left_pane, right_pane = st.columns(2)
     with left_pane:
         with st.expander(f'**Step 1**: Load Existing Pages (Optional)'):
-            load_file = st.file_uploader(label='Existing Pages',
+            load_file = st.file_uploader(label='From Disk',
                                          type=['html'],
                                          accept_multiple_files=True,
                                          on_change=add_context_page,
@@ -297,6 +312,14 @@ else:
                                          help='Load an existing page or pages\
                                          from disk. Pages must be in HTML (.html)\
                                          format.')
+            load_web = st.text_input(label='Or From URL',
+                                     key='_context_urls',
+                                     kwargs={'page_type': 'url',
+                                             'header_levels': ['p']},
+                                     on_change=add_context_page,
+                                     help='Add URLs for web pages you would\
+                                     like to load, separated by a semicolon\
+                                     (;).')
             context_list = st.text_area(label='Pages in Current Context',
                                         help='These are the pages the model\
                                         will use as context when generating\
@@ -339,7 +362,8 @@ else:
                                                    'toast': False},
                                            value=st.session_state.gpt_temp_suggestion)
 
-        temp_exp = st.expander(label=f'**Step 3**: Choose a Template', expanded=True)
+        temp_exp = st.expander(label=f'**Step 3**: Choose a Template',
+                               expanded=True)
         with temp_exp:
             template_choice = st.selectbox(label='Template Choices',
                                            key='_template_choice',
@@ -354,7 +378,8 @@ else:
                                           help=st.session_state.section_help,
                                           on_change=update_prompt)
 
-        prompt_exp = st.expander(label=f'**Step 4**: Write the Prompt', expanded=True)
+        prompt_exp = st.expander(label=f'**Step 4**: Write the Prompt',
+                                 expanded=True)
         with prompt_exp:
             prompt_box = st.text_area(label='Model Instructions',
                                       height=200,

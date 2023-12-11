@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+import os
 
 
 def keep(key):
@@ -8,8 +9,8 @@ def keep(key):
 
 
 def unkeep(key):
-    # Copy from permanent key to temporary widget key
     st.session_state['_' + key] = st.session_state[key]
+    return
 
 
 def update_settings(keys, toast=True):
@@ -20,7 +21,14 @@ def update_settings(keys, toast=True):
     pass
 
 
-def save_text(toast=True):
+def save_text(mode='create', file_dir='output/', toast=True):
+    # Check that path exists; if not, create it
+    if not os.path.exists(file_dir):
+        os.makedirs(file_dir)
+
+    # Check for some basic fail points
+    mode_message = "The 'mode' argument must either be 'create' or 'edit'."
+    assert mode in ['create', 'edit'], mode_message
     err_mess = 'No draft to save. Please create some content by loading \
              a file or passing an empty content template to the model.'
     if 'saved_text' not in st.session_state:
@@ -28,9 +36,9 @@ def save_text(toast=True):
     elif st.session_state.saved_text == 'Click "Start" to prompt the model.':
         st.error(err_mess)
     else:
-        fname = st.session_state.draft_file_name
+        fname = st.session_state[mode + '_draft_filename']
         fname += st.session_state.draft_file_type
-        open('output/' + fname, 'w').write(st.session_state.saved_text)
+        open(file_dir + fname, 'w').write(st.session_state.saved_text)
         if toast:
             st.toast('Text saved!', icon='👍')
     return

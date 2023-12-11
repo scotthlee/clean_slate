@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import urllib
+import re
 
 from bs4 import BeautifulSoup as bs
 from html2text import HTML2Text
@@ -18,6 +19,16 @@ def strip_returns(s):
     s = s.replace('\n ', '\n')
     return s
 
+
+def strip_formatting(s):
+    """Strips newlines and hashtags."""
+    s = s.replace('\n', ' ')
+    s = s.replace('#', '')
+    return s
+
+
+def combine_sections():
+    regex = re.compile
 
 def paragraphs(d, strip_new=True, min_length=50):
     """Saves text information from a file."""

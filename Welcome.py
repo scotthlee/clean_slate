@@ -6,6 +6,9 @@ import yaml
 
 from yaml.loader import SafeLoader
 
+from tools.strml import update_settings
+
+
 # Load the config file
 config = json.load(open('data/app_config.json', 'r'))
 
@@ -24,9 +27,22 @@ authenticator = stauth.Authenticate(
 )
 name, authentication_status, username = authenticator.login('Login', 'main')
 
+# Adding working directory to the session state
+if 'working_directory' not in st.session_state:
+    st.session_state.working_directory = 'output/'
+
+# Processing the login
 if st.session_state["authentication_status"]:
+    st.write('Please specify a working directory for the session.')
+    st.text_input(label='Please specify a working directory for the session.',
+                  value=st.session_state.working_directory,
+                  key='_working_directory',
+                  on_change=update_settings,
+                  label_visibility='collapsed',
+                  kwargs={'keys': ['working_directory']})
+    st.write('')
+    st.write('Ready to leave?')
     authenticator.logout('Logout', 'main')
-    st.write(f'Welcome *{st.session_state["name"]}*')
 elif st.session_state["authentication_status"] == False:
     st.error('Username/password is incorrect')
 elif st.session_state["authentication_status"] == None:
