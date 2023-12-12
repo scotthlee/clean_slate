@@ -117,7 +117,7 @@ def add_context_page(page_type='file',
             for url in to_load:
                 if url not in st.session_state.context_list:
                     page = bs(urlopen(url), features='html.parser')
-                    st.session_state.context_list += str(page.title) + '\n'
+                    st.session_state.context_list += url + '\n'
                     chunks = [html.fetch_section(page, search_tag=h)[0]
                               for h in header_levels]
                     context.append(''.join(set(chunks)))
