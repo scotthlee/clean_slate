@@ -18,31 +18,34 @@ st.write("# Welcome to the Web Content Editor!")
 
 # Load the credentials
 creds = yaml.load(open('data/auth.yaml', 'r').read(), Loader=SafeLoader)
-authenticator = stauth.Authenticate(
-    creds['credentials'],
-    creds['cookie']['name'],
-    creds['cookie']['key'],
-    creds['cookie']['expiry_days'],
-    creds['preauthorized']
-)
-name, authentication_status, username = authenticator.login('Login', 'main')
+#authenticator = stauth.Authenticate(
+    #creds['credentials'],
+    #creds['cookie']['name'],
+    #creds['cookie']['key'],
+    #creds['cookie']['expiry_days'],
+    #creds['preauthorized']
+#)
+#name, authentication_status, username = authenticator.login('Login', 'main')
 
 # Adding working directory to the session state
 if 'working_directory' not in st.session_state:
     st.session_state.working_directory = 'output/'
 
 # Processing the login
+st.session_state.authentication_status = True
 if st.session_state["authentication_status"]:
-    st.write('Please specify a working directory for the session.')
+    st.write('')
+    st.write('To get started, please specify a working directory for the\
+             session.')
     st.text_input(label='Please specify a working directory for the session.',
                   value=st.session_state.working_directory,
                   key='_working_directory',
                   on_change=update_settings,
                   label_visibility='collapsed',
                   kwargs={'keys': ['working_directory']})
-    st.write('')
-    st.write('Ready to leave?')
-    authenticator.logout('Logout', 'main')
+    #st.write('')
+    #st.write('Ready to leave?')
+    #authenticator.logout('Logout', 'main')
 elif st.session_state["authentication_status"] == False:
     st.error('Username/password is incorrect')
 elif st.session_state["authentication_status"] == None:
