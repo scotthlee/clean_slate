@@ -27,9 +27,6 @@ def strip_formatting(s):
     return s
 
 
-def combine_sections():
-    regex = re.compile
-
 def paragraphs(d, strip_new=True, min_length=50):
     """Saves text information from a file."""
     out = [p.text for p in d.find_all('p')]
@@ -85,10 +82,11 @@ def fetch_guidance(soup,
                    div_id='accordion-1',
                    block_num=0,
                    strip=False,
-                   prepend='## '):
+                   prepend='## ',
+                   ignore_links=True):
     """Fetches the template guidance from a content template."""
     h = HTML2Text()
-    h.ignore_links = True
+    h.ignore_links = ignore_links
     guidance = soup.find_all('div', {'id': div_id})[block_num]
     if strip:
         guidance = guidance.extract()
@@ -99,10 +97,11 @@ def fetch_guidance(soup,
 def fetch_key_card(soup,
                    search_tag='div',
                    class_='card border-0 rounded-0 mb-3',
+                   ignore_links=True,
                    card_num=0):
     """Fetches the main page blurb from a content template."""
     h = HTML2Text()
-    h.ignore_links = True
+    h.ignore_links = ignore_links
     card = soup.find_all(search_tag, class_=class_)[card_num]
     card_text = h.handle(str(card))
     return '## ' + card_text
@@ -116,10 +115,11 @@ def fetch_section(soup,
                   stop_tag=None,
                   strip=False,
                   join=True,
-                  join_str='\n'):
+                  join_str='\n',
+                  ignore_links=True):
     """Fetches a single section from a content template."""
     h = HTML2Text()
-    h.ignore_links = True
+    h.ignore_links = ignore_links
     if not stop_tag:
         stop_tag = search_tag
     if not section:
@@ -162,10 +162,11 @@ def fetch_callout(soup,
                   strip=False,
                   join=True,
                   join_str=' ',
-                  replace_h2=True):
+                  replace_h2=True,
+                  ignore_links=True):
     """Fetches the optional callout from a content template."""
     h = HTML2Text()
-    h.ignore_links = True
+    h.ignore_links = ignore_links
     preview = soup.find(search_tag)
     if (preview is None) or (search_text not in preview.text):
         return
@@ -183,10 +184,10 @@ def fetch_callout(soup,
     return callout
 
 
-def fetch_title(soup):
+def fetch_title(soup, ignore_links=True):
     """Fetches the page title from a content template."""
     h = HTML2Text()
-    h.ignore_links = True
+    h.ignore_links = ignore_links
     title = h.handle(str(soup.title))
     title = '## Page title : ' + title
     return title
@@ -195,12 +196,13 @@ def fetch_title(soup):
 def generate_prompt(soup,
                     join_str='\n\n',
                     strip_option=True,
-                    strip_required=True):
+                    strip_required=True,
+                    ignore_links=True):
     """Generates a text prompt from a content template."""
-    key_card = fetch_key_card(soup)
-    guidance = fetch_guidance(soup)
-    callout = fetch_callout(soup)
-    sections = fetch_section(soup)[0]
+    key_card = fetch_key_card(soup, ignore_links=ignore_links)
+    guidance = fetch_guidance(soup, ignore_links=ignore_links)
+    callout = fetch_callout(soup, ignore_links=ignore_links)
+    sections = fetch_section(soup, ignore_links=ignore_links)[0]
     title = fetch_title(soup)
     prompt_list = [guidance, callout, title, key_card, sections]
     prompt = join_str.join([d for d in prompt_list if d is not None])

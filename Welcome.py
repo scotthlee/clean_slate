@@ -27,12 +27,10 @@ creds = yaml.load(open('data/auth.yaml', 'r').read(), Loader=SafeLoader)
 #)
 #name, authentication_status, username = authenticator.login('Login', 'main')
 
-# Adding working directory to the session state
-if 'working_directory' not in st.session_state:
-    st.session_state.working_directory = 'output/'
-
 # Processing the login
 st.session_state.authentication_status = True
+if 'working_directory' not in st.session_state:
+    st.session_state.working_directory = 'output/'
 if st.session_state["authentication_status"]:
     st.write('')
     st.write('To get started, please specify a working directory for the\
@@ -69,6 +67,8 @@ if 'draft_file_type' not in st.session_state:
     st.session_state.draft_file_type = '.txt'
 
 # Defaults for the creation page
+if 'ignore_links' not in st.session_state:
+    st.session_state.ignore_links = True
 if 'template_options' not in st.session_state:
     st.session_state.template_options = list(config['templates'].keys())
 if 'rag_pub_options' not in st.session_state:
