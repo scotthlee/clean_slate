@@ -17,18 +17,21 @@ from tools import html, generic, strml
 from tools.strml import update_settings, save_text, reset_gpt
 
 
-def update_prompt(encoding='utf-8'):
+def update_prompt(encoding='utf-8', strip_option=True):
     template_name = st.session_state._template_choice
     fpath = TEMP_HTML_DIR + template_name + '.html'
     page = bs(open(fpath, mode='r', encoding=encoding),
               features='html.parser')
     keep_heads = st.session_state._select_sections
+    if keep_heads == []:
+        keep_heads = st.session_state.section_options
+        strip_option = False
     page = html.keep_sections(page, section_names=keep_heads)
-    st.session_state._template_text = html.generate_prompt(page)
+    st.session_state._template_text = html.generate_prompt(soup=page,
+                                                           strip_option=strip_option)
     keys = ['template_choice', 'template_text', 'sections']
     kept = [strml.keep(key) for key in keys]
     return
-
 
 def update_sections(encoding='utf-8'):
     template_name = st.session_state._template_choice
@@ -36,9 +39,11 @@ def update_sections(encoding='utf-8'):
     page = bs(open(fpath, mode='r', encoding=encoding),
               features='html.parser')
     temp_headers = html.list_headers(page)
-    st.session_state._sections = []
     st.session_state.section_options = temp_headers[0]
+    st.session_state.sections = temp_headers[0]
     strml.keep('template_choice')
+    if st.session_state._select_sections == []:
+        update_prompt(strip_option=False)
     return
 
 
@@ -108,11 +113,11 @@ def add_context_page(page_type='file',
     context = []
     if page_type == 'url':
         if st.session_state._context_urls is not None:
-            to_load = st.session_state._context_urls.split(';')
+            to_load = st.session_state._context_urls.split('\n')
             for url in to_load:
                 if url not in st.session_state.context_list:
                     page = bs(urlopen(url), features='html.parser')
-                    st.session_state.context_list += str(page.title) + '\n'
+                    st.session_state.context_list += url + '\n'
                     chunks = [html.fetch_section(page, search_tag=h)[0]
                               for h in header_levels]
                     context.append(''.join(set(chunks)))
@@ -312,14 +317,14 @@ else:
                                          help='Load an existing page or pages\
                                          from disk. Pages must be in HTML (.html)\
                                          format.')
-            load_web = st.text_input(label='Or From URL',
-                                     key='_context_urls',
-                                     kwargs={'page_type': 'url',
-                                             'header_levels': ['p']},
-                                     on_change=add_context_page,
-                                     help='Add URLs for web pages you would\
-                                     like to load, separated by a semicolon\
-                                     (;).')
+            load_web = st.text_area(label='Or From URL',
+                                    key='_context_urls',
+                                    kwargs={'page_type': 'url',
+                                            'header_levels': ['p']},
+                                    on_change=add_context_page,
+                                    help='Add URLs for web pages you would\
+                                    like to load. Make sure each URL is on\
+                                    its own line.')
             context_list = st.text_area(label='Pages in Current Context',
                                         help='These are the pages the model\
                                         will use as context when generating\

@@ -7,4 +7,5 @@ numpy
 streamlit
 streamlit-authenticator
 streamlit-feedback
+tiktoken
 trubrics

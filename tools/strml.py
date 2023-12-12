@@ -40,7 +40,7 @@ def save_text(mode='create', file_dir='output/', toast=True):
         fname += st.session_state.draft_file_type
         open(file_dir + fname, 'w').write(st.session_state.saved_text)
         if toast:
-            st.toast('Text saved!', icon='👍')
+            st.toast('Text saved!', icon='💾')
     return
 
 
