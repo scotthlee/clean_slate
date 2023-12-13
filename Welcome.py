@@ -68,7 +68,7 @@ if 'draft_file_type' not in st.session_state:
 
 # Defaults for the creation page
 if 'ignore_links' not in st.session_state:
-    st.session_state.ignore_links = True
+    st.session_state.ignore_links = False
 if 'template_options' not in st.session_state:
     st.session_state.template_options = list(config['templates'].keys())
 if 'rag_pub_options' not in st.session_state:
