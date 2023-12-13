@@ -29,9 +29,6 @@ def save_chat():
     return
 
 
-# Load the config; should probably only be done once and added to session_state
-cci_dict = json.load(open('data/cci/cci.json', 'r'))
-
 # Setting up the OpenAI API
 strml.load_openai_settings()
 

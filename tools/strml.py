@@ -17,7 +17,7 @@ def update_settings(keys, toast=True):
     for key in keys:
         keep(key)
     if toast:
-        st.toast('Settings updated!', icon='👍')
+        st.toast('Settings updated!', icon='🔨')
     pass
 
 

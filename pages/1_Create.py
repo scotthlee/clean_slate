@@ -54,8 +54,9 @@ def update_rag():
 def prompt_model():
     inst_text = st.session_state._user_instructions
     temp_text = st.session_state._template_text
-    context_text = 'When writing, please base your answer on the following\
-    information:\nContext: (' + st.session_state.context + ')\n'
+    context_text = ''
+    if len(st.session_state.context) > 1:
+        context_text += '\nContext: (' + st.session_state.context + ')\n'
     input = inst_text + context_text + '\n\n' + temp_text
     st.session_state._response = start_generation(input)
     keys = ['user_instructions', 'template_text', 'response']
@@ -110,17 +111,26 @@ def stop_generation():
 
 def add_context_page(page_type='file',
                      header_levels=['h1', 'h2', 'h3', 'h4', 'p']):
+    links = st.session_state.ignore_links
     context = []
     if page_type == 'url':
         if st.session_state._context_urls is not None:
             to_load = st.session_state._context_urls.split('\n')
             for url in to_load:
                 if url not in st.session_state.context_list:
-                    page = bs(urlopen(url), features='html.parser')
-                    st.session_state.context_list += url + '\n'
-                    chunks = [html.fetch_section(page, search_tag=h)[0]
-                              for h in header_levels]
-                    context.append(''.join(set(chunks)))
+                    try:
+                        page = bs(urlopen(url), features='html.parser')
+                        st.session_state.context_list += url + '\n'
+                        chunks = [html.fetch_section(soup=page,
+                                                     search_tag=h,
+                                                     ignore_links=links)[0]
+                                  for h in header_levels]
+                        context.append(''.join(set(chunks)))
+                    except:
+                        st.error('Error loading ' + url + '. Try downloading\
+                                 the page as HTML first and then loading it\
+                                 with the "From Disk" uploader tool.')
+                        pass
     else:
         if st.session_state._context_pages is not None:
             files = st.session_state._context_pages
@@ -129,7 +139,9 @@ def add_context_page(page_type='file',
                 if page_name not in st.session_state.context_list:
                     st.session_state.context_list += f.name + '\n'
                     page = bs(f, features='html.parser')
-                    chunks = [html.fetch_section(page, search_tag=h)[0]
+                    chunks = [html.fetch_section(soup=page,
+                                                 search_tag=h,
+                                                 ignore_links=links)[0]
                               for h in header_levels]
                     context.append(''.join(set(chunks)))
     st.session_state.context +=  '\n'.join(context)
@@ -325,6 +337,13 @@ else:
                                     help='Add URLs for web pages you would\
                                     like to load. Make sure each URL is on\
                                     its own line.')
+            ignore_links = st.toggle(label='Ignore Links',
+                                     key='_ignore_links',
+                                     value=st.session_state.ignore_links,
+                                     on_change=update_settings,
+                                     kwargs={'keys': ['ignore_links']},
+                                     help='Whether to ignore hyperlinks when\
+                                     extracting text from an existing page.')
             context_list = st.text_area(label='Pages in Current Context',
                                         help='These are the pages the model\
                                         will use as context when generating\
