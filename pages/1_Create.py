@@ -225,9 +225,8 @@ else:
 
     # Loading previously-generated content
     TO_RELOAD = [
-        'response', 'sections', 'template_text',
-        'template_choice', 'user_instructions', 'draft_file_name',
-        'context_pages'
+        'context_pages', 'sections', 'template_text',
+        'template_choice', 'user_instructions', 'draft_file_name'
     ]
     for key in TO_RELOAD:
         if key in st.session_state:
@@ -247,7 +246,7 @@ else:
 
     # Adding the sidebar widgets
     with st.sidebar:
-        st.write('Settings')
+        st.write('Options')
         as_toggle = st.toggle('Autosave',
                               disabled=True,
                               value=st.session_state.autosave,
@@ -443,5 +442,6 @@ else:
         response_box = st.text_area(label='Model Response',
                                     height=700,
                                     key='_response',
+                                    value=st.session_state.response,
                                     label_visibility='collapsed',
-                                    value='Click "Start" to prompt the model.')
+                                    placeholder='Click "Start" to prompt the model.')

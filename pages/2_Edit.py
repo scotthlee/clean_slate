@@ -214,7 +214,7 @@ else:
 
     # Filling in the sidebar widgets
     with st.sidebar:
-        st.write('Settings')
+        st.write('Options')
         as_toggle = st.toggle('Autosave',
                               disabled=True,
                               value=st.session_state.autosave,

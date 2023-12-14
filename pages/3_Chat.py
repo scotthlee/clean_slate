@@ -45,7 +45,7 @@ if not st.session_state.authentication_status:
     st.error('Please log in at the Welcome Page to continue.')
 else:
     with st.sidebar:
-        st.write('Settings')
+        st.write('Options')
         draft_toggle = st.toggle(label='Chat about Draft',
                                  key='_draft_chat',
                                  disabled=True,

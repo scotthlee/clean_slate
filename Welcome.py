@@ -105,6 +105,8 @@ if 'logged_prompt' not in st.session_state:
 if 'example_instructions' not in st.session_state:
     st.session_state.example_instructions = 'Example instructions:\n\
     Fill out the following template with information about...'
+if 'response' not in st.session_state:
+    st.session_state.response = ''
 
 # Adding some states for the draft contexxtd and context pages
 if 'edit_draft_filename' not in st.session_state:
