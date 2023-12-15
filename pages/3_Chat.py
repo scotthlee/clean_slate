@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 import json
 import os
+import pathlib
 
 from tools import strml
 from tools.strml import update_settings, keep, reset_gpt
@@ -35,6 +36,12 @@ strml.load_openai_settings()
 # Adding the page title and icon
 st.set_page_config(page_title='Chat', page_icon='😺')
 
+# Setting downloads up
+STREAMLIT_STATIC_PATH = pathlib.Path(st.__path__[0]) / 'static'
+DOWNLOADS_PATH = (STREAMLIT_STATIC_PATH / "downloads")
+if not DOWNLOADS_PATH.is_dir():
+    DOWNLOADS_PATH.mkdir()
+
 # Creating a prompt with the current draft content
 draft_message = "Here's a draft of some web content I'm working on. "
 draft_message += "Please keep this in mind as content for our conversation "
@@ -64,6 +71,9 @@ else:
                                    on_click=load_chat)
             save_chat = st.button(label='Save',
                                   on_click=save_chat)
+            st.markdown("[Download draft](downloads/draft.txt)")
+            with open(str(DOWNLOADS_PATH / "draft.txt"), 'w') as f:
+                f.write(st.session_state.saved_text)
 
         with st.expander('ChatGPT', expanded=False):
             curr_model = st.session_state.model_name
