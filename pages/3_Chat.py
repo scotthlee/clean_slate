@@ -71,9 +71,12 @@ else:
                                    on_click=load_chat)
             save_chat = st.button(label='Save',
                                   on_click=save_chat)
-            st.markdown("[Download draft](downloads/draft.txt)")
-            with open(str(DOWNLOADS_PATH / "draft.txt"), 'w') as f:
-                f.write(st.session_state.saved_text)
+            chat_out = [m['role'] + ':\n' + m['content'] + '\n\n'
+                        for m in st.session_state.messages]
+            chat_out = ''.join(chat_out)
+            st.markdown("[Download draft](downloads/chat_session.txt)")
+            with open(str(DOWNLOADS_PATH / "chat_session.txt"), 'w') as f:
+                f.write(chat_out)
 
         with st.expander('ChatGPT', expanded=False):
             curr_model = st.session_state.model_name
