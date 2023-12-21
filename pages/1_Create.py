@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 import json
 import platform
 import os
+import sys
 import urllib
 import openai
 import tiktoken
@@ -17,33 +18,42 @@ from tools import html, generic, strml
 from tools.strml import update_settings, save_text, reset_gpt
 
 
-def update_prompt(encoding='utf-8', strip_option=True):
+def update_page_soup(encoding="utf-8"):
+    global TEMP_HTML_DIR
+
     template_name = st.session_state._template_choice
     fpath = TEMP_HTML_DIR + template_name + '.html'
-    page = bs(open(fpath, mode='r', encoding=encoding),
-              features='html.parser')
+
+    with open(fpath, "r", encoding=encoding) as file:
+        st.session_state._page_soup = bs(file, features='html.parser')
+
+def update_prompt(strip_option=True):
     keep_heads = st.session_state._select_sections
+
     if keep_heads == []:
         keep_heads = st.session_state.section_options
         strip_option = False
-    page = html.keep_sections(page, section_names=keep_heads)
-    st.session_state._template_text = html.generate_prompt(soup=page,
+    
+    st.session_state.page_soup = html.keep_sections(
+        st.session_state._page_soup,
+        section_names=keep_heads
+    )
+
+    st.session_state._template_text = html.generate_prompt(soup=st.session_state.page_soup,
                                                            strip_option=strip_option)
     keys = ['template_choice', 'template_text', 'sections']
     kept = [strml.keep(key) for key in keys]
     return
 
-def update_sections(encoding='utf-8'):
-    template_name = st.session_state._template_choice
-    fpath = TEMP_HTML_DIR + template_name + '.html'
-    page = bs(open(fpath, mode='r', encoding=encoding),
-              features='html.parser')
-    temp_headers = html.list_headers(page)
+def update_sections():
+    update_page_soup()
+    temp_headers = html.list_headers(st.session_state._page_soup)
     st.session_state.section_options = temp_headers[0]
     st.session_state.sections = temp_headers[0]
     strml.keep('template_choice')
     if st.session_state._select_sections == []:
         update_prompt(strip_option=False)
+
     return
 
 
@@ -176,9 +186,11 @@ def suggest_template():
             stop=None
         )
         res = completion['choices'][0]['message']['content']
-    except:
+    except openai.error.PermissionError as e:
         res = ''
         st.error('OpenAI API currently unavailable.')
+        print(e)
+        # raise
     st.session_state.gpt_temp_suggestion = res
     return
 
@@ -193,12 +205,14 @@ config = json.load(open('data/app_config.json', 'r'))
 strml.load_openai_settings()
 
 # Setting a default prompt to use
-def_fname = 'about.html'
 TEMP_HTML_DIR = 'data/websites/templates/html/'
-page_path = TEMP_HTML_DIR + def_fname
-page = bs(open(page_path, mode='r', encoding='utf-8'),
-          features='html.parser')
-default_headers, default_header_idx = html.list_headers(page)
+
+# Call only on init
+if '_template_choice' not in st.session_state:
+    st.session_state._template_choice = 'about'
+    update_page_soup()
+
+    default_headers, default_header_idx = html.list_headers(st.session_state._page_soup)
 
 # Set up the page
 st.set_page_config(page_title='Create', layout='wide', page_icon='✨')
