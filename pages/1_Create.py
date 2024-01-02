@@ -11,6 +11,7 @@ import tiktoken
 
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
+from urllib.error import HTTPError
 from trubrics.integrations.streamlit import FeedbackCollector
 
 
@@ -126,7 +127,14 @@ def add_context_page(page_type='file',
             to_load = st.session_state._context_urls.split('\n')
             for url in to_load:
                 if url not in st.session_state.context_list:
-                    page = bs(urlopen(url), features='html.parser')
+                    try:
+                        res = urlopen(url)
+                    except HTTPError as err:
+                        st.toast(f"{url}:\n\n :red[{err}]", icon='❌')
+                        continue
+                    
+                    page = bs(res, features='html.parser')
+
                     st.session_state.context_list += url + '\n'
                     chunks = [html.fetch_section(page, search_tag=h)[0]
                               for h in header_levels]
