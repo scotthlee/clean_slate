@@ -62,8 +62,8 @@ def update_rag():
 
 
 def prompt_model():
-    inst_text = st.session_state._user_instructions
-    temp_text = st.session_state._template_text
+    inst_text = st.session_state.user_instructions
+    temp_text = st.session_state.template_text
     context_text = 'When writing, please base your answer on the following\
     information:\nContext: (' + st.session_state.context + ')\n'
     input = inst_text + context_text + '\n\n' + temp_text
@@ -213,6 +213,11 @@ if '_template_choice' not in st.session_state:
     update_page_soup()
 
     default_headers, default_header_idx = html.list_headers(st.session_state._page_soup)
+
+# Setting default text in textbox
+# (if you set by value and then update, it throws a warning for some reason)
+if "_response" not in st.session_state:
+    st.session_state["_response"] = 'Click "Start" to prompt the model.'
 
 # Set up the page
 st.set_page_config(page_title='Create', layout='wide', page_icon='✨')
@@ -438,5 +443,4 @@ else:
         response_box = st.text_area(label='Model Response',
                                     height=700,
                                     key='_response',
-                                    label_visibility='collapsed',
-                                    value='Click "Start" to prompt the model.')
+                                    label_visibility='collapsed')
