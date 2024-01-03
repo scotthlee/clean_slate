@@ -28,22 +28,10 @@ creds = yaml.load(open('data/auth.yaml', 'r').read(), Loader=SafeLoader)
 #)
 #name, authentication_status, username = authenticator.login('Login', 'main')
 
-# Adding working directory to the session state
-if 'working_directory' not in st.session_state:
-    st.session_state.working_directory = 'output/'
-
 # Processing the login
 st.session_state.authentication_status = True
 if st.session_state["authentication_status"]:
-    st.write('')
-    st.write('To get started, please specify a working directory for the\
-             session.')
-    st.text_input(label='Please specify a working directory for the session.',
-                  value=st.session_state.working_directory,
-                  key='_working_directory',
-                  on_change=update_settings,
-                  label_visibility='collapsed',
-                  kwargs={'keys': ['working_directory']})
+    pass
     #st.write('')
     #st.write('Ready to leave?')
     #authenticator.logout('Logout', 'main')

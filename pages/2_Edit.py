@@ -95,9 +95,9 @@ def score_by_vt():
     [all_choices.append(c) for c in to_edit]
     prompt = 'Check the following text for these grammatical errors: '
     prompt += ', '.join(all_choices) + '. '
-    prompt += 'If you find an error, please underline it. If the error is\
+    prompt += 'If you find an error, please italicize it using markdown syntax ex: _error_. If the error is\
     one of these--' + ', '.join(to_edit) + '--please also suggest \
-    alternative wording in parentheses immediately after the error.'
+    alternative wording italicized in parentheses immediately after the error. ex: (_alternative_)'
     prompt += 'Text: \n\n' + st.session_state.saved_text
     message_text = [
         {"role": "system", "content": st.session_state.gpt_persona},
@@ -226,9 +226,12 @@ else:
             with io_cols[1]:
                 st.write('')
                 st.write('')
-                save_button = st.button(label='Save Draft',
-                                        type='secondary',
-                                        on_click=save_text)
+                save_button = st.download_button(
+                    label='Save Draft',
+                    data=st.session_state["saved_text"],
+                    file_name=st.session_state["edit_draft_filename"] + ".md",
+                    mime="text/markdown"
+                )
             with io_cols[0]:
                 save_name = st.text_input(label='File Name',
                                           value=st.session_state.edit_draft_filename,

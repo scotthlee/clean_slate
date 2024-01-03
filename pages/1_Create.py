@@ -280,11 +280,13 @@ else:
             with io_cols[1]:
                 st.write('')
                 st.write('')
-                save_button = st.button(label='Save Draft',
-                                        type='secondary',
-                                        on_click=save_text,
-                                        kwargs={'file_dir':
-                                            st.session_state.working_directory})
+                # Add downloader
+                save_button = st.download_button(
+                    label='Save Draft',
+                    data=st.session_state["saved_text"],
+                    file_name=st.session_state["create_draft_filename"] + ".md",
+                    mime="text/markdown"
+                )
             with io_cols[0]:
                 save_name = st.text_input(label='File Name',
                                           value=st.session_state.create_draft_filename,
