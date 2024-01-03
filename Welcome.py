@@ -3,7 +3,8 @@ import streamlit_authenticator as stauth
 import json
 import os
 import yaml
-
+from dotenv import load_dotenv
+load_dotenv()
 from yaml.loader import SafeLoader
 
 from tools.strml import update_settings
@@ -143,6 +144,7 @@ gpt_dict = {
         'key': os.environ['GPT4_API_KEY']
     }
 }
+
 st.session_state.gpt_dict = gpt_dict
 
 if 'model_name' not in st.session_state:
