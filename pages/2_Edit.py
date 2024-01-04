@@ -215,12 +215,6 @@ else:
     # Filling in the sidebar widgets
     with st.sidebar:
         st.write('Settings')
-        as_toggle = st.toggle('Autosave',
-                              disabled=True,
-                              value=st.session_state.autosave,
-                              kwargs={'keys': ['autosave']},
-                              on_change=update_settings,
-                              key='_autosave')
         with st.expander('Content Controls', expanded=True):
             io_cols = st.columns(2)
             with io_cols[1]:

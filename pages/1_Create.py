@@ -34,7 +34,7 @@ def update_prompt(strip_option=True):
     if keep_heads == []:
         keep_heads = st.session_state.section_options
         strip_option = False
-    
+
     st.session_state.page_soup = html.keep_sections(
         st.session_state._page_soup,
         section_names=keep_heads
@@ -132,7 +132,7 @@ def add_context_page(page_type='file',
                     except HTTPError as err:
                         st.toast(f"{url}:\n\n :red[{err}]", icon='❌')
                         continue
-                    
+
                     page = bs(res, features='html.parser')
 
                     st.session_state.context_list += url + '\n'
@@ -263,18 +263,6 @@ else:
     # Adding the sidebar widgets
     with st.sidebar:
         st.write('Settings')
-        as_toggle = st.toggle('Autosave',
-                              disabled=True,
-                              value=st.session_state.autosave,
-                              on_change=update_settings,
-                              kwargs={'keys': ['autosave']},
-                              key='_autosave')
-        rag_toggle = st.toggle('Use RAG',
-                               value=st.session_state.use_rag,
-                               key='_use_rag',
-                               disabled=True,
-                               kwargs={'keys': ['use_rag']},
-                               on_change=update_settings)
         with st.expander('Content Controls', expanded=True):
             io_cols = st.columns(2)
             with io_cols[1]:
