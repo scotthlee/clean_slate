@@ -18,15 +18,11 @@ def load_chat():
     return
 
 
-def save_chat():
-    chat_out = [m['role'] + ':\n' + m['content'] + '\n\n'
+def compile_chat():
+    chat_out = [m['role'].capitalize() + ':\n' + m['content'] + '\n\n'
                 for m in st.session_state.messages]
     chat_out = ''.join(chat_out)
-    with open('output/chat.txt', 'w') as f:
-        f.write(chat_out)
-        f.close()
-    st.toast('Chat saved!', icon='👍')
-    return
+    return chat_out
 
 
 # Load the config; should probably only be done once and added to session_state
@@ -65,9 +61,12 @@ else:
                                    help='Load chat messages from your last session.',
                                    key='undo_clear',
                                    on_click=load_chat)
-            save_chat = st.button(label='Save',
-                                  on_click=save_chat)
-
+            save_chat = st.download_button(
+                label = 'Save Draft',
+                data = compile_chat(),
+                file_name = "chat.txt",
+                mime = "text/markdown"
+            )
         with st.expander('ChatGPT', expanded=False):
             curr_model = st.session_state.model_name
             st.selectbox(label='Engine',
