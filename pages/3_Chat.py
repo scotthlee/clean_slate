@@ -25,9 +25,6 @@ def compile_chat():
     return chat_out
 
 
-# Load the config; should probably only be done once and added to session_state
-cci_dict = json.load(open('data/cci/cci.json', 'r'))
-
 # Setting up the OpenAI API
 strml.load_openai_settings()
 
@@ -62,7 +59,7 @@ else:
                                    key='undo_clear',
                                    on_click=load_chat)
             save_chat = st.download_button(
-                label = 'Save Draft',
+                label = 'Save Chat',
                 data = compile_chat(),
                 file_name = "chat.txt",
                 mime = "text/markdown"
