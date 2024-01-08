@@ -69,11 +69,7 @@ def score_by_cci(GPT=True):
 
 
 def clear_cci_report():
-    if 'cci_report' not in st.session_state:
-        pass
-    else:
-        st.session_state._cci_report = ''
-        strml.keep('cci_report')
+    st.session_state.cci_report = st.session_state.cci_default
     return
 
 

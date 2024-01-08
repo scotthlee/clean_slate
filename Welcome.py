@@ -92,9 +92,11 @@ if 'example_instructions' not in st.session_state:
     have not loaded context pages (i.e., if you want the model to generate\
     context from scratch), then leave that bit out of the instructions.'
     st.session_state.example_instructions = instructions.replace('  ', ' ')
-if 'cci_report' not in st.session_state:
-    st.session_state.cci_report = 'Select the question types and then click \
+if 'cci_default' not in st.session_state:
+    st.session_state.cci_default = 'Select the question types and then click \
     "Score Content" to generate the report.'.replace('    ', ' ')
+if 'cci_report' not in st.session_state:
+    st.session_state.cci_report = st.session_state.cci_default
 
 # Adding some states for the draft contexxtd and context pages
 if 'edit_draft_filename' not in st.session_state:
