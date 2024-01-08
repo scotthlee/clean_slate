@@ -234,10 +234,6 @@ st.title('Content Generator')
 if not st.session_state.authentication_status:
     st.error('Please log in at the Welcome Page to continue.')
 else:
-    # Adding autosave
-    if st.session_state.autosave:
-        save_text(toast=False)
-
     # Loading previously-generated content
     TO_RELOAD = [
         'response', 'sections', 'template_text',
