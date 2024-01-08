@@ -63,20 +63,8 @@ def score_by_cci(GPT=True):
         except:
             res = ''
             st.error('OpenAI API currently unavailable.')
-    st.session_state._cci_report = res
+    st.session_state.cci_report = res
     strml.keep('cci_report')
-    return
-
-
-def save_cci_report():
-    if 'cci_report' not in st.session_state:
-        pass
-    else:
-        report = st.session_state.cci_report
-        with open('output/cci_report.txt', 'w') as f:
-            f.write(report)
-            f.close()
-            st.toast('CCI Report saved!', icon='👍')
     return
 
 
@@ -312,11 +300,9 @@ else:
                                    data=st.session_state._cci_report,
                                    file_name='cci_report.txt',
                                    mime="text/markdown")
-            cci_place = 'Select the question types and then click "Score Content"\
-            to generate the report.'.replace('    ', ' ')
             cci_score = st.text_area(label='Score Report',
                                      key='_cci_report',
-                                     placeholder=cci_place,
+                                     value=st.session_state.cci_report,
                                      height=500)
 
         # Adding the Visible Thread-like tool
