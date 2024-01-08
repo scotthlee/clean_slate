@@ -264,7 +264,6 @@ else:
             with io_cols[1]:
                 st.write('')
                 st.write('')
-                # Add downloader
                 save_button = st.download_button(
                     label='Save Draft',
                     data=st.session_state["saved_text"],

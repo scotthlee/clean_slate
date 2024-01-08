@@ -158,7 +158,7 @@ if 'presence_penalty' not in st.session_state:
 if 'frequency_penalty' not in st.session_state:
     st.session_state.frequency_penalty = gpt_defaults['frequency_penalty']
 
-if 'gpt_person' not in st.session_state:
+if 'gpt_persona' not in st.session_state:
     st.session_state.gpt_persona = "You are an AI assistant that helps people\
     find information."
 if 'gpt_temp_suggestion' not in st.session_state:

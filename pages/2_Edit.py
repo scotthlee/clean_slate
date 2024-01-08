@@ -289,7 +289,7 @@ else:
         st.write('Tools')
         # Adding the Clear Communication Index scoring tool
         cci_exp = st.expander(label='🧾📐 Clear Communication Index',
-                              expanded=False)
+                              expanded=True)
         with cci_exp:
             cci_choice = st.multiselect(label='Question Types',
                                         key='_cci_choices',
@@ -307,12 +307,16 @@ else:
                                       key='cci_clear',
                                       on_click=clear_cci_report)
             with cci_cols[2]:
-                st.button(label='Save Report',
-                          key='_save_cci',
-                          type='secondary',
-                          on_click=save_cci_report)
+                st.download_button(label='Save Report',
+                                   key='_cci_save',
+                                   data=st.session_state._cci_report,
+                                   file_name='cci_report.txt',
+                                   mime="text/markdown")
+            cci_place = 'Select the question types and then click "Score Content"\
+            to generate the report.'.replace('    ', ' ')
             cci_score = st.text_area(label='Score Report',
                                      key='_cci_report',
+                                     placeholder=cci_place,
                                      height=500)
 
         # Adding the Visible Thread-like tool
