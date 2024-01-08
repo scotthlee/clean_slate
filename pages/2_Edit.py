@@ -301,7 +301,7 @@ else:
                                         score sheet for evaluating the content.',
                                         options=st.session_state.cci_options,
                                         on_change=update_cci_choices)
-            cci_cols = st.columns(3)
+            cci_cols = st.columns(5)
             with cci_cols[0]:
                 st.button(label="Score Content",
                           key='cci_score',
@@ -331,7 +331,7 @@ else:
                                    key='_vt_id_choices',
                                    help=st.session_state.vt_id_help,
                                    options=st.session_state.vt_options)
-            vt_cols = st.columns(4)
+            vt_cols = st.columns(5)
             with vt_cols[0]:
                 st.button(label='Score Content',
                           on_click=score_by_vt)

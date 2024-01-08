@@ -43,15 +43,11 @@ elif st.session_state["authentication_status"] == None:
 # Assigning defaults for the settings menu
 if 'draft_chat' not in st.session_state:
     st.session_state.draft_chat = False
-if 'use_rag' not in st.session_state:
-    st.session_state.use_rag = False
 if 'saved_text' not in st.session_state:
-    st.session_state.saved_text = 'Use the generator in the previous page to\
-    draft some content.'
-if "messages" not in st.session_state:
+    m = 'Use the generator on the Create page to draft some content.'
+    st.session_state.saved_text = m
+if 'messages' not in st.session_state:
     st.session_state.messages = []
-if 'autosave' not in st.session_state:
-    st.session_state.autosave = False
 if 'draft_file_name' not in st.session_state:
     st.session_state.draft_file_name = 'draft'
 if 'draft_file_type' not in st.session_state:
@@ -60,10 +56,6 @@ if 'draft_file_type' not in st.session_state:
 # Defaults for the creation page
 if 'template_options' not in st.session_state:
     st.session_state.template_options = list(config['templates'].keys())
-if 'rag_pub_options' not in st.session_state:
-    st.session_state.rag_pub_options = config['RAG']['pub_options']
-if 'rag_web_options' not in st.session_state:
-    st.session_state.rag_web_options = config['RAG']['web_options']
 if 'prompt_help' not in st.session_state:
     st.session_state.prompt_help = "Enter any extra instructions you have for \
     the model here."
@@ -83,17 +75,23 @@ if 'template_help' not in st.session_state:
       instructions you provide in the 'Prompt Options' section below."
 if 'section_help' not in st.session_state:
     st.session_state.section_help = "Choose which of the sections from the \
-    selected content template you'd like to keep. The model will treat these as\
-     required in the final site unless you indicate otherwise by modifying the\
-      template text or by adding instructions about which sections to treat as\
-       optional, both in the Prompt Options section below."
+    selected content template you'd like to keep (the model will treat these\
+    as required). Leave this section blank if you'd like the model itself to\
+    decide which sections to keep."
 if 'sections' not in st.session_state:
     st.session_state.sections = []
 if 'logged_prompt' not in st.session_state:
     st.session_state.logged_prompt = None
 if 'example_instructions' not in st.session_state:
-    st.session_state.example_instructions = 'Example instructions:\n\
-    Fill out the following template with information about...'
+    instructions = 'Example instructions for a page about risk factors for Type\
+    2 diabetes:\n\n"Use information from the context below to fill out the\
+    following template with information about risk factors for Type 2 diabetes.\
+    The intended audience is the general public. Please adhere to Federal Plain\
+    Language Guidelines when writing."\n\nNote that in this example, we asked\
+    the model to use loaded context pages as the basis for its draft. If you\
+    have not loaded context pages (i.e., if you want the model to generate\
+    context from scratch), then leave that bit out of the instructions.'
+    st.session_state.example_instructions = instructions.replace('  ', ' ')
 
 # Adding some states for the draft contexxtd and context pages
 if 'edit_draft_filename' not in st.session_state:
