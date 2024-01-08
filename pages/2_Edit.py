@@ -185,8 +185,7 @@ else:
 
     # Loading previously-generated content
     TO_RELOAD = [
-        'vt_edit_choices', 'vt_id_choices', 'cci_report',
-        'vt_report'
+        'vt_edit_choices', 'vt_id_choices', 'vt_report'
     ]
     for key in TO_RELOAD:
         if key in st.session_state:
@@ -293,7 +292,7 @@ else:
             with cci_cols[2]:
                 st.download_button(label='Save Report',
                                    key='_cci_save',
-                                   data=st.session_state._cci_report,
+                                   data=st.session_state.cci_report,
                                    file_name='cci_report.txt',
                                    mime="text/markdown")
             cci_score = st.text_area(label='Score Report',
