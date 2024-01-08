@@ -180,10 +180,6 @@ st.title('Content Editor')
 if not st.session_state.authentication_status:
     st.error('Please log in at the Welcome Page to continue.')
 else:
-    # Adding autosave
-    if st.session_state.autosave:
-        save_text(toast=False)
-
     # Set up options and help for the editing tools
     if 'vt_options' not in st.session_state:
         st.session_state.vt_options = [
